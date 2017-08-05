@@ -31,3 +31,5 @@ public/
 .cache/
 .DS_Store
 
+# non-optimized source images
+src/**/images/*.*
