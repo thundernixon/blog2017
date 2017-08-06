@@ -33,3 +33,6 @@ node_modules
 
 # non-optimized source images
 src/**/images/*.*
+
+# optimized source images
+public/static/*.*

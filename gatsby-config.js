@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    author: 'You!',
-    title: `Gatsby Default (Blog) Starter`,
+    author: 'Stephen Nixon',
+    title: `Stephen Nixon's Design, Type, and Code Blog`,
   },
   plugins: [
     'gatsby-plugin-catch-links',
@@ -16,12 +16,15 @@ module.exports = {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
+          `gatsby-remark-smartypants`,
+          `markdown-it`, //not working yet
           {
             resolve: 'gatsby-remark-images',
             options: {
-              linkImagesToOriginal: false
+              linkImagesToOriginal: false,
+              maxWidth: 1600
             }
-          }
+          },
         ]
       }
     },

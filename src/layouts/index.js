@@ -33,7 +33,8 @@ export default class Template extends React.Component {
           <div
             style={{
               margin: `0 auto`,
-              maxWidth: 720,
+              width: `100%`,
+              maxWidth: 1600,
               padding: isRoot ? `1.45rem 1.0875rem` : `1rem 0.75rem`,
             }}
           >
@@ -53,7 +54,7 @@ export default class Template extends React.Component {
         <div
           style={{
             margin: `0 auto`,
-            maxWidth: 960,
+            maxWidth: 1280,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
           }}

@@ -1,8 +1,12 @@
 {
-  "name": "@dschau/gatsby-blog-starter-kit",
-  "description": "Gatsby blog starter example",
+  "name": "thundernixon/blog2017",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thundernixon/blog2017"
+  },
+  "description": "Personal blog, based on https://github.com/dschau/gatsby-blog-starter-kit",
   "version": "1.0.0",
-  "author": "Dustin Schau <dustinschau@gmail.com>",
+  "author": "Stephen Nixon <stephen@thundernixon.com>",
   "dependencies": {
     "gatsby": "~1.0.5",
     "gatsby-link": "~1.0.1",
@@ -10,8 +14,11 @@
     "gatsby-plugin-react-helmet": "~1.0.1",
     "gatsby-plugin-sharp": "^1.0.1",
     "gatsby-remark-images": "~1.2.0",
+    "gatsby-remark-smartypants": "^1.4.1",
     "gatsby-source-filesystem": "~1.0.1",
     "gatsby-transformer-remark": "~1.1.0",
+    "markdown-it": "^8.3.2",
+    "markdown-it-attrs": "^0.9.0",
     "react-icons": "~2.2.5"
   },
   "devDependencies": {
