@@ -15,12 +15,12 @@ export default function Template({ data, pathContext }) {
     <div className="blog-post-container">
       <Helmet title={`Gatsby Blog - ${post.frontmatter.title}`} />
       <div className="blog-post">
-        <h1 className="title">
-          {post.frontmatter.title}
-        </h1>
         <h2 className="date">
           {post.frontmatter.date}
         </h2>
+        <h1 className="title">
+          {post.frontmatter.title}
+        </h1>
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}

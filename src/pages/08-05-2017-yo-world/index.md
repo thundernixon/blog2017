@@ -9,11 +9,11 @@ tags: ["first test"]
     <img src="./images/lifesaver.jpg" alt="lifesaver">
 </div> -->
 
-<img style="max-width: 1600px;" src="./images/lifesaver.jpg" alt="lifesaver">
+<img src="./images/lifesaver.jpg" alt="lifesaver">
 
 <!-- ![lifesaver](./images/lifesaver.jpg) -->
 
-<img style="max-width: 1600px;" src="./images/futball.jpg" alt="futball">
+<img src="./images/futball.jpg" alt="futball">
 
 <!-- ![futball](./images/futball.jpg) -->
 

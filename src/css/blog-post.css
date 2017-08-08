@@ -7,14 +7,20 @@
 }
 
 .blog-post .title, .blog-post .date {
-  text-align: center;
-  margin: 0;
+  /* text-align: center; */
+  margin: 0 auto;
   padding: 0;
+  max-width: 35rem;
+}
+
+.blog-post .title {
+  margin-bottom: 1rem; 
+  font-family: serif;
 }
 
 .blog-post .date {
+  font-size: 1rem;
   color: #555;
-  margin-bottom: 1rem;
 }
 
 .blog-post .navigation {
@@ -30,9 +36,10 @@
   max-width: 35em;
   margin-left: auto;
   margin-right: auto;
+  line-height: 1.5;
 }
 
 .blog-post img {
   max-width: 1600px;
-  padding-bottom: 1.45rem; // not working
+  padding-bottom: 1.45rem; /* not working */
 }

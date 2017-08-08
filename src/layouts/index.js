@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
+import Tags from '../components/Tags';
+
 import '../css/typography.css';
 
 export default class Template extends React.Component {
@@ -26,7 +28,7 @@ export default class Template extends React.Component {
         />
         <div
           style={{
-            background: `rebeccapurple`,
+            background: `black`,
             marginBottom: `1.45rem`,
           }}
         >
@@ -35,10 +37,10 @@ export default class Template extends React.Component {
               margin: `0 auto`,
               width: `100%`,
               maxWidth: 1600,
-              padding: isRoot ? `1.45rem 1.0875rem` : `1rem 0.75rem`,
+              padding: `1rem 1rem`,
             }}
           >
-            <h1 style={{ margin: 0, fontSize: isRoot ? `2.5rem` : `2rem` }}>
+            <h1 style={{ margin: 0, fontSize: `2rem` }}>
               <Link
                 to="/"
                 style={{
@@ -46,7 +48,7 @@ export default class Template extends React.Component {
                   textDecoration: 'none',
                 }}
               >
-                Stephen Blog
+                Stephen Nixon
               </Link>
             </h1>
           </div>
@@ -54,8 +56,8 @@ export default class Template extends React.Component {
         <div
           style={{
             margin: `0 auto`,
-            maxWidth: 1280,
-            padding: `0px 1.0875rem 1.45rem`,
+            maxWidth: 1600,
+            padding: `0px 1rem 1.45rem`,
             paddingTop: 0,
           }}
         >
