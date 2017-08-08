@@ -7,7 +7,7 @@ export default function Tags({ list = [] }) {
   return (
     <ul className="tag-list">
       {list.map(tag =>
-        <li key={tag}>
+        <li className="tag" key={tag}>
           <Link to={`/tags/${tag}`}>
             {tag}
           </Link>

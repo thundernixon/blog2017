@@ -1,7 +1,7 @@
 ---
-path: "/yo-world.html"
+path: "/hey-world.html"
 date: "2017-08-05T03:49:16.408Z" 
-title: "Yo World"
+title: "Heyyyy World here’s a much longer and more realistic title"
 tags: ["first test"]
 ---
 

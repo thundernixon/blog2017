@@ -6,22 +6,30 @@
   border-radius: 15px;
 }
 
+.blog-posts>.link:hover h1 a {
+  color: #9115FF;
+}
+
 .blog-posts>.link:hover {
-  /* background-color: #eee; */
+   background-color: #fff; 
   box-shadow: 0px 5px 25px rgba(0,0,0,.2);
 }
 
 .link--fill {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-size: .85em;
+  align-self: flex-end;
   font-weight: bold;
-  border-radius: 15px;
+  border-radius: 10px;
   display: inline-block;
-  color: rebeccapurple;
-  padding: 0.75rem 1rem;
-  border: 2px solid rebeccapurple;
+  color: #9115FF;
+  padding: 0.5rem 1rem;
+  /* border: 2px solid #9115FF; */
   text-decoration: none;
   position: relative;
+  transition: 250ms ease-in-out;
+  z-index: 100;
   /* background-color: transparent; */
 }
 
@@ -35,17 +43,17 @@
   height: 100%;
   width: 100%;
   border-radius: 11px;
-  background-color: rebeccapurple;
+  background-color: #eee;
   transition: 250ms ease-in-out;
   transform: scaleY(0);
-  transform-origin: bottom;
+  transform-origin: center center;
   margin-top: 0;
   z-index: -1;
   opacity: 0;
 }
 
 .link--fill:hover {
-  color: white;
+  /* color: #222; */
 }
 
 .link--fill:hover:after {

@@ -4,7 +4,7 @@ import BackIcon from 'react-icons/lib/fa/chevron-left';
 import ForwardIcon from 'react-icons/lib/fa/chevron-right';
 
 import Link from '../components/Link';
-import Tags from '../components/tags';
+import Tags from '../components/Tags';
 
 import '../css/blog-post.css';
 
@@ -21,11 +21,12 @@ export default function Template({ data, pathContext }) {
         <h1 className="title">
           {post.frontmatter.title}
         </h1>
+        <Tags list={post.frontmatter.tags || []} />
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
-        <Tags list={post.frontmatter.tags || []} />
+        
         <div className="navigation">
           {prev &&
             <Link className="link prev" to={prev.frontmatter.path}>

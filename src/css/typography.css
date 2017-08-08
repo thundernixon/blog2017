@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral:500,500i,800|Vesper+Libre:900');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  font-size: 16px;
 }
 body {
   margin: 0;
@@ -197,8 +200,11 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  color: #222;
+  /* font-family: georgia, serif; */
+  font-family: 'Spectral', serif;
+  line-height: 1.5;
+  font-size: 1.0625em;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;

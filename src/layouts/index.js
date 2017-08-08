@@ -5,6 +5,7 @@ import Helmet from 'react-helmet';
 
 import Tags from '../components/Tags';
 
+import '../css/basics.css';
 import '../css/typography.css';
 
 export default class Template extends React.Component {
@@ -18,9 +19,13 @@ export default class Template extends React.Component {
     const isRoot = location.pathname === '/';
 
     return (
-      <div>
+      <div
+      style={{
+            background: isRoot ? `#f3f3f3` : `white`,
+          }}
+      >
         <Helmet
-          title="Stephen Starter"
+          title="Stephen Nixon"
           meta={[
             { name: 'description', content: 'Sample' },
             { name: 'keywords', content: 'sample, something' },
@@ -37,10 +42,10 @@ export default class Template extends React.Component {
               margin: `0 auto`,
               width: `100%`,
               maxWidth: 1600,
-              padding: `1rem 1rem`,
+              padding: `1em 1em`,
             }}
           >
-            <h1 style={{ margin: 0, fontSize: `2rem` }}>
+            <h1 style={{ margin: 0, fontSize: `1rem` }}>
               <Link
                 to="/"
                 style={{
@@ -50,19 +55,73 @@ export default class Template extends React.Component {
               >
                 Stephen Nixon
               </Link>
+              <ul
+                style={{
+                  color: 'white',
+                  float: 'right',
+                  display: 'inline-block',
+                  listStyle: 'none',
+                }}
+              >
+                <li
+                  style={{
+                    display: 'inline',
+                  }}
+                >
+                  <a href="https://instagram.com/thundernixon"
+                    style={{
+                      color: 'white',
+                      textDecoration: 'none',
+                      padding: '.5em',
+                    }}
+                  >Instagram</a>
+                </li>
+                <li
+                    style={{
+                      display: 'inline',
+                    }}
+                >
+                  <a href="https://twitter.com/thundernixon"
+                    style={{
+                      color: 'white',
+                      textDecoration: 'none',
+                      padding: '.5em',
+                    }}
+                  >Twitter</a>
+                </li>
+                <li
+                    style={{
+                      display: 'inline',
+                    }}
+                >
+                  <a href="https://github.com/thundernixon"
+                    style={{
+                      color: 'white',
+                      textDecoration: 'none',
+                      padding: '.5em',
+                      paddingRight: '0',
+                    }}
+                  >GitHub</a>
+                </li>
+              </ul>
             </h1>
+
+
+            
           </div>
+          
         </div>
         <div
           style={{
             margin: `0 auto`,
             maxWidth: 1600,
-            padding: `0px 1rem 1.45rem`,
+            padding: `0px 1rem 1em`,
             paddingTop: 0,
           }}
         >
+        
           {this.props.children()}
-        </div>
+        </div>        
       </div>
     );
   }
