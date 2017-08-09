@@ -4,10 +4,15 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import Tags from '../components/Tags';
+import Icons from '../components/Icons';
+import SocialIcon from '../components/SocialIcon';
 
 import '../css/basics.css';
+import '../css/icons.css';
+import '../css/header.css';
 import '../css/typography.css';
 import '../css/index.css';
+
 
 export default class Template extends React.Component {
   static propTypes = {
@@ -32,7 +37,7 @@ export default class Template extends React.Component {
             { name: 'keywords', content: 'sample, something' },
           ]}
         />
-        <div
+        <div className="header"
           style={{
             background: `black`,
             marginBottom: `1.45rem`,
@@ -46,7 +51,7 @@ export default class Template extends React.Component {
               padding: `0 1em`,
             }}
           >
-            <h1 style={{ margin: 0, fontSize: `.85rem` }}>
+            <h1>
               <Link
                 to="/"
                 style={{
@@ -56,12 +61,11 @@ export default class Template extends React.Component {
               >
                 Stephen Nixon
               </Link>
+            </h1>
+              <Icons />
               <ul
                 style={{
-                  color: 'white',
-                  float: 'right',
-                  display: 'inline-block',
-                  listStyle: 'none',
+                  
                 }}
               >
                 <li
@@ -69,43 +73,38 @@ export default class Template extends React.Component {
                     display: 'inline',
                   }}
                 >
-                  <a href="https://instagram.com/thundernixon"
+                  <a title="Instagram" className="sans-serif bold" href="https://instagram.com/thundernixon"
                     style={{
-                      color: 'white',
-                      textDecoration: 'none',
-                      padding: '.5em',
+                    
                     }}
-                  >Instagram</a>
+                  >
+                    <SocialIcon icon={'ig-icon'} /> 
+                  </a>
                 </li>
                 <li
                     style={{
                       display: 'inline',
                     }}
                 >
-                  <a href="https://twitter.com/thundernixon"
+                  <a title="Twitter" className="sans-serif bold" href="https://twitter.com/thundernixon"
                     style={{
-                      color: 'white',
-                      textDecoration: 'none',
-                      padding: '.5em',
                     }}
-                  >Twitter</a>
+                  >
+                    <SocialIcon icon={'twitter-icon'} />
+                  </a>
                 </li>
                 <li
                     style={{
                       display: 'inline',
                     }}
                 >
-                  <a href="https://github.com/thundernixon"
+                  <a title="GitHub" className="sans-serif bold" href="https://github.com/thundernixon"
                     style={{
-                      color: 'white',
-                      textDecoration: 'none',
-                      padding: '.5em',
-                      paddingRight: '0',
                     }}
-                  >GitHub</a>
+                  >
+                  <SocialIcon icon={'github-icon'} /> </a>
                 </li>
               </ul>
-            </h1>
 
 
             
