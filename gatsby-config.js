@@ -17,7 +17,7 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-smartypants`,
-          `markdown-it`, //not working yet
+          // `markdown-it`, //not working yet
           {
             resolve: 'gatsby-remark-images',
             options: {
