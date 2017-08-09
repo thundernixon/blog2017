@@ -40,7 +40,6 @@ export default function Index({ data }) {
   );
 }
 
-import '../components/HelloFunc.js';
 
 export const pageQuery = graphql`
   query IndexQuery {
