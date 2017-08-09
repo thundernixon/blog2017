@@ -43,7 +43,7 @@ export default class Template extends React.Component {
               margin: `0 auto`,
               width: `100%`,
               maxWidth: 1600,
-              padding: `1em 1em`,
+              padding: `0 1em`,
             }}
           >
             <h1 style={{ margin: 0, fontSize: `.85rem` }}>

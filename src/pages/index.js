@@ -6,6 +6,7 @@ import Link from '../components/Link';
 
 import '../css/blog-post.css';
 import '../css/index.css';
+import '../css/basics.css';
 
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
@@ -15,22 +16,18 @@ export default function Index({ data }) {
         .filter(post => post.node.frontmatter.title.length > 0)
         .map(({ node: post }) => {
           return (
-            
-              <div className="blog-post-preview" key={post.id}>
+              <GatsbyLink to={post.frontmatter.path}  className="blog-post-preview link" key={post.id}>
                 <h2 className="date">
                   {post.frontmatter.date}
                 </h2>
-                <h1 className="title">
-                  <GatsbyLink to={post.frontmatter.path}>
+                <h1 className="title serif-display">
                     {post.frontmatter.title}
-                  </GatsbyLink>
                 </h1>
                 <p>
                   {post.excerpt}
                 </p>
-                <a className="link--fill" to={post.frontmatter.path}>Read more</a>
-              </div>
-
+                <p className="link--fill sans-serif">Read more</p>
+              </GatsbyLink>
           );
         })}
     </div>

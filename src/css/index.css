@@ -18,11 +18,11 @@ body {
   /* border-bottom: 2px solid #EEE; */
   /* border: 1px solid black; */
   color: #222;
+  text-decoration: none;
 }
 
 .blog-post-preview p {
   max-width: 35em;
-  font-family: 'Spectral', serif;
 }
 
 .blog-post-preview h1 { 
