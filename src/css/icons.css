@@ -2,7 +2,8 @@
 .icon {
     height: 24px;
     width: 24px;
-    display: inline-block;
-    position: relative;
-    top: 8px;
 }
+
+/* .icon a {
+    line-height: 0;
+} */

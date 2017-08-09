@@ -43,7 +43,7 @@ export default class Template extends React.Component {
             marginBottom: `1.45rem`,
           }}
         >
-          <div
+          <div className="header-inner"
             style={{
               margin: `0 auto`,
               width: `100%`,
@@ -70,10 +70,9 @@ export default class Template extends React.Component {
               >
                 <li
                   style={{
-                    display: 'inline',
                   }}
                 >
-                  <a title="Instagram" className="sans-serif bold" href="https://instagram.com/thundernixon"
+                  <a title="Instagram" className="social-link" href="https://instagram.com/thundernixon"
                     style={{
                     
                     }}
@@ -83,10 +82,9 @@ export default class Template extends React.Component {
                 </li>
                 <li
                     style={{
-                      display: 'inline',
                     }}
                 >
-                  <a title="Twitter" className="sans-serif bold" href="https://twitter.com/thundernixon"
+                  <a title="Twitter" className="social-link" href="https://twitter.com/thundernixon"
                     style={{
                     }}
                   >
@@ -95,10 +93,9 @@ export default class Template extends React.Component {
                 </li>
                 <li
                     style={{
-                      display: 'inline',
                     }}
                 >
-                  <a title="GitHub" className="sans-serif bold" href="https://github.com/thundernixon"
+                  <a title="GitHub" className="social-link" href="https://github.com/thundernixon"
                     style={{
                     }}
                   >

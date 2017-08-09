@@ -1,3 +1,10 @@
+.header-inner {
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .header h1 {
     font-size: 0.85rem;
     display: inline-block;
@@ -15,17 +22,25 @@
     list-style: none;
 }
 
+.header ul li {
+    float: left;
+    margin: 0;
+}
+
 .header a {
-    /* padding: .25em 0.5em; */
-    /* border-radius: .5em; */
-     padding: .5em; 
+    padding: .5em; 
     border-radius: 999px;
-    border-bottom: 3px transparent solid;
     transition: .35s ease;
     background-color: transparent;
     color: white;
     text-decoration: none;
     margin-right: .5em;
+    display: block;
+    line-height: 1;
+}
+
+a.social-link {
+    line-height: 0;
 }
 
 .header h1 a {
@@ -38,7 +53,6 @@
 }
 
 .header a:hover {
-    /* border-bottom: 3px #9115FF solid; */
     background-color: #9115FF;
 
 }
