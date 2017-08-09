@@ -1,5 +1,5 @@
 {
-  "name": "thundernixon/blog2017",
+  "name": "blog2017",
   "repository": {
     "type": "git",
     "url": "https://github.com/thundernixon/blog2017"
@@ -32,7 +32,7 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "rm -rf public/*.html && gatsby build && netlify deploy",
     "develop": "gatsby develop",
     "preserve": "npm run build",
     "serve": "gatsby serve",

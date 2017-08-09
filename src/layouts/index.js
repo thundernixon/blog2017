@@ -7,6 +7,7 @@ import Tags from '../components/Tags';
 
 import '../css/basics.css';
 import '../css/typography.css';
+import '../css/index.css';
 
 export default class Template extends React.Component {
   static propTypes = {
@@ -45,7 +46,7 @@ export default class Template extends React.Component {
               padding: `1em 1em`,
             }}
           >
-            <h1 style={{ margin: 0, fontSize: `1rem` }}>
+            <h1 style={{ margin: 0, fontSize: `.85rem` }}>
               <Link
                 to="/"
                 style={{
