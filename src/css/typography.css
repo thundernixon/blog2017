@@ -1,14 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Spectral:500,500i,800|Vesper+Libre:900');
 
-.sans-serif {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-.serif {
-  font-family: 'Spectral', serif;
-}
-
 
 html {
   font-family: sans-serif;
