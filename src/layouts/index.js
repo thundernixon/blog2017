@@ -6,6 +6,7 @@ import Helmet from 'react-helmet';
 import Tags from '../components/Tags';
 import Icons from '../components/Icons';
 import SocialIcon from '../components/SocialIcon';
+import Fontload from '../components/Fontload';
 
 import '../css/basics.css';
 import '../css/icons.css';
@@ -93,11 +94,12 @@ export default class Template extends React.Component {
                     style={{
                     }}
                 >
-                  <a title="GitHub" className="social-link" href="https://github.com/thundernixon"
+                  <a title="GitHub" className="social-link" href="https://github.com/thundernixon/blog2017"
                     style={{
                     }}
                   >
-                  <SocialIcon icon={'github-icon'} /> </a>
+                    <SocialIcon icon={'github-icon'} /> 
+                  </a>
                 </li>
               </ul>
 
@@ -114,7 +116,11 @@ export default class Template extends React.Component {
         
           {this.props.children()}
         </div>        
+        <Fontload />
       </div>
+      
     );
   }
 }
+
+

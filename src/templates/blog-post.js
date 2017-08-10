@@ -6,6 +6,7 @@ import ForwardIcon from 'react-icons/lib/fa/chevron-right';
 import Link from '../components/Link';
 import Tags from '../components/Tags';
 
+import '../css/basics.css';
 import '../css/blog-post.css';
 
 export default function Template({ data, pathContext }) {
@@ -18,23 +19,33 @@ export default function Template({ data, pathContext }) {
         <h2 className="date">
           {post.frontmatter.date}
         </h2>
-        <h1 className="title">
+        <h1 className="title serif-display">
           {post.frontmatter.title}
         </h1>
-        <Tags list={post.frontmatter.tags || []} />
+        
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
-        
+        <Tags list={post.frontmatter.tags || []} />
         <div className="navigation">
           {prev &&
             <Link className="link prev" to={prev.frontmatter.path}>
-              <BackIcon /> {prev.frontmatter.title}
+              <BackIcon style={{
+              height: '.85em',
+              }}/> 
+              <p className="sans-serif">
+              {prev.frontmatter.title}
+              </p>
             </Link>}
           {next &&
             <Link className="link next" to={next.frontmatter.path}>
-              {next.frontmatter.title} <ForwardIcon />
+              <p className="sans-serif">
+              {next.frontmatter.title} 
+              </p>
+              <ForwardIcon style={{
+              height: '.85em',
+              }} />
             </Link>}
         </div>
       </div>

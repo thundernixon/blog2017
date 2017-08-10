@@ -5,6 +5,7 @@ body {
 .page-content {
   maxWidth: 1600px;
   padding: 5vw 2.25rem 10vw;
+  overflow-x: hidden;
 }
 
 @media (max-width: 660px) {

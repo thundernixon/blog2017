@@ -42,11 +42,9 @@
 
 .blog-post .title {
   margin-bottom: .5rem; 
-  font-family: 'Vesper Libre', serif;
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.125;
-  font-family: 'Vesper Libre', serif;
   font-weight: 900;
   /* font-style: italic; */
   margin-bottom: 0.5rem;
@@ -87,12 +85,17 @@
   max-width: 35rem;
   margin-left: auto;
   margin-right: auto;
-  
-  font-family: 'Spectral', serif;
 }
 
 .blog-post img {
   max-width: 1600px;
+}
+
+@media (max-width: 660px) { 
+  .blog-post img {
+    width: calc(100% + 10vw + 1px) !important;
+    margin-left: -5vw !important;
+  }
 }
 
 .gatsby-resp-image-wrapper {
@@ -105,4 +108,37 @@
     max-width: 35rem;
     margin: 0 auto 2rem;
     list-style: none;
+}
+
+.navigation .link {
+  max-width: 50%;
+  display: flex;
+}
+
+.navigation .link svg {
+  flex-shrink: 0;
+  margin: .25rem 0;
+}
+
+.navigation .prev {
+  margin-left: 1.5rem;
+}
+
+.navigation .next {
+  margin-right: 1.5rem;
+  text-align: right;
+}
+.navigation p {
+  margin: 0;
+}
+.navigation .next p {
+  text-align: right;
+}
+
+.navigation .prev svg {
+  margin-left: -1.4rem;
+}
+
+.navigation .next svg {
+  margin-right: -1.4rem;
 }
