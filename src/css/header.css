@@ -3,6 +3,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 2.25rem;
+}
+
+@media (max-width: 660px) {
+    .header-inner {
+        padding: 0 5vw;
+    }
 }
 
 .header h1 {
@@ -45,7 +52,7 @@ a.social-link {
 
 .header h1 a {
     margin-left: -.5em;
-     padding: .25em 0.5em; 
+    padding: .25em 0.5em; 
 }
 
 .header li:last-child a {

@@ -46,9 +46,6 @@
   font-weight: 900;
   font-size: 3rem;
   line-height: 1.125;
-}
-
-.blog-post .title { 
   font-family: 'Vesper Libre', serif;
   font-weight: 900;
   /* font-style: italic; */
@@ -56,6 +53,12 @@
   font-size: 3rem;
   line-height: 1.125;
   transition: .25s ease-out;
+}
+
+@media (max-width: 660px) { 
+  .blog-post .title { 
+    font-size: 1.75rem;
+  }
 }
 
 
@@ -90,12 +93,12 @@
 
 .blog-post img {
   max-width: 1600px;
-  padding-bottom: 1.45rem; /* not working */
 }
 
 .gatsby-resp-image-wrapper {
   z-index: 0 !important;
   position: static !important;
+  margin-bottom: 2.25rem;
 }
 
 .blog-post .tag-list {

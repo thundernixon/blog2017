@@ -2,6 +2,18 @@ body {
     background-color: #f3f3f3;
 }
 
+.page-content {
+  maxWidth: 1600px;
+  padding: 5vw 2.25rem 10vw;
+}
+
+@media (max-width: 660px) {
+  .page-content {
+    maxWidth: 1600px;
+    padding: 5vw 5vw 15vw;
+  }
+}
+
 .blog-posts {
   max-width: 39rem;
   margin: 0 auto;
@@ -21,12 +33,17 @@ body {
   text-decoration: none;
 }
 
+@media (max-width: 660px) {
+  .blog-post-preview {
+    padding: 2.5vw;
+  }
+}
+
 .blog-post-preview p {
   max-width: 35em;
 }
 
-.blog-post-preview h1 { 
-  
+.blog-post-preview h1 {   
   font-weight: 900;
   /* font-style: italic; */
   margin-bottom: 0.5rem;
@@ -34,6 +51,13 @@ body {
   line-height: 1.125;
   transition: .25s ease-out;
 }
+
+@media (max-width: 660px) { 
+  .blog-post-preview h1 { 
+    font-size: 1.75rem;
+  }
+}
+
 
 .link:hover .blog-post-preview h1 {
   transform: skew(-9deg);

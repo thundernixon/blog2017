@@ -40,7 +40,6 @@ export default class Template extends React.Component {
         <div className="header"
           style={{
             background: `black`,
-            marginBottom: `1.45rem`,
           }}
         >
           <div className="header-inner"
@@ -48,7 +47,6 @@ export default class Template extends React.Component {
               margin: `0 auto`,
               width: `100%`,
               maxWidth: 1600,
-              padding: `0 1em`,
             }}
           >
             <h1>
@@ -108,12 +106,9 @@ export default class Template extends React.Component {
           </div>
           
         </div>
-        <div
+        <div className="page-content"
           style={{
             margin: `0 auto`,
-            maxWidth: 1600,
-            padding: `0px 1rem 1em`,
-            paddingTop: 0,
           }}
         >
         
