@@ -24,11 +24,12 @@ export default class Template extends React.Component {
     const { location } = this.props;
 
     const isRoot = location.pathname === '/';
+    const isTags = location.pathname === '/tags';
 
     return (
       <div
       style={{
-            background: isRoot ? `#f3f3f3` : `white`,
+            background: isRoot || isTags ? `#f3f3f3` : `white`,
           }}
       >
         <Helmet

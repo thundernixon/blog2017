@@ -2,7 +2,7 @@
 path: "/hey-world.html"
 date: "2017-08-05T03:49:16.408Z" 
 title: "Heyyyy World here’s a much longer and more realistic title"
-tags: ["first test"]
+tags: ["first test", "long tag name", "design"]
 ---
 
 <!-- <div class="wide" style="max-width: 1600px;">

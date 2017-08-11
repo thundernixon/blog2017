@@ -197,7 +197,7 @@ html {
 *:after {
   box-sizing: inherit;
 }
-body {
+body, .body {
   color: #222;
   /* font-family: georgia, serif; */
   font-family: 'Spectral', serif;

@@ -1,5 +1,5 @@
 .blog-post {
-   padding: 2rem 0; 
+  padding: 0 0 2rem;
    animation: fade-in 1.5s ease;
 }
 
@@ -11,26 +11,7 @@
   }
 }
 
-.blog-post .link.prev, .blog-post .link.next {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  text-decoration: none;
-  font-weight: bold;
-  color: #9115FF;
-  transition: .25s ease;
-}
 
-.blog-post .link.prev:hover, .blog-post .link.next:hover {
-  color: #222;
-}
-
-.blog-post .link.prev {
-  float: left;
-}
-
-.blog-post .link.next {
-  float: right;
-}
 
 .blog-post .title, .blog-post .date {
   /* text-align: center; */
@@ -110,9 +91,32 @@
     list-style: none;
 }
 
-.navigation .link {
+
+.blog-post .link.prev, .blog-post .link.next {
+  
+}
+
+.blog-post .link.prev:hover, .blog-post .link.next:hover {
+  color: #222;
+}
+
+.blog-post .link.prev {
+  float: left;
+}
+
+.blog-post .link.next {
+  float: right;
+}
+
+.blog-post .navigation .link {
   max-width: 50%;
   display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color: #9115FF;
+  transition: .25s ease;
 }
 
 .navigation .link svg {

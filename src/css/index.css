@@ -20,6 +20,11 @@ body {
   margin: 0 auto;
 }
 
+.blog-posts>h1 {
+  padding: 0rem 2rem;
+  font-size: 1.5rem;
+}
+
 .blog-post-preview {
   /* box-sizing: border-box; */
   box-sizing: content-box;
@@ -37,6 +42,9 @@ body {
 @media (max-width: 660px) {
   .blog-post-preview {
     padding: 2.5vw;
+  }
+  .blog-posts>h1 {
+    padding: 1.5rem 2.5vw 0;
   }
 }
 
