@@ -7,13 +7,14 @@
     line-height: 1;
     margin: 0;
     position: absolute;
-    color: #444;
+    color: #333;
     z-index: 0;
 }
 
 .fourohfour p {
     font-size: 2em;
     line-height: 1.25;
+     max-width: 20em; 
     opacity: .99;
     z-index: 100;
 
