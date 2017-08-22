@@ -24,7 +24,7 @@ export default class Template extends React.Component {
     const { location } = this.props;
 
     const isRoot = location.pathname === '/';
-    const isTags = location.pathname === '/tags';
+    const isTags = location.pathname.includes('/tags');
 
     return (
       <div

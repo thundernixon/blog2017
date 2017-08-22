@@ -12,7 +12,7 @@ export default function Tags({ pathContext }) {
   const { posts, post, tag } = pathContext;
   if (tag) {
     return (
-      <div className="page-content">
+      <div>
         <ul className="list blog-posts">
           <h1 className="serif italic">
             {post.length} post {post.length === 1 ? '' : 's'} tagged with “{tag}”

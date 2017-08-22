@@ -14,7 +14,9 @@ export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
     <div>
+      
       <div className="blog-posts">
+        <h1 className="serif italic">Notes on <GatsbyLink to="/tags/design">design</GatsbyLink>, <GatsbyLink to="/tags/travel">travel</GatsbyLink>, <GatsbyLink to="/tags/code">code</GatsbyLink>, and <GatsbyLink to="/tags">more</GatsbyLink>.</h1>
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
           .map(({ node: post }) => {
