@@ -3,7 +3,6 @@ import GatsbyLink from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import Link from '../components/Link';
-// import Tags from '../components/Tags';
 
 import '../css/blog-post.css';
 import '../css/index.css';
@@ -16,7 +15,7 @@ export default function Index({ data }) {
     <div>
       
       <div className="blog-posts">
-        <h1 className="serif italic">Notes on <GatsbyLink to="/tags/design">design</GatsbyLink>, <GatsbyLink to="/tags/travel">travel</GatsbyLink>, <GatsbyLink to="/tags/code">code</GatsbyLink>, and <GatsbyLink to="/tags">more</GatsbyLink>.</h1>
+        <h1 className="serif italic">Notes on <GatsbyLink to="/tags/design">design</GatsbyLink>, <GatsbyLink to="/tags/travel">travel</GatsbyLink>, <GatsbyLink to="/tags/code">code</GatsbyLink>, &amp; <GatsbyLink to="/tags">more</GatsbyLink>.</h1>
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
           .map(({ node: post }) => {

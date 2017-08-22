@@ -9,7 +9,7 @@ import '../css/index.css';
 import '../css/basics.css';
 
 export default function Tags({ pathContext }) {
-  const { posts, post, tag } = pathContext;
+  const { posts, post, tag, date } = pathContext;
   if (tag) {
     return (
       <div>

@@ -3,14 +3,14 @@ body {
 }
 
 .page-content {
-  maxWidth: 1600px;
+  max-width: 1600px;
   padding: 5vw 2.25rem 10vw;
   overflow-x: hidden;
 }
 
 @media (max-width: 660px) {
   .page-content {
-    maxWidth: 1600px;
+    max-width: 1600px;
     padding: 5vw 5vw 15vw;
   }
 }

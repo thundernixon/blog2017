@@ -1,0 +1,20 @@
+.fourohfour, .fourohfour a {
+    color: white;
+}
+
+.fourohfour h1 {
+    font-size: 20vw;
+    line-height: 1;
+    margin: 0;
+    position: absolute;
+    color: #444;
+    z-index: 0;
+}
+
+.fourohfour p {
+    font-size: 2em;
+    line-height: 1.25;
+    opacity: .99;
+    z-index: 100;
+
+}
