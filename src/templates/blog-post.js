@@ -14,7 +14,7 @@ export default function Template({ data, pathContext }) {
   const { next, prev } = pathContext;
   return (
     <div className="blog-post-container">
-      <Helmet title={`Gatsby Blog - ${post.frontmatter.title}`} />
+      <Helmet title={`Stephen Nixon - ${post.frontmatter.title}`} />
       <div className="blog-post">
         <h2 className="date">
           {post.frontmatter.date}
@@ -22,7 +22,7 @@ export default function Template({ data, pathContext }) {
         <h1 className="title serif-display">
           {post.frontmatter.title}
         </h1>
-        
+
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -31,21 +31,25 @@ export default function Template({ data, pathContext }) {
         <div className="navigation">
           {prev &&
             <Link className="link prev" to={prev.frontmatter.path}>
-              <BackIcon style={{
-              height: '.85em',
-              }}/> 
+              <BackIcon
+                style={{
+                  height: '.85em',
+                }}
+              />
               <p className="sans-serif">
-              {prev.frontmatter.title}
+                {prev.frontmatter.title}
               </p>
             </Link>}
           {next &&
             <Link className="link next" to={next.frontmatter.path}>
               <p className="sans-serif">
-              {next.frontmatter.title} 
+                {next.frontmatter.title}
               </p>
-              <ForwardIcon style={{
-              height: '.85em',
-              }} />
+              <ForwardIcon
+                style={{
+                  height: '.85em',
+                }}
+              />
             </Link>}
         </div>
       </div>

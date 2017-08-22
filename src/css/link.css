@@ -1,0 +1,8 @@
+a {
+    color: #222;
+    transition: .25s ease;
+}
+
+a:hover {
+    color: #9115FF;
+}

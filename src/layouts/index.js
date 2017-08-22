@@ -13,7 +13,7 @@ import '../css/icons.css';
 import '../css/header.css';
 import '../css/typography.css';
 import '../css/index.css';
-
+import '../css/link.css';
 
 export default class Template extends React.Component {
   static propTypes = {
@@ -28,9 +28,9 @@ export default class Template extends React.Component {
 
     return (
       <div
-      style={{
-            background: isRoot || isTags ? `#f3f3f3` : `white`,
-          }}
+        style={{
+          background: isRoot || isTags ? `#f3f3f3` : `white`,
+        }}
       >
         <Helmet
           title="Stephen Nixon"
@@ -39,12 +39,14 @@ export default class Template extends React.Component {
             { name: 'keywords', content: 'sample, something' },
           ]}
         />
-        <div className="header"
+        <div
+          className="header"
           style={{
             background: `black`,
           }}
         >
-          <div className="header-inner"
+          <div
+            className="header-inner"
             style={{
               margin: `0 auto`,
               width: `100%`,
@@ -62,66 +64,51 @@ export default class Template extends React.Component {
                 Stephen Nixon
               </Link>
             </h1>
-              <Icons />
-              <ul
-                style={{
-                  
-                }}
-              >
-                <li
-                  style={{
-                  }}
+            <Icons />
+            <ul style={{}}>
+              <li style={{}}>
+                <a
+                  title="Instagram"
+                  className="social-link"
+                  href="https://instagram.com/thundernixon"
+                  style={{}}
                 >
-                  <a title="Instagram" className="social-link" href="https://instagram.com/thundernixon"
-                    style={{
-                    
-                    }}
-                  >
-                    <SocialIcon icon={'ig-icon'} /> 
-                  </a>
-                </li>
-                <li
-                    style={{
-                    }}
+                  <SocialIcon icon={'ig-icon'} />
+                </a>
+              </li>
+              <li style={{}}>
+                <a
+                  title="Twitter"
+                  className="social-link"
+                  href="https://twitter.com/thundernixon"
+                  style={{}}
                 >
-                  <a title="Twitter" className="social-link" href="https://twitter.com/thundernixon"
-                    style={{
-                    }}
-                  >
-                    <SocialIcon icon={'twitter-icon'} />
-                  </a>
-                </li>
-                <li
-                    style={{
-                    }}
+                  <SocialIcon icon={'twitter-icon'} />
+                </a>
+              </li>
+              <li style={{}}>
+                <a
+                  title="GitHub"
+                  className="social-link"
+                  href="https://github.com/thundernixon/blog2017"
+                  style={{}}
                 >
-                  <a title="GitHub" className="social-link" href="https://github.com/thundernixon/blog2017"
-                    style={{
-                    }}
-                  >
-                    <SocialIcon icon={'github-icon'} /> 
-                  </a>
-                </li>
-              </ul>
-
-
-            
+                  <SocialIcon icon={'github-icon'} />
+                </a>
+              </li>
+            </ul>
           </div>
-          
         </div>
-        <div className="page-content"
+        <div
+          className="page-content"
           style={{
             margin: `0 auto`,
           }}
         >
-        
           {this.props.children()}
-        </div>        
+        </div>
         <Fontload />
       </div>
-      
     );
   }
 }
-
-

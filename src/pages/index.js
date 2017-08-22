@@ -3,8 +3,7 @@ import GatsbyLink from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import Link from '../components/Link';
-import Tags from '../components/Tags';
-
+// import Tags from '../components/Tags';
 
 import '../css/blog-post.css';
 import '../css/index.css';
@@ -15,36 +14,33 @@ export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
     <div>
-      
       <div className="blog-posts">
-        <h1 className="serif italic body">
-          Notes on <Link to={`/tags/design`}>design</Link>, <Link to={`/tags/code`}>code</Link>, <Link to={`/tags/travel`}>travel</Link>, &amp; <Link to={`/tags`}>more</Link>.
-        </h1>
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
           .map(({ node: post }) => {
             return (
-
-                <GatsbyLink to={post.frontmatter.path}  className="blog-post-preview link" key={post.id}>
-                  <h2 className="date">
-                    {post.frontmatter.date}
-                  </h2>
-                  <h1 className="title serif-display">
-                      {post.frontmatter.title}
-                  </h1>
-                  <p>
-                    {post.excerpt}
-                  </p>
-                  <p className="link--fill sans-serif">Read more</p>
-                </GatsbyLink>
+              <GatsbyLink
+                to={post.frontmatter.path}
+                className="blog-post-preview link"
+                key={post.id}
+              >
+                <h2 className="date">
+                  {post.frontmatter.date}
+                </h2>
+                <h1 className="title serif-display">
+                  {post.frontmatter.title}
+                </h1>
+                <p>
+                  {post.excerpt}
+                </p>
+                <p className="link--fill sans-serif">Read more</p>
+              </GatsbyLink>
             );
           })}
       </div>
     </div>
-
   );
 }
-
 
 export const pageQuery = graphql`
   query IndexQuery {

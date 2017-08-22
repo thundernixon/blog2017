@@ -2,14 +2,7 @@
     background-color: #222;
 } */
 
-a {
-    color: #222;
-    transition: .25s ease;
-}
 
-a:hover {
-    color: #9115FF;
-}
 
 .sans-serif {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,

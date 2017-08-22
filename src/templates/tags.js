@@ -13,16 +13,18 @@ export default function Tags({ pathContext }) {
   if (tag) {
     return (
       <div className="page-content">
-        
         <ul className="list blog-posts">
           <h1 className="serif italic">
-            {post.length} post{post.length === 1 ? '' : 's'} tagged with “{tag}”
-          </h1> 
+            {post.length} post {post.length === 1 ? '' : 's'} tagged with “{tag}”
+          </h1>
           {post.map(({ id, frontmatter, excerpt }) => {
             return (
               <li key={id} className="link">
-                <GatsbyLink to={frontmatter.path}  className="blog-post-preview link" key={post.id}>
-
+                <GatsbyLink
+                  to={frontmatter.path}
+                  className="blog-post-preview link"
+                  key={post.id}
+                >
                   <h2 className="date">
                     {frontmatter.date}
                   </h2>
@@ -34,15 +36,17 @@ export default function Tags({ pathContext }) {
                   </p>
                   <p className="link--fill sans-serif">Read more</p>
                 </GatsbyLink>
-
               </li>
             );
           })}
         </ul>
         <Link to="/tags" className="sans-serif no-underline bold">
-           <BackIcon style={{
+          <BackIcon
+            style={{
               height: '.85em',
-              }}/> All topics
+            }}
+          />
+          All topics
         </Link>
       </div>
     );
@@ -63,10 +67,31 @@ export default function Tags({ pathContext }) {
         })}
       </ul>
       <Link to="/" className="sans-serif no-underline bold">
-         <BackIcon style={{
-              height: '.85em',
-              }}/> All posts
+        <BackIcon
+          style={{
+            height: '.85em',
+          }}
+        />
+        All posts
       </Link>
     </div>
   );
 }
+
+export const pageQuery = graphql`
+  query TagsQuery {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+        node {
+          excerpt(pruneLength: 250)
+          id
+          frontmatter {
+            title
+            date(formatString: "MMMM DD, YYYY")
+            path
+          }
+        }
+      }
+    }
+  }
+`;

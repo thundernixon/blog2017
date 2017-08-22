@@ -1,2 +1,1 @@
-
-export Socialicons from "./social-icons.svg"
+export Socialicons from './social-icons.svg';
