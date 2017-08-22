@@ -15,6 +15,10 @@ body {
   }
 }
 
+.tag-header {
+  line-height: 1.25;
+}
+
 .blog-posts {
   max-width: 39rem;
   margin: 0 auto;

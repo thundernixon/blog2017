@@ -5,10 +5,6 @@ title: "Heyyyy World here’s a much longer and more realistic title"
 tags: ["first test", "long tag name", "design"]
 ---
 
-<!-- <div class="wide" style="max-width: 1600px;">
-    <img src="./images/lifesaver.jpg" alt="lifesaver">
-</div> -->
-
 <img src="./images/lifesaver.jpg" alt="lifesaver">
 
 <!-- ![lifesaver](./images/lifesaver.jpg) -->

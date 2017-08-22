@@ -72,18 +72,22 @@
   max-width: 1600px;
 }
 
-@media (max-width: 660px) { 
-  .blog-post img {
-    width: calc(100% + 10vw + 1px) !important;
-    margin-left: -5vw !important;
-  }
-}
-
 .gatsby-resp-image-wrapper {
   z-index: 0 !important;
   position: static !important;
   margin-bottom: 2.25rem;
 }
+
+@media (max-width: 660px) { 
+  /* .blog-post img, .gatsby-resp-image-background-image */
+  .gatsby-resp-image-wrapper {
+    width: calc(100% + 10vw + 1px) !important;
+    margin-left: -5vw !important;
+    margin-bottom: 1rem;
+  }
+}
+
+
 
 .blog-post .tag-list {
     max-width: 35rem;

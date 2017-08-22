@@ -15,7 +15,7 @@ export default function Index({ data }) {
     <div>
       
       <div className="blog-posts">
-        <h1 className="serif italic">Notes on <GatsbyLink to="/tags/design">design</GatsbyLink>, <GatsbyLink to="/tags/travel">travel</GatsbyLink>, <GatsbyLink to="/tags/code">code</GatsbyLink>, &amp; <GatsbyLink to="/tags">more</GatsbyLink>.</h1>
+        <h1 className="serif italic tag-header">Notes on <GatsbyLink to="/tags/design">design</GatsbyLink>, <GatsbyLink to="/tags/travel">travel</GatsbyLink>, <GatsbyLink to="/tags/code">code</GatsbyLink>, &amp;&nbsp;<GatsbyLink to="/tags">more</GatsbyLink>.</h1>
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)
           .map(({ node: post }) => {

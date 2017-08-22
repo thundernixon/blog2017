@@ -25,7 +25,7 @@ export default class Template extends React.Component {
 
     const isRoot = location.pathname === '/';
     const isTags = location.pathname.includes('/tags');
-    const is404 = location.pathname.includes('/404');
+    const is404 = location.pathname === '/404';
 
     return (
       <div
