@@ -76,6 +76,10 @@
   z-index: 0 !important;
   position: static !important;
   margin-bottom: 2.25rem;
+  max-height: 90vh;
+  display: flex !important;
+  align-items: center;
+  overflow: hidden;
 }
 
 @media (max-width: 660px) { 
@@ -150,3 +154,4 @@
 .navigation .next svg {
   margin-right: -1.4rem;
 }
+

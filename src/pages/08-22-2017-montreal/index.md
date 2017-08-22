@@ -27,9 +27,11 @@ We lucked out, and ended up visiting during the week of Montreal's International
 
 <img src="./images/2017-08-01 10.25.38edited525.jpg" alt="A delicious and large crepe" class="portrait">
 
-<img src="./images/2017-08-01_10.44.06.jpg" alt="Celeste enjoyed the delicious crepe" class="portrait">
+<!-- <img src="./images/2017-08-01_10.44.06.jpg" alt="Celeste enjoyed the delicious crepe" class="portrait"> -->
 
 ![Celeste enjoyed the delicious crepe](./images/2017-08-01_10.44.06.jpg)
+
+This isn't the end of the blog post; it's still a work in progress as I build out more of the blog. 🙂
 
 
 

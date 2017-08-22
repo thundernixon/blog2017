@@ -31,7 +31,7 @@ export default class Template extends React.Component {
       <div
         style={{
           background: (isRoot || isTags) ? `#f3f3f3`  :  (is404) ? `#000` : `white`,
-          height: `100%`,
+          minHeight: `100%`,
         }}
       >
         <Helmet
