@@ -75,7 +75,7 @@
 .gatsby-resp-image-wrapper {
   z-index: 0 !important;
   position: static !important;
-  margin-bottom: 2.25rem;
+  margin: 2rem 0;
   max-height: 90vh;
   display: flex !important;
   align-items: center;
@@ -90,6 +90,10 @@
     margin-bottom: 1rem;
   }
 }
+
+ p .gatsby-resp-image-wrapper {
+    margin-bottom: 2rem;
+} 
 
 
 
