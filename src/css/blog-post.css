@@ -68,6 +68,23 @@
   margin-right: auto;
 }
 
+.blog-post-content p:first-of-type:first-letter {
+    float: left;
+    font-style: italic;
+    color: white;
+    font-size: 6rem;
+    line-height: 1rem;
+    padding-top: 2rem;
+    padding-right: 0;
+    margin-bottom: -2rem;
+    margin-right: 0;
+    text-shadow: rgb(0,0,255) 4px -2px 6px, rgb(0,255,0) -5px 4px 3px, rgb(255,0,0) 3px 2px 3px;
+    display: block;
+    transform: scale(2, 0.5);
+}
+
+
+
 .blog-post img {
   max-width: 1600px;
 }
@@ -75,7 +92,7 @@
 .gatsby-resp-image-wrapper {
   z-index: 0 !important;
   position: static !important;
-  margin: 2rem 0;
+  margin: 5vh 0;
   max-height: 90vh;
   display: flex !important;
   align-items: center;

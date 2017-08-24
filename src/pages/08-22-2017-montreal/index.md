@@ -1,6 +1,6 @@
 ---
 path: "/montreal-is-beautiful.html"
-date: "2017-07-05" 
+date: "2017-08-24T17:13:20+02:00"  
 title: "Montreal is beautiful"
 tags: ["travel", "photography"]
 ---
@@ -13,7 +13,9 @@ About a week before the July 4th holiday weekend, Celeste (my girlfriend) and I 
 
 We made a good choice! Montreal is beautiful, and we had so much fun that it's on our list of places we'd be seriously interested in moving to in the future (though, we should probably visit in the winter before we sign any leases or job offers).
 
-![Celeste, world's best travel companion](./images/2017-07-31_17.07.32edited540.jpg)
+<!-- ![Celeste, world's best travel companion](./images/2017-07-31_17.07.32edited540.jpg) -->
+
+<img src="./images/2017-07-31-17.41.15-539.jpg" alt="Celeste on the street">
 
 _Above: Celeste._
 
@@ -104,8 +106,6 @@ This isn't the end of the blog post; it's still a work in progress as I build ou
 
 <img src="./images/2017-07-31-11.56.16-572.jpg" alt="Jean Talon marketplace">
 
-<img src="./images/2017-07-31-17.41.15-539.jpg" alt="Celeste on the street">
-
 <img src="./images/2017-08-01-13.02.13-360.jpg" alt="ceiling of the Montreal metro">
 
 
@@ -116,10 +116,14 @@ This isn't the end of the blog post; it's still a work in progress as I build ou
 <img src="./images/2017-08-02-14.25.14-429.jpg" alt="craft beer in the park">
 </p>
 
+<p>
+<img src="./images/2017-08-02-14.48.47-421.jpg" alt="Hiking on Mount Royal">
+</p>
 
 
 
 <img src="./images/2017-08-02-19.13.19-350.jpg" alt="The colorful city hall">
+
 <img src="./images/2017-08-02-21.53.06-349.jpg" alt="A very green underpass at city hall">
 
 
@@ -127,8 +131,6 @@ This isn't the end of the blog post; it's still a work in progress as I build ou
 
 <img src="./images/2017-08-02-17.44.45-352.jpg" alt="Statue of Paul de Chomedey in Place d'Armes">
 
-<p>
-<img src="./images/2017-08-02-14.48.47-421.jpg" alt="Hiking on Mount Royal">
-</p>
+
 
 <img src="./images/img_5730-343.jpg" alt="Stuck on the side of the highway in New Jersy">
