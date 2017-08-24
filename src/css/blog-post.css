@@ -91,6 +91,12 @@
   }
 }
 
+@media (max-width: 800px) { 
+  .gatsby-resp-image-wrapper {
+    max-height: none;
+  }
+}
+
  p .gatsby-resp-image-wrapper {
     margin-bottom: 2rem;
 } 
