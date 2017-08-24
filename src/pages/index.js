@@ -4,8 +4,8 @@ import Helmet from 'react-helmet';
 
 import Link from '../components/Link';
 
-import '../css/blog-post.css';
-import '../css/index.css';
+import '../css/blog-post.scss';
+import '../css/index.scss';
 import '../css/basics.css';
 import '../css/link.css';
 

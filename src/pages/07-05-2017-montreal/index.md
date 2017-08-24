@@ -1,6 +1,6 @@
 ---
 path: "/montreal-is-beautiful.html"
-date: "2017-08-24T17:13:20+02:00"  
+date: "2017-07-05T17:13:20+02:00"  
 title: "Montreal is beautiful"
 tags: ["travel", "photography"]
 ---
@@ -87,7 +87,6 @@ This isn't the end of the blog post; it's still a work in progress as I build ou
 </p>
 
 
-
 <img src="./images/2017-08-02_12.04.42edited442.jpg" alt="The children's section of bookstore">
 
 <p>
@@ -95,7 +94,7 @@ This isn't the end of the blog post; it's still a work in progress as I build ou
 </p>
 
 
-
+<img src="./images/futball.jpg" alt="futball">
 
 <img src="./images/2017-07-31-10.26.09-1-366.jpg" alt="Menu and patrons at Oui Mais Nos café">
 <img src="./images/2017-07-31-10.26.51-585.jpg" alt="oui mais nos cafe sign">

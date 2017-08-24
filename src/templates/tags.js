@@ -5,7 +5,7 @@ import BackIcon from 'react-icons/lib/fa/chevron-left';
 import Link from '../components/Link';
 
 import '../css/tags.css';
-import '../css/index.css';
+// import '../css/index.css';
 import '../css/basics.css';
 
 export default function Tags({ pathContext }) {

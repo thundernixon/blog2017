@@ -3,7 +3,7 @@ import React from 'react';
 import GatsbyLink from 'gatsby-link';
 
 import '../css/tags.css';
-import '../css/index.css';
+import '../css/index.scss';
 import '../css/basics.css';
 import '../css/fourohfour.css';
 

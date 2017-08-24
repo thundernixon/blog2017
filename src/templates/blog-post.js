@@ -7,7 +7,7 @@ import Link from '../components/Link';
 import Tags from '../components/Tags';
 
 import '../css/basics.css';
-import '../css/blog-post.css';
+import '../css/blog-post.scss';
 
 export default function Template({ data, pathContext }) {
   const { markdownRemark: post } = data;

@@ -8,11 +8,12 @@ import Icons from '../components/Icons';
 import SocialIcon from '../components/SocialIcon';
 import Fontload from '../components/Fontload';
 
+import '../css/_vars.scss';
 import '../css/basics.css';
 import '../css/icons.css';
 import '../css/header.css';
 import '../css/typography.css';
-import '../css/index.css';
+import '../css/index.scss';
 import '../css/link.css';
 
 export default class Template extends React.Component {
@@ -30,7 +31,7 @@ export default class Template extends React.Component {
     return (
       <div
         style={{
-          background: (isRoot || isTags) ? `#f3f3f3`  :  (is404) ? `#000` : `white`,
+          background: (isRoot || isTags) ? `$off-white`  :  (is404) ? `#000` : `white`,
           minHeight: `100%`,
         }}
       >

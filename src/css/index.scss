@@ -1,5 +1,7 @@
+@import 'vars';
+
 body {
-    background-color: #f3f3f3;
+    background-color: $off-white;
 }
 
 .page-content {
@@ -100,7 +102,7 @@ body {
   height: 2px;
   position: relative;
   top: 2px;
-  background-color: #9115FF;
+  background-color: $main-accent;
   transform: scaleX(0);
   transition: .35s ease-out;
   transform-origin: left;
@@ -126,7 +128,7 @@ body {
 }
 
 .blog-posts>.link:hover h1 {
-  color: #9115FF;
+  color: $main-accent;
   transform: skew(-9deg);
 }
 
@@ -148,9 +150,9 @@ body {
   font-weight: bold;
   border-radius: 10px;
   display: inline-block;
-  color: #9115FF;
+  color: $main-accent;
   padding: 0.5rem 1rem;
-  /* border: 2px solid #9115FF; */
+  /* border: 2px solid $main-accent; */
   text-decoration: none;
   position: relative;
   transition: 250ms ease-in-out;
