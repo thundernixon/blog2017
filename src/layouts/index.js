@@ -12,7 +12,7 @@ import '../css/_vars.scss';
 import '../css/basics.css';
 import '../css/icons.css';
 import '../css/header.css';
-import '../css/typography.css';
+import '../css/typography.scss';
 import '../css/index.scss';
 import '../css/link.css';
 

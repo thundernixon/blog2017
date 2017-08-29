@@ -1,3 +1,5 @@
+@import 'vars';
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -198,7 +200,7 @@ html {
   box-sizing: inherit;
 }
 body, .body {
-  color: #222;
+  color: $text;
   /* font-family: georgia, serif; */
   font-family: 'Spectral', serif;
   line-height: 1.5;
@@ -439,16 +441,17 @@ fieldset {
   padding-top: 0;
   margin-bottom: 1rem;
 }
-blockquote {
-  margin-left: 1.45rem;
-  margin-right: 1.45rem;
+ blockquote {
+  /* margin-left: 1.45rem;
+  margin-right: 1.45rem; */
   margin-top: 0;
   padding-bottom: 0;
-  padding-left: 0;
+  padding-left: 2rem;
   padding-right: 0;
   padding-top: 0;
   margin-bottom: 1rem;
-}
+  font-style: italic;
+} 
 form {
   margin-left: 0;
   margin-right: 0;
@@ -482,12 +485,12 @@ iframe {
 hr {
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 10vh;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: calc(1.45rem - 1px);
+  margin-bottom: 10vh;
   background: hsla(0, 0%, 0%, 0.2);
   border: none;
   height: 1px;
