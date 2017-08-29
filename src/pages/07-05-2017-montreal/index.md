@@ -21,7 +21,7 @@ Celeste.
 
 <img src="./images/2017-07-31_18.05.51edited537.jpg" alt="Montreal's public housing has some beautiful murals">
 
-_Montreal's public housing has some beautiful murals._
+_Montreal's public housing has some fantastic murals._
 
 <p>
 <img src="./images/2017-07-30-17.10.51-641.jpg" alt="Montreal homes have staircases out front">
@@ -104,7 +104,7 @@ _The Montreal Biosphère is an awesome geodesic dome, which we happened upon on 
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12194.82447054253!2d-73.52861372585961!3d45.51660263919894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91b08b001c1b1%3A0x2d0ee66ff89f5a29!2sMontreal+Biosphere!5e0!3m2!1sen!2snl!4v1504034285103" width="100%" height="500" frameborder="0" style="border:0" allowfullscreen></iframe>
 
-We walked around Île Sainte-Hélène and across the Pont de la Concorde bridge, and enjoyed seeing others enjoying the Beautiful Summer day.
+We walked around Île Sainte-Hélène and across the Pont de la Concorde bridge, and enjoyed seeing others enjoying the picturesque Summer day.
 
 <img src="./images/2017-08-01_14.33.03edited498.jpg" alt="Fishing on the St. Lawrence River">
 
@@ -183,13 +183,11 @@ We then hiked up Mount Royal, which had trails that reminded me in many ways of 
 <img src="./images/2017-08-02-14.48.47-421.jpg" alt="Hiking on Mount Royal">
 </p>
 
-Montreal is a colorful city with so much to see, it's hard to show much of it in a single blog post. Hopefully, I'll get to make another trip someday in the near future!
-
-
-<img src="./images/2017-08-02-19.13.19-350.jpg" alt="The colorful city hall">
-
+Montreal is a city with so much to see, it's hard to show much of it in a single blog post. Hopefully, I'll get to make another trip someday in the near future!
 
 <img src="./images/2017-08-01-21.37.49-356.jpg" alt="Neon sign – biere & vin">
+
+<img src="./images/2017-08-02-19.13.19-350.jpg" alt="The colorful Montreal city hall">
 
 <img src="./images/2017-08-02-21.53.06-349.jpg" alt="A very green underpass at city hall">
 
