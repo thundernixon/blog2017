@@ -65,7 +65,7 @@ _I took a lot of photos on this trip, including in crowds at the Jazz Fest. Some
 
 <img src="./images/2017-08-02-21.26.03-372.jpg" alt="A great band, Sidewalk Chalk">
 
-_Sidewalk Chalk, a jazz & hip hop band was another really fun band to see._
+_Sidewalk Chalk, a jazz & hip hop band, was another really fun group to see._
 
 <p>
 <iframe width="100%" height="350px" src="https://www.youtube.com/embed/zN9VDeqrVCA" frameborder="0" allowfullscreen></iframe>
