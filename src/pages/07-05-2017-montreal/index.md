@@ -1,7 +1,7 @@
 ---
 path: "/montreal-is-beautiful.html"
 date: "2017-07-05T17:13:20+02:00"  
-title: "Montreal is beautiful"
+title: "Montreal 😻 🇨🇦"
 tags: ["travel", "photography"]
 ---
 
