@@ -2,6 +2,15 @@
 
 body {
     background-color: $off-white;
+    animation: fade-in 3s ease;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  } to {
+    opacity: 1;
+  }
 }
 
 .page-content {
