@@ -6,7 +6,7 @@ import Link from '../components/Link';
 
 import '../css/tags.css';
 // import '../css/index.css';
-import '../css/basics.css';
+import '../css/basics.scss';
 
 export default function Tags({ pathContext }) {
   const { posts, post, tag, date } = pathContext;

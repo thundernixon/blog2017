@@ -6,7 +6,7 @@ import Link from '../components/Link';
 
 import '../css/blog-post.scss';
 import '../css/index.scss';
-import '../css/basics.css';
+import '../css/basics.scss';
 import '../css/link.css';
 
 export default function Index({ data }) {

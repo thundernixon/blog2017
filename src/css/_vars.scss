@@ -1,5 +1,18 @@
+// colors
+
 $main-accent: #9115FF;
 
 $off-white: #f3f3f3;
 
 $text: #222;
+
+// fonts
+
+@import url("https://use.typekit.net/itf2waf.css");
+
+$serif: "eskorte-latin",serif;
+
+$sans: "ebony", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+$letterspacing: .02em;
+

@@ -4,7 +4,7 @@ import GatsbyLink from 'gatsby-link';
 
 import '../css/tags.css';
 import '../css/index.scss';
-import '../css/basics.css';
+import '../css/basics.scss';
 import '../css/fourohfour.css';
 
 export default () =>

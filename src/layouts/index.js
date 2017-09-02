@@ -6,10 +6,9 @@ import Helmet from 'react-helmet';
 import Tags from '../components/Tags';
 import Icons from '../components/Icons';
 import SocialIcon from '../components/SocialIcon';
-import Fontload from '../components/Fontload';
 
 import '../css/_vars.scss';
-import '../css/basics.css';
+import '../css/basics.scss';
 import '../css/icons.css';
 import '../css/header.css';
 import '../css/typography.scss';
@@ -110,7 +109,6 @@ export default class Template extends React.Component {
         >
           {this.props.children()}
         </div>
-        <Fontload />
       </div>
     );
   }
