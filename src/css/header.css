@@ -13,7 +13,7 @@
 }
 
 .header h1 {
-    font-size: 0.85rem;
+    font-size: 1rem;
     display: inline-block;
     margin: 0;
 }
@@ -52,7 +52,7 @@ a.social-link {
 
 .header h1 a {
     margin-left: -.5em;
-    padding: .25em 0.5em; 
+    padding: .25em 0.5em .5em;
 }
 
 .header li:last-child a {

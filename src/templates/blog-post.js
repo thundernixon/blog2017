@@ -33,7 +33,7 @@ export default function Template({ data, pathContext }) {
             <Link className="link prev" to={prev.frontmatter.path}>
               <BackIcon
                 style={{
-                  height: '.85em',
+                  height: '1rem',
                 }}
               />
               <p className="sans-serif">
@@ -47,7 +47,7 @@ export default function Template({ data, pathContext }) {
               </p>
               <ForwardIcon
                 style={{
-                  height: '.85em',
+                  height: '1rem',
                 }}
               />
             </Link>}

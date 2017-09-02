@@ -43,7 +43,7 @@ export default function Tags({ pathContext }) {
         <Link to="/tags" className="sans-serif no-underline bold">
           <BackIcon
             style={{
-              height: '.85em',
+              height: '1rem',
             }}
           />
           All topics
@@ -69,7 +69,7 @@ export default function Tags({ pathContext }) {
       <Link to="/" className="sans-serif no-underline bold">
         <BackIcon
           style={{
-            height: '.85em',
+            height: '1rem',
           }}
         />
         All posts

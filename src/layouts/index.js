@@ -7,7 +7,6 @@ import Tags from '../components/Tags';
 import Icons from '../components/Icons';
 import SocialIcon from '../components/SocialIcon';
 
-import '../css/_vars.scss';
 import '../css/basics.scss';
 import '../css/icons.css';
 import '../css/header.css';
@@ -30,7 +29,7 @@ export default class Template extends React.Component {
     return (
       <div
         style={{
-          background: (isRoot || isTags) ? `$off-white`  :  (is404) ? `#000` : `white`,
+          background: (isRoot || isTags) ? `rgba(235,21,255,.05)`  :  (is404) ? `#000` : `white`,
           minHeight: `100%`,
         }}
       >

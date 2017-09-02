@@ -89,7 +89,7 @@ body {
 }
 
 .blog-post-preview .date {
-  font-size: .85rem;
+  font-size: 1rem;
   border-bottom: 2px solid rgba(0,0,0,.2);
   width: 100%;
   color: #222;
@@ -145,14 +145,13 @@ body {
 .link--fill {
   font-family: $sans;
   letter-spacing: $letterspacing;
-  font-size: .85em;
+      font-size: 1rem;
   align-self: flex-end;
   font-weight: bold;
   border-radius: 10px;
   display: inline-block;
   color: $main-accent;
-  padding: 0.5rem 1rem;
-  /* border: 2px solid $main-accent; */
+  padding: 0.25rem 1rem 0.5rem;
   text-decoration: none;
   position: relative;
   transition: 250ms ease-in-out;
