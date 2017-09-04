@@ -17,7 +17,7 @@ We made a good choice! Montreal is beautiful, and we had so much fun that it's o
 
 <img src="./images/2017-07-31-17.41.15-539.jpg" alt="Celeste on the street">
 
-Celeste.
+_Celeste._
 
 <img src="./images/2017-07-31_18.05.51edited537.jpg" alt="Montreal's public housing has some beautiful murals">
 
@@ -47,7 +47,7 @@ _There was also a brown cat, who was calmer but also very cute._
 
 <img src="./images/2017-08-02-20.50.02-382.jpg" alt="Eclectic band at the Montreal Jazz Festival">
 
-We lucked out, and ended up visiting during the week of Montreal's International Jazz Festival. So, the city was buzzing, and every evening there was something perfect to do. He's not pictured here, but the absolute highlight was seeing Colin Stetson, a phenomenal saxophone player. Not only does he play saxophone with circular breathing to achieve continuous harmonies; he also wears a mic on his neck to record his simultaneous throat singing, _and_ sometimes even puts a contact mic on his saxophone to amplify the keys to create a percussive rhythm. Take a second to watch this:
+We lucked out, and ended up visiting during the week of Montreal's International Jazz Festival. So, the city was buzzing, and every evening there was something perfect to do. He's not pictured here, but the absolute highlight was seeing Colin Stetson, a phenomenal saxophone player. Not only does he play saxophone with circular breathing to achieve continuous harmonies; he also wears a mic on his neck to record his simultaneous throat singing, _and_ sometimes even puts a contact mic on his saxophone to amplify the keys to create a percussive rhythm. Take a minute to watch this:
 
 <p>
 <iframe width="100%" height="350px" src="https://www.youtube.com/embed/KJHr2DlRog8" frameborder="0" allowfullscreen></iframe>
@@ -82,7 +82,7 @@ One of my favorite parts of seeing a new city is experiencing the public transit
 
 <img src="./images/2017-08-01_09.47.13edited529.jpg" alt="A dog enjoying the porch">
 
-Walking around a city is even better than taking transport – I love seeing the million everyday but spectacular sites of a city. Here is a dog, relaxing on the porch.
+_Walking around a city is even better than taking transport – I love seeing the million everyday but spectacular sites of a city. Here is a dog, relaxing on the porch._
 
 <img src="./images/2017-08-01_10.25.38edited525.jpg" alt="A delicious and large crepe">
 
@@ -117,11 +117,13 @@ We walked around Île Sainte-Hélène and across the Pont de la Concorde bridge,
 <!-- <img src="./images/2017-08-01_15.11.19edited490.jpg" alt="Habitat 67, black and white photograph"> -->
 <img src="./images/2017-08-01_15.12.24edited489.jpg" alt="Habitat 67">
 
-We finally reached Habitat 67! This was architectural utopia originally built as affordable housing for the workers of the 67 World's Fair and Olympics, and today it's used as luxury condos. We were basically another set of tourists gazing at rich people's apartments, but it was still fun to see (from the sidewalk, as enforced by lawn signs and security guards in golf carts). 
+We finally reached Habitat 67! This was an architectural model community originally built as affordable housing for the workers of the 67 World's Fair and Olympics, and today it's used as luxury condos. We were basically another set of tourists gazing at rich people's apartments, but it was still fun to see (from the sidewalk, as enforced by lawn signs and security guards in golf carts). 
 
 This was one of the main points of Montreal I had wanted to see, because in 1967 my Dad took a road trip as a teenager with his family from their home in Alberta to Montreal, for the World's Fair. When I learned this, I asked, "What do you remember?" expecting to hear something about gleaming structures or technology, and the one thing he remembered seeing was Habitat 67. It's definitely memorable, as some of the cubes in the concrete structure appear to be floating, almost weightless.
 
 <img src="./images/2017-08-01_15.36.09edited483.jpg" alt="Stephen on the phone, looking heroic">
+
+_Just including this because I look like I'm in a movie here._
 
 Habitat 67 is actually a bit removed from the main city, so we had a long, hot walk to a bus stop, and were temporarily concerned that with the Canada Day weekend, buses might not come. Calling the bus tracker phone number was a bit cryptic, as again, things in Montreal are French-first. But, a bus eventually did come, and we rode back into the city.
 
@@ -164,7 +166,10 @@ We visited the Jean Talon Market on a rainy day, and it was a bustling marketpla
 
 In Montreal, like in most cities I know, it's illegal to publicly consume alcohol. _But_ Montreal has an exception, the [Picnic Law](http://ville.montreal.qc.ca/sel/sypre-consultation/afficherpdf?idDoc=122&typeDoc=1):
 
-> Il est défendu de consommer des boissons alcooliques sur le domaine public, sauf : 1) dans un café-terrasse installé sur le domaine public où la vente de boissons alcooliques est autorisée par la loi; 2) à l'occasion d'un repas pris en plein air dans la partie d'un parc où la ville a installé des tables de pique-nique; 3) dans certaines circonstances ou à l'occasion d'événements, de fêtes ou de manifestations, suivant l'autorisation donnée par ordonnance.
+> Il est défendu de consommer des boissons alcooliques sur le domaine public, sauf: 
+> 1) dans un café-terrasse installé sur le domaine public où la vente de boissons alcooliques est autorisée par la loi; 
+> 2) **à l'occasion d'un repas pris en plein air dans la partie d'un parc** où la ville a installé des tables de pique-nique; 
+> 3) dans certaines circonstances ou à l'occasion d'événements, de fêtes ou de manifestations, suivant l'autorisation donnée par ordonnance.
 
 
 Translated to English, the relevant part of that is: "It is forbidden to consume alcoholic beverages on the public domain, except ... (2) for an outdoor meal in the part of a park where the town has set up picnic tables." 

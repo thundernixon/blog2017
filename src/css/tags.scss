@@ -1,3 +1,5 @@
+@import 'vars';
+
 .tag-list li{
     display: inline-block;
 }
@@ -6,6 +8,7 @@
     list-style: none;
     margin-left: 0;
     display: inline-block;
+    width: 100%;
 }
 
 .tags li {
@@ -13,19 +16,19 @@
 }
 
 .tag {
-    background-color: rgba(0,0,0,.05);
+    background-color: rgba($text,.05);
     color: #222;
     border-radius: 999px;
     display: inline-block;
     padding: .125em .75em .5em;
     margin-right: .5rem;
     text-decoration: none;
-    transition: .25s ease;
+    transition: .35s ease;
 }
 
 .tag:hover {
     box-shadow: 0px 5px 25px rgba(0,0,0,.2);
-    background-color: #fff;
+    background-color: rgba($white,1);
     color: #9115FF;
 }
 
