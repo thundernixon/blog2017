@@ -17,7 +17,7 @@
     color: #222;
     border-radius: 999px;
     display: inline-block;
-    padding: .125em .75em .125em;
+    padding: .125em .75em .5em;
     margin-right: .5rem;
     text-decoration: none;
     transition: .25s ease;
@@ -34,7 +34,7 @@
     font-size: 3em;
     line-height: 1;
     display: inline-block;
-    padding: .25em .75em .125em;
+    padding: .25em .75em .5em;
 }
 
 @media (max-width: 660px) { 

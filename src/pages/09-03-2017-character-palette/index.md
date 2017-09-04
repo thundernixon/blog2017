@@ -14,13 +14,13 @@ I used to reach for something like emojipedia or amp-what.com. These are both st
 
 The key command `control+command+spacebar` will pull up the macOS character palette. From here, it’s super fast to scroll or type to search for whatever emoji or special character you need. 😻
 
-![Mac special characters palette](./images/mac-character-palette.png)
+![Mac special characters palette](./images/mac-character-palette-2.png)
 
 ## The bigger palette
 
 Nice, right? What’s more, if you click the little “view button” at the top right of the palette, you’ll get a little window which will make it even easier to browse for all the characters you can use. Amazing, right? Check out all the arrows you can use on a Mac!
 
-![Mac special characters window](./images/mac-character-window.png)
+![Mac special characters window](./images/mac-character-window-2.png)
 
 
 ## Typing accented characters
@@ -33,6 +33,6 @@ While writing about this character palette, I came across Apple’s support page
 So, next time you need an e-ogonek, just hold down the ‘e’ key, and either click the character or press the corresponding number key for the character you need.
 
 
-![Mac accented character selection](./images/mac-accented-character.png)
+![Mac accented character selection](./images/mac-accented-character-2.png)
 
 See Apple’s official support page about this at https://support.apple.com/en-us/HT201586. ❦

@@ -29,15 +29,18 @@ export default class Template extends React.Component {
     return (
       <div
         style={{
-          background: (isRoot || isTags) ? `rgba(235,21,255,.025)`  :  (is404) ? `#000` : `white`,
+          background:
+            isRoot || isTags
+              ? `rgba(235,21,255,.025)`
+              : is404 ? `#000` : `white`,
           minHeight: `100%`,
         }}
       >
         <Helmet
-          title="Stephen Nixon"
+          title="Stephen Nixon’s Design Blog"
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: 'Blog of Stephen Nixon' },
+            { name: 'keywords', content: 'Stephen Nixon, design, code, type, lettering, photography' },
           ]}
         />
         <div

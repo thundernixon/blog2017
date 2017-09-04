@@ -45,7 +45,7 @@
 
 .blog-post .date {
   font-size: .85rem;
-  border-bottom: 2px solid rgba(0,0,0,.2);
+  border-bottom: 2px solid rgba($text,.2);
   width: 100%;
   /* color: #555; */
   /* margin-bottom: 0;  */
@@ -65,6 +65,41 @@
     max-width: 35rem;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  & iframe {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1rem;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  & blockquote{
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+
+    & p {
+      border-left: 2px solid rgba($main-accent, 0.4);
+      padding-left: 1rem;
+    }
+  }
+  hr {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10vh;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    margin-bottom: 10vh;
+    background: rgba($main-accent, 0.2);
+    border: none;
+    height: 2px;
   }
 }
 
@@ -91,7 +126,7 @@
 .gatsby-resp-image-wrapper {
   z-index: 0 !important;
   position: static !important;
-  margin: 5vh 0;
+  margin: 5vh 0 4vh;
   max-height: 90vh;
   display: flex !important;
   align-items: center;

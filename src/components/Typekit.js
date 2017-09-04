@@ -4,7 +4,7 @@ export default function Typekit() {
   return (
     <script>
         (function(d) {
-            var config = {
+            const config = {
             kitId: 'itf2waf',
             scriptTimeout: 3000,
             async: true
