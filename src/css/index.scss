@@ -15,14 +15,15 @@ body {
 
 .page-content {
   max-width: 1600px;
-  padding: 5vw 5vh 10vw;
+  padding: 5vw 5vw 15vw;
   overflow-x: hidden;
-}
 
-@media (max-width: 660px) {
-  .page-content {
-    max-width: 1600px;
-    padding: 5vw 5vw 15vw;
+  @media (min-width: 710px) {
+    padding: 5vw 5vh 10vw;
+  }
+
+  @media (min-width: 1040px) {
+        padding: calc(5vw + 54px) 5vh 10vw; //add space of fixed header
   }
 }
 
@@ -147,8 +148,8 @@ body {
 }
 
 .blog-posts>.link:hover {
-   background-color: #fff; 
-  box-shadow: 0px 5px 25px rgba(0,0,0,.2);
+  background-color: #fff; 
+  box-shadow: $pillowy-shadow;
 }
 
 .link--fill {

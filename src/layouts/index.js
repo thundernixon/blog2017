@@ -9,7 +9,7 @@ import SocialIcon from '../components/SocialIcon';
 
 import '../css/basics.scss';
 import '../css/icons.css';
-import '../css/header.css';
+import '../css/header.scss';
 import '../css/typography.scss';
 import '../css/index.scss';
 import '../css/link.css';
@@ -46,7 +46,7 @@ export default class Template extends React.Component {
         <div
           className="header"
           style={{
-            background: `black`,
+            background: `transparent`,
           }}
         >
           <div
@@ -61,7 +61,7 @@ export default class Template extends React.Component {
               <Link
                 to="/"
                 style={{
-                  color: 'white',
+                  color: '#222',
                   textDecoration: 'none',
                 }}
               >
