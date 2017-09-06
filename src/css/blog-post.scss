@@ -2,13 +2,17 @@
 
 .blog-post {
   padding: 0 0 2rem;
-  animation: fade-in 1.5s ease;
+  animation: fade-up 1.5s ease;
 }
 
-@keyframes fade-in {
-  from {
+@keyframes fade-up {
+  0% {
+    transform: translateY(100vh) scale(0);
     opacity: 0;
-  } to {
+  } 30% {
+    transform: translateY(0) scale(1);
+  }
+  100% {
     opacity: 1;
   }
 }

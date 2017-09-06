@@ -7,7 +7,7 @@ tags: ["design", "code"]
 
 Quick: you need to add an emoji to an email/document/mockup – what do you do? What if you instead need to add a special character, like a ℉ or ® sign?
 
-I used to reach for something like emojipedia or amp-what.com. These are both still useful resources, but I’ve finally realized that macOS has a much faster, much simpler way to add symbols to text.
+I used to reach for something like [Emojipedia](http://emojipedia.com) or [Amp-What](http://amp-what.com), then copy-and-paste from there. These are both still useful resources, but I’ve finally realized that macOS has a much faster, much simpler way to add symbols to text.
 
 
 ## The quick palette
@@ -35,4 +35,6 @@ So, next time you need an e-ogonek, just hold down the ‘e’ key, and either c
 
 ![Mac accented character selection](./images/mac-accented-character-2.png)
 
-See Apple’s official support page about this at https://support.apple.com/en-us/HT201586. ❦
+See Apple’s official support page about this at https://support.apple.com/en-us/HT201586. 
+
+Happy typing! ❦

@@ -5,7 +5,7 @@ import BackIcon from 'react-icons/lib/fa/chevron-left';
 import Link from '../components/Link';
 
 import '../css/tags.scss';
-// import '../css/index.css';
+import '../css/index.scss';
 import '../css/basics.scss';
 
 export default function Tags({ pathContext }) {
@@ -14,7 +14,7 @@ export default function Tags({ pathContext }) {
     return (
       <div>
         <ul className="list blog-posts">
-          <h1 className="serif italic">
+          <h1 className="serif italic tag-header">
             {post.length} post {post.length === 1 ? '' : 's'} tagged with “{tag}”
           </h1>
           {post.map(({ id, frontmatter, excerpt }) => {
@@ -53,13 +53,13 @@ export default function Tags({ pathContext }) {
   }
   return (
     <div>
-      <h1 className="serif italic">Topics</h1>
+      <h1 className="serif italic tag-header">Topics</h1>
       <ul className="tags">
         {Object.keys(posts).map(tagName => {
           const tags = posts[tagName];
           return (
             <li key={tagName}>
-              <GatsbyLink to={`/tags/${tagName}`} className="serif-display tag">
+              <GatsbyLink to={`/tags/${tagName}`} className="serif-display bold tag">
                 {tagName}
               </GatsbyLink>
             </li>
