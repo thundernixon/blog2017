@@ -24,15 +24,13 @@ export default class Template extends React.Component {
 
     const isRoot = location.pathname === '/';
     const isTags = location.pathname.includes('/tags');
-    const is404 = location.pathname === '/404';
 
     return (
       <div
         style={{
           background:
             isRoot || isTags
-              ? `rgba(235,21,255,.025)`
-              : is404 ? `#000` : `white`,
+              ? `rgba(235,21,255,.025)` : 'white',
           minHeight: `100%`,
         }}
       >

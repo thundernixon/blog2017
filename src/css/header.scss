@@ -13,12 +13,16 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2.25rem;
-}
-
-@media (max-width: 660px) {
-    .header-inner {
-        padding: 0 5vw;
+    padding: 0 5vw;
+    transition: .25s ease;
+    
+    @media (min-width: 660px) {
+        padding: 0 2.25rem;
+    }
+    
+    @media (min-width: 1040px) {
+    height: 5rem;
+        padding: 1rem 2.25rem;
     }
 }
 

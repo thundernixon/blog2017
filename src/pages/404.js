@@ -8,7 +8,8 @@ import '../css/basics.scss';
 import '../css/fourohfour.scss';
 
 export default () =>
-  <div className="fourohfour page-content">
+
+  <div className="fourohfour page-content bold">
     <h1 className="serif-display italic">Erratum CDIV</h1>
     <p>Sorry, no page exists at this URL.</p>
     <p>

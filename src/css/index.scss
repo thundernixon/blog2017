@@ -18,12 +18,12 @@ body {
   padding: 5vw 5vw 15vw;
   overflow-x: hidden;
 
-  @media (min-width: 710px) {
-    padding: 5vw 5vh 10vw;
+  @media (min-width: 660px) {
+    padding: 5vw 2.25rem 10vw;
   }
 
   @media (min-width: 1040px) {
-        padding: calc(5vw + 54px) 5vh 10vw; //add space of fixed header
+        padding: calc(5vw + 54px) 2.25rem 10vw; //add space of fixed header
   }
 }
 
