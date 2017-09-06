@@ -1,14 +1,28 @@
+@import 'vars';
+
+.header {
+
+    @media (min-width: 1040px) {
+        position: fixed;
+        width: 100%;
+    }
+}
+
 .header-inner {
     height: 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 2.25rem;
-}
-
-@media (max-width: 660px) {
-    .header-inner {
-        padding: 0 5vw;
+    padding: 0 5vw;
+    transition: .25s ease;
+    
+    @media (min-width: 660px) {
+        padding: 0 2.25rem;
+    }
+    
+    @media (min-width: 1040px) {
+    height: 5rem;
+        padding: 1rem 2.25rem;
     }
 }
 
@@ -23,7 +37,7 @@
     margin-bottom: 0;
     line-height: 2.9rem;
     font-size: .85rem;
-    color: white;
+    color: $text;
     float: right;
     display: inline-block;
     list-style: none;
@@ -39,7 +53,7 @@
     border-radius: 999px;
     transition: .35s ease;
     background-color: transparent;
-    color: white;
+    color: $text;
     text-decoration: none;
     margin-right: .5em;
     display: block;
@@ -60,8 +74,9 @@ a.social-link {
 }
 
 .header a:hover {
-    background-color: #9115FF;
-
+    // background-color: #9115FF;
+    background-color: $white;
+    box-shadow: $pillowy-shadow;
 }
 
 

@@ -27,7 +27,7 @@
 }
 
 .tag:hover {
-    box-shadow: 0px 5px 25px rgba(0,0,0,.2);
+    box-shadow: $pillowy-shadow;
     background-color: rgba($white,1);
     color: #9115FF;
 }

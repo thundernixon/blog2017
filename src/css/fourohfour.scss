@@ -1,15 +1,13 @@
+@import 'vars';
 
-
-.fourohfour, .fourohfour a {
-    color: white;
-}
 
 .fourohfour h1 {
     font-size: 20vw;
     line-height: 1;
     margin: 0;
     position: absolute;
-    color: #333;
+    top: 10vw;
+    color: rgba($main-accent, .2);
     z-index: 0;
 }
 
