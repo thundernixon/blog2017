@@ -62,7 +62,13 @@
 
 a.social-link {
     line-height: 0;
+
+    .github-icon{
+        position: relative;
+        left: -1px; 
+    }
 }
+
 
 .header h1 a {
     margin-left: -.5em;

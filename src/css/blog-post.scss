@@ -48,7 +48,7 @@
 
 
 .blog-post .date {
-  font-size: .85rem;
+  font-size: $body;
   border-bottom: 2px solid rgba($text,.2);
   width: 100%;
   /* color: #555; */
@@ -94,11 +94,11 @@
     & p {
       padding-left: 1.5rem;
       margin-bottom: 0;
-      padding-bottom: 1rem;
     }
 
     & ol {
       padding-left: 2.5rem;
+      padding-top: calc(1.45rem / 2);
     }
   }
   hr {
@@ -170,7 +170,7 @@
 
 .blog-post .tag-list {
     max-width: 35rem;
-    margin: 0 auto 2rem;
+    margin: 4rem auto;
     list-style: none;
 }
 
