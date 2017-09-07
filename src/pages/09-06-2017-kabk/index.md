@@ -132,3 +132,11 @@ _In drypoint printing, you can change the printing etching between each print ru
 _Several of my classmates opted to do a letterpress workshop, so I ducked in to ogle at the lead type. I'm excited to try this grotesque, which is a bit like a hybrid of Helvetica and Franklin Gothic._
 
 I can't wait to experience more at KABK. Thanks for reading about a few of the initial adventures!
+
+### Day 0: Official class introductions!
+
+<img src="./images/DSCF3728.jpg" alt="">
+
+
+<img src="./images/DSCF3731.jpg" alt="">
+<img src="./images/DSCF3734.jpg" alt="">
