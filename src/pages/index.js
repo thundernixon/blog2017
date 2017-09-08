@@ -20,7 +20,7 @@ export default function Index({ data }) {
           <GatsbyLink to="/tags/typemedia">TypeMedia</GatsbyLink>, &amp;&nbsp;<GatsbyLink to="/tags">more</GatsbyLink>.
         </h1>
         {posts
-          .filter(post => post.node.frontmatter.title.length > 0)
+          .filter(post => post.node.frontmatter.publish === true)
           .map(({ node: post }) => {
             return (
               <GatsbyLink
@@ -57,6 +57,7 @@ export const pageQuery = graphql`
             title
             date(formatString: "MMMM DD, YYYY")
             path
+            publish
           }
         }
       }

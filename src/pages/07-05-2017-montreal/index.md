@@ -3,6 +3,7 @@ path: "/montreal-is-beautiful.html"
 date: "2017-07-05T17:13:20+02:00"  
 title: "Montreal 😻 🇨🇦"
 tags: ["travel", "photography"]
+publish: true
 ---
 
 About a week before the July 4th holiday weekend, Celeste (my girlfriend) and I were discussing last-minute travel plans. We looked at airbnb listings up along the Hudson river. A calming vacation into the less-urban, hilly areas north of NYC was enticing. However, it would almost certainly require renting a car and driving on busy roads, and that would significantly reduce the "calming" factor of the trip. Plus, most things around there seemed either booked or more expensive than we wanted, so we started looking further afield.

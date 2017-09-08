@@ -112,7 +112,7 @@ export default class Template extends React.Component {
         >
           {this.props.children()}
         </div>
-        <MdInfoOutline />
+        {/* <MdInfoOutline /> */}
       </div>
     );
   }

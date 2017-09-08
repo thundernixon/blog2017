@@ -1,8 +1,9 @@
 ---
 path: "/typemedia-class-introductions.html"
 date: "2017-09-07T09:49:16.408Z" 
-title: "Day 0: TypeMedia class introductions + hot tips™ to giving a good self-intro presentation"
+title: "TypeMedia class introductions + hot tips™ to giving a good self-intro presentation"
 tags: ["design", "type", "kabk", "typemedia", "hot tips"]
+publish: true
 ---
 
 Today, September 7th, we met (most of) our teachers and had a walk through the calendar for the year and of the course expectations. Then, each student presented for 10 minutes to explain who they are, where they come from, what work they have done, and what they are most excited about. 

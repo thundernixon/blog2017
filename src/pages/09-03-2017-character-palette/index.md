@@ -3,6 +3,7 @@ path: "/type-special-characters-on-a-mac.html"
 date: "2017-09-03T03:49:16.408Z" 
 title: "How to type with emoji and special characters on macOS 🎨"
 tags: ["design", "code"]
+publish: true
 ---
 
 Quick: you need to add an emoji to an email/document/mockup – what do you do? What if you instead need to add a special character, like a ℉ or ® sign?

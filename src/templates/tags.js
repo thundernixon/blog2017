@@ -15,7 +15,7 @@ export default function Tags({ pathContext }) {
       <div>
         <ul className="list blog-posts">
           <h1 className="serif italic tag-header">
-            {post.length} post {post.length === 1 ? '' : 's'} tagged with “{tag}”
+            {post.length} post{post.length === 1 ? '' : 's'} tagged with “{tag}”
           </h1>
           {post.map(({ id, frontmatter, excerpt }) => {
             return (
@@ -78,20 +78,20 @@ export default function Tags({ pathContext }) {
   );
 }
 
-export const pageQuery = graphql`
-  query TagsQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          excerpt(pruneLength: 250)
-          id
-          frontmatter {
-            title
-            date(formatString: "MMMM DD, YYYY")
-            path
-          }
-        }
-      }
-    }
-  }
-`;
+// export const tagsQuery = graphql`
+//   query TagsQuery {
+//     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+//       edges {
+//         node {
+//           excerpt(pruneLength: 250)
+//           id
+//           frontmatter {
+//             title
+//             date(formatString: "MMMM DD, YYYY")
+//             path
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;

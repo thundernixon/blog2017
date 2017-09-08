@@ -3,6 +3,7 @@ path: "/orientation-at-kabk.html"
 date: "2017-09-06T09:49:16.408Z" 
 title: "Orientation at KABK for TypeMedia ’18"
 tags: ["design", "type", "kabk", "typemedia"]
+publish: true
 ---
 
 Tomorrow is the actual first day of class, but last week we had three days of orientation. Monday, we met the classmates who weren't here earlier and got some opening remarks. I also joined a group of Art Research students on a walking tour of The Hague, including a park which apparently includes the royal stables. Tuesday, we had a few information sessions in the morning over things like finance and Dutch culture, then took a trip to an otherworldly, man-made beach area called Zandmotor. Wednesday, we were able to pick a couple of workshops to get orientation and safety training, so I got my first lessons in the metal workshop.
