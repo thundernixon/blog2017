@@ -11,7 +11,7 @@ Tomorrow is the actual first day of class, but last week we had three days of or
 
 I met my whole class! KABK has an amazing mix of students from around the world – the definite majority of the school is from abroad. TypeMedia, the type design program I'll be in, is even better: there are 12 students, and each one is from a different country.
 
-<img src="./images/2017_08_28-09.50.58.jpg" alt="type & media class of 2018">
+<img src="./images/2017_08_28-09.50.58.jpg" alt="typemedia class of 2018">
 
 Above, top row, from left: [Namrata Goyal](https://twitter.com/n__goyal), [Mona Franz](https://twitter.com/diefranzkanns), [Noheul Lee](https://twitter.com/lne818), [Carlos de Toro](https://twitter.com/carlos_detoro), [Lisa Huang](https://twitter.com/LisaLisahuang), [Gen Ramírez](https://twitter.com/genramirez), [Claudia Rifaterra](http://claudiarifaterra.com/).
 
@@ -127,16 +127,8 @@ I tried to take a risography workshop, but they weren't running it that day, and
 
 _In drypoint printing, you can change the printing etching between each print run. So, here is "NL", in various stages of decoration._ 
 
-<img src="./images/2017_08_30-15.38.42.jpg" alt="">
+<img src="./images/2017_08_30-15.38.42.jpg" alt="lead type in a letterpress drawer">
 
 _Several of my classmates opted to do a letterpress workshop, so I ducked in to ogle at the lead type. I'm excited to try this grotesque, which is a bit like a hybrid of Helvetica and Franklin Gothic._
 
 I can't wait to experience more at KABK. Thanks for reading about a few of the initial adventures!
-
-### Day 0: Official class introductions!
-
-<img src="./images/DSCF3728.jpg" alt="">
-
-
-<img src="./images/DSCF3731.jpg" alt="">
-<img src="./images/DSCF3734.jpg" alt="">

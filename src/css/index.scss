@@ -29,6 +29,7 @@ body {
 
 .tag-header {
   line-height: 1.25;
+  margin-bottom: 2rem;
 }
 
 .blog-posts {
@@ -52,70 +53,63 @@ body {
   border: 2px solid $white; 
   color: #222;
   text-decoration: none;
-}
+  border-radius: $border-radius;
 
-@media (max-width: 660px) {
-  .blog-post-preview {
-    padding: 2.5vw;
+  @media (max-width: 660px) {
+    .blog-post-preview {
+      padding: 2.5vw;
+    }
+    .blog-posts>h1 {
+      padding: 1.5rem 2.5vw 0;
+    }
   }
-  .blog-posts>h1 {
-    padding: 1.5rem 2.5vw 0;
+
+  h1 {   
+    font-weight: 900;
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    line-height: 1.125;
+    transition: .25s ease-out;
+
+    @media (max-width: 660px) { 
+      font-size: 1.75rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: #222;
+      transition: .25s ease;
+    }
+  }
+
+  .date {
+    font-size: 1rem;
+    border-bottom: 2px solid rgba(0,0,0,.2);
+    width: 100%;
+    color: #222;
+  }
+
+  .date:after {
+    content: '';
+    width: 100%;
+    display: block;
+    height: 2px;
+    position: relative;
+    top: 2px;
+    background-color: $main-accent;
+    transform: scaleX(0);
+    transition: .35s ease-out;
+    transform-origin: left;
   }
 }
 
-.blog-post-preview p {
-  max-width: 35em;
-}
-
-.blog-post-preview h1 {   
-  font-weight: 900;
-  margin-bottom: 1.5rem;
-  font-size: 3rem;
-  line-height: 1.125;
-  transition: .25s ease-out;
-}
-
-@media (max-width: 660px) { 
-  .blog-post-preview h1 { 
-    font-size: 1.75rem;
-  }
-}
 
 
+// .blog-post-preview p {
+//   max-width: 35em;
+// }
 
-.blog-post-preview h1 a {
-  text-decoration: none;
-  color: #222;
-  transition: .25s ease;
-}
 
-.blog-post-preview:last-child {
-  /* border-bottom-width: 0; */
-}
-
-.blog-post-preview .title, .blog-post-preview .date, .blog-post-preview .link {
-  /* margin: 0 auto; */
-}
-
-.blog-post-preview .date {
-  font-size: 1rem;
-  border-bottom: 2px solid rgba(0,0,0,.2);
-  width: 100%;
-  color: #222;
-}
-
-.blog-post-preview .date:after {
-  content: '';
-  width: 100%;
-  display: block;
-  height: 2px;
-  position: relative;
-  top: 2px;
-  background-color: $main-accent;
-  transform: scaleX(0);
-  transition: .35s ease-out;
-  transform-origin: left;
-}
 
 .link:hover .date:after {
   transform: scaleX(1);
@@ -127,8 +121,8 @@ body {
   text-decoration: none;
   display: flex;
   transition: .25s ease;
-  margin-bottom: 1rem;
-  border-radius: 15px;
+  margin-bottom: 2rem;
+  border-radius: $border-radius;
 }
 
 

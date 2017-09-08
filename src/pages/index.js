@@ -17,7 +17,7 @@ export default function Index({ data }) {
         <h1 className="serif italic tag-header">
           Notes on <GatsbyLink to="/tags/design">design</GatsbyLink>,{' '}
           <GatsbyLink to="/tags/travel">travel</GatsbyLink>,{' '}
-          <GatsbyLink to="/tags/code">code</GatsbyLink>, &amp;&nbsp;<GatsbyLink to="/tags">more</GatsbyLink>.
+          <GatsbyLink to="/tags/typemedia">TypeMedia</GatsbyLink>, &amp;&nbsp;<GatsbyLink to="/tags">more</GatsbyLink>.
         </h1>
         {posts
           .filter(post => post.node.frontmatter.title.length > 0)

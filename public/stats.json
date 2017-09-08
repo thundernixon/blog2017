@@ -5,8 +5,8 @@
       "commons-505a93d3ac50881ae292.js.map"
     ],
     "layout-component---index": [
-      "layout-component---index-157a8e7545f78721c108.js",
-      "layout-component---index-157a8e7545f78721c108.js.map"
+      "layout-component---index-eb8c783c3575adbd17bf.js",
+      "layout-component---index-eb8c783c3575adbd17bf.js.map"
     ],
     "page-component---src-templates-blog-post-js": [
       "page-component---src-templates-blog-post-js-2094cceedba8c71779eb.js",
@@ -24,53 +24,61 @@
       "page-component---src-pages-404-js-05bd202bf4781c69ae87.js",
       "page-component---src-pages-404-js-05bd202bf4781c69ae87.js.map"
     ],
+    "path---typemedia-class-introductions-html": [
+      "path---typemedia-class-introductions-html-7fe4e4ab14ecbc816f6c.js",
+      "path---typemedia-class-introductions-html-7fe4e4ab14ecbc816f6c.js.map"
+    ],
     "path---type-special-characters-on-a-mac-html": [
       "path---type-special-characters-on-a-mac-html-515f39a72500a2e6a039.js",
       "path---type-special-characters-on-a-mac-html-515f39a72500a2e6a039.js.map"
     ],
     "path---tags": [
-      "path---tags-67ffd49f67f5b4398d60.js",
-      "path---tags-67ffd49f67f5b4398d60.js.map"
+      "path---tags-7611eefa531235e49476.js",
+      "path---tags-7611eefa531235e49476.js.map"
     ],
     "path---tags-typemedia": [
-      "path---tags-typemedia-0e5493fa0db693f4d412.js",
-      "path---tags-typemedia-0e5493fa0db693f4d412.js.map"
+      "path---tags-typemedia-07a6c4e851908919fa58.js",
+      "path---tags-typemedia-07a6c4e851908919fa58.js.map"
     ],
     "path---tags-type": [
-      "path---tags-type-0146987e7640c8ee698f.js",
-      "path---tags-type-0146987e7640c8ee698f.js.map"
+      "path---tags-type-9289460e6473e3f75663.js",
+      "path---tags-type-9289460e6473e3f75663.js.map"
     ],
     "path---tags-travel": [
-      "path---tags-travel-dc2e57b95172332a0896.js",
-      "path---tags-travel-dc2e57b95172332a0896.js.map"
+      "path---tags-travel-c00ef65e7f497b3a144d.js",
+      "path---tags-travel-c00ef65e7f497b3a144d.js.map"
     ],
     "path---tags-photography": [
-      "path---tags-photography-8a1f2ea28e7469b81b3d.js",
-      "path---tags-photography-8a1f2ea28e7469b81b3d.js.map"
+      "path---tags-photography-7c2862a9142898305fdd.js",
+      "path---tags-photography-7c2862a9142898305fdd.js.map"
     ],
     "path---tags-kabk": [
-      "path---tags-kabk-acff5138d81aed6a3847.js",
-      "path---tags-kabk-acff5138d81aed6a3847.js.map"
+      "path---tags-kabk-c552f07928e94defc1eb.js",
+      "path---tags-kabk-c552f07928e94defc1eb.js.map"
+    ],
+    "path---tags-hot-tips": [
+      "path---tags-hot-tips-85acb3e0bd646a4d8be5.js",
+      "path---tags-hot-tips-85acb3e0bd646a4d8be5.js.map"
     ],
     "path---tags-design": [
-      "path---tags-design-2d0789c04de530c31fd4.js",
-      "path---tags-design-2d0789c04de530c31fd4.js.map"
+      "path---tags-design-0e45c8b55704cdefaa34.js",
+      "path---tags-design-0e45c8b55704cdefaa34.js.map"
     ],
     "path---tags-code": [
-      "path---tags-code-2e2337633cb3a215db01.js",
-      "path---tags-code-2e2337633cb3a215db01.js.map"
+      "path---tags-code-31cb107a98d95e1188ab.js",
+      "path---tags-code-31cb107a98d95e1188ab.js.map"
     ],
     "path---orientation-at-kabk-html": [
-      "path---orientation-at-kabk-html-6b5e3db503e246f9d65a.js",
-      "path---orientation-at-kabk-html-6b5e3db503e246f9d65a.js.map"
+      "path---orientation-at-kabk-html-93501ef0d48a089c905d.js",
+      "path---orientation-at-kabk-html-93501ef0d48a089c905d.js.map"
     ],
     "path---montreal-is-beautiful-html": [
       "path---montreal-is-beautiful-html-01201bc9a9c6089aabf0.js",
       "path---montreal-is-beautiful-html-01201bc9a9c6089aabf0.js.map"
     ],
     "path---index": [
-      "path---index-13ff299a3f0808648e12.js",
-      "path---index-13ff299a3f0808648e12.js.map"
+      "path---index-7e7c58f10bd39ae2ad29.js",
+      "path---index-7e7c58f10bd39ae2ad29.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
@@ -81,8 +89,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-3d04d3d728f6c1c806e0.js",
-      "app-3d04d3d728f6c1c806e0.js.map"
+      "app-bc50aa56a54e56856011.js",
+      "app-bc50aa56a54e56856011.js.map"
     ]
   }
 }

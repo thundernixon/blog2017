@@ -7,6 +7,8 @@ import Tags from '../components/Tags';
 import Icons from '../components/Icons';
 import SocialIcon from '../components/SocialIcon';
 
+import MdInfoOutline from 'react-icons/lib/md/info-outline';
+
 import '../css/basics.scss';
 import '../css/icons.css';
 import '../css/header.scss';
@@ -99,6 +101,7 @@ export default class Template extends React.Component {
                 </a>
               </li>
             </ul>
+
           </div>
         </div>
         <div
@@ -109,6 +112,7 @@ export default class Template extends React.Component {
         >
           {this.props.children()}
         </div>
+        <MdInfoOutline />
       </div>
     );
   }
