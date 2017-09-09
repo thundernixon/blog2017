@@ -97,8 +97,9 @@ body {
     position: relative;
     top: 2px;
     background-color: $main-accent;
+    // background: linear-gradient(80deg, $main-accent 0%,  $secondary-accent 50%);
     transform: scaleX(0);
-    transition: .35s ease-out;
+    transition: .45s ease-out;
     transform-origin: left;
   }
 }
@@ -179,6 +180,7 @@ body {
   margin-top: 0;
   z-index: -1;
   opacity: 0;
+  
 }
 
 .link--fill:hover {
