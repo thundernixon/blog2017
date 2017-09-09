@@ -14,7 +14,7 @@ export default function Template({ data, pathContext }) {
   const { next, prev } = pathContext;
   return (
     <div className="blog-post-container">
-      <Helmet title={`Stephen Nixon - ${post.frontmatter.title}`} />
+      <Helmet title={`${post.frontmatter.title}`} />
       <div className="blog-post">
         <h2 className="date">
           {post.frontmatter.date}

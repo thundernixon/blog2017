@@ -34,7 +34,7 @@ const createTagPages = (createPage, edges) => {
         context: {
           posts,
           post,
-          tag: tagName
+          tag: tagName,
         }
       })
     });

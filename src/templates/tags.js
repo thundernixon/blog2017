@@ -8,8 +8,9 @@ import '../css/tags.scss';
 import '../css/index.scss';
 import '../css/basics.scss';
 
-export default function Tags({ pathContext }) {
-  const { posts, post, tag, date } = pathContext;
+export default function Tags({ data, pathContext }) {
+  const { post, tag, date } = pathContext;
+  const { edges: posts } = data.allMarkdownRemark;
   if (tag) {
     return (
       <div>
@@ -17,7 +18,7 @@ export default function Tags({ pathContext }) {
           <h1 className="serif italic tag-header">
             {post.length} post{post.length === 1 ? '' : 's'} tagged with “{tag}”
           </h1>
-          {post.map(({ id, frontmatter, excerpt }) => {
+          {post.map(({ id, frontmatter, date, excerpt }) => {
             return (
               <li key={id} className="link">
                 <GatsbyLink
@@ -78,20 +79,20 @@ export default function Tags({ pathContext }) {
   );
 }
 
-// export const tagsQuery = graphql`
-//   query TagsQuery {
-//     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-//       edges {
-//         node {
-//           excerpt(pruneLength: 250)
-//           id
-//           frontmatter {
-//             title
-//             date(formatString: "MMMM DD, YYYY")
-//             path
-//           }
-//         }
-//       }
-//     }
-//   }
-// `;
+export const pageQuery = graphql`
+  query TagsQuery {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+      edges {
+        node {
+          excerpt(pruneLength: 250)
+          id
+          frontmatter {
+            title
+            date(formatString: "MMMM DD, YYYY")
+            path
+          }
+        }
+      }
+    }
+  }
+`;

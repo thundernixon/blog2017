@@ -14,7 +14,7 @@ body {
 }
 
 .page-content {
-  max-width: 1600px;
+  max-width: $max-width;
   padding: 5vw 5vw 15vw;
   overflow-x: hidden;
 
