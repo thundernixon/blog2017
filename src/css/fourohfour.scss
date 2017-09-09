@@ -23,21 +23,21 @@
     }
 
     &.error-1 {
-        animation: fade-inout 6s infinite alternate reverse;
+        animation: fade-inout 6s linear infinite alternate-reverse;
     }
     &.error-2 {
-        animation: fade-inout 9.7s infinite alternate;
-        background: -webkit-linear-gradient(74deg, $secondary-accent 0%, $main-accent 80%);
+        animation: fade-inout 8.3s linear infinite alternate;
+        background: -webkit-linear-gradient(44deg, $secondary-accent 0%, blue 90%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 23vw;
-        transform: skew(3deg);
+        transform: skew(3deg) translateY(3px);
     }
 }
 
 @keyframes fade-inout {
     from {
-        opacity: 0;
+        opacity: .02;
     }
     to {
         opacity: .5;
