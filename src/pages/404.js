@@ -9,8 +9,9 @@ import '../css/fourohfour.scss';
 
 export default () =>
 
-  <div className="fourohfour page-content bold">
-    <h1 className="serif-display italic">Erratum CDIV</h1>
+  <div className="fourohfour bold">
+    <h1 className="serif-display italic error-1">Erratum CDIV</h1>
+    <h1 className="serif-display italic error-2">Erratum CDIV</h1>
     <p>Sorry, no page exists at this URL.</p>
     <p>
       {' '}Perhaps you’d like to see a{' '}

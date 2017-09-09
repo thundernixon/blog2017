@@ -2,13 +2,46 @@
 
 
 .fourohfour h1 {
-    font-size: 20vw;
-    line-height: 1;
+    font-size: 23vw;
+    line-height: 0.9;
     margin: 0;
     position: absolute;
     top: 10vw;
-    color: rgba($main-accent, .2);
+    left: 5vw;
+    color: $main-accent;
     z-index: 0;
+    opacity: .4;
+
+    background: -webkit-linear-gradient(74deg, $main-accent 0%, $secondary-accent 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    
+    @media (min-width: 660px) {
+        left: 2.25rem;
+        top: 3vw;
+    }
+
+    &.error-1 {
+        animation: fade-inout 6s infinite alternate reverse;
+    }
+    &.error-2 {
+        animation: fade-inout 9.7s infinite alternate;
+        background: -webkit-linear-gradient(74deg, $secondary-accent 0%, $main-accent 80%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 23vw;
+        transform: skew(3deg);
+    }
+}
+
+@keyframes fade-inout {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: .5;
+    }
 }
 
 .fourohfour p {
@@ -17,5 +50,6 @@
      max-width: 20em; 
     opacity: .99;
     z-index: 100;
+    text-shadow: 1px 1px 0px white;
 
 }
