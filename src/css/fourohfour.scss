@@ -23,10 +23,10 @@
     }
 
     &.error-1 {
-        animation: fade-inout 6s linear infinite alternate-reverse;
+        animation: fade-inout 10s linear infinite alternate-reverse;
     }
     &.error-2 {
-        animation: fade-inout 8.3s linear infinite alternate;
+        animation: fade-inout 16.6s linear infinite alternate;
         background: -webkit-linear-gradient(44deg, $secondary-accent 0%, blue 90%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -36,11 +36,17 @@
 }
 
 @keyframes fade-inout {
-    from {
+    0% {
         opacity: .02;
+        transform: skew(2deg) translateY(3px);
     }
-    to {
-        opacity: .5;
+    50% {
+        opacity: .25;
+        transform: skew(-3deg) translateY(0px);
+    }
+    100% {
+        opacity: .4;
+        transform: skew(0deg) translateY(-4px);
     }
 }
 
@@ -50,6 +56,10 @@
      max-width: 20em; 
     opacity: .99;
     z-index: 100;
-    text-shadow: 1px 1px 0px white;
+    // text-shadow: 1px 1px 0px white;
 
+    a:hover {
+        color: $white;
+        text-shadow: -1px -1px 2px $main-accent, 1px 1px 8px $main-accent;
+    }
 }

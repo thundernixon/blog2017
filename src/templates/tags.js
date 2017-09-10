@@ -9,8 +9,8 @@ import '../css/index.scss';
 import '../css/basics.scss';
 
 export default function Tags({ data, pathContext }) {
-  const { post, tag, date } = pathContext;
-  const { edges: posts } = data.allMarkdownRemark;
+  const { posts, post, tag, date } = pathContext;
+  // const { edges: posts } = data.allMarkdownRemark;
   if (tag) {
     return (
       <div>
@@ -79,20 +79,20 @@ export default function Tags({ data, pathContext }) {
   );
 }
 
-export const pageQuery = graphql`
-  query TagsQuery {
-    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
-      edges {
-        node {
-          excerpt(pruneLength: 250)
-          id
-          frontmatter {
-            title
-            date(formatString: "MMMM DD, YYYY")
-            path
-          }
-        }
-      }
-    }
-  }
-`;
+// export const pageQuery = graphql`
+//   query TagsQuery {
+//     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
+//       edges {
+//         node {
+//           excerpt(pruneLength: 250)
+//           id
+//           frontmatter {
+//             title
+//             date(formatString: "MMMM DD, YYYY")
+//             path
+//           }
+//         }
+//       }
+//     }
+//   }
+// `;
