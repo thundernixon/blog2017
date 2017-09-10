@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Component from 'react';
 
-
 const BUILD_TIME = new Date().getTime();
 
 export default class HTML extends React.Component {

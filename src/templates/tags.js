@@ -9,8 +9,8 @@ import '../css/index.scss';
 import '../css/basics.scss';
 
 export default function Tags({ data, pathContext }) {
-  const { posts, post, tag, date } = pathContext;
-  // const { edges: posts } = data.allMarkdownRemark;
+  const { post, tag } = pathContext;
+  const { edges: posts } = data.allMarkdownRemark;
   if (tag) {
     return (
       <div>
@@ -18,7 +18,7 @@ export default function Tags({ data, pathContext }) {
           <h1 className="serif italic tag-header">
             {post.length} post{post.length === 1 ? '' : 's'} tagged with “{tag}”
           </h1>
-          {post.map(({ id, frontmatter, date, excerpt }) => {
+          {post.map(({ id, frontmatter, excerpt }) => {
             return (
               <li key={id} className="link">
                 <GatsbyLink
