@@ -6,6 +6,7 @@ import Helmet from 'react-helmet';
 import Tags from '../components/Tags';
 import Icons from '../components/Icons';
 import SocialIcon from '../components/SocialIcon';
+// import Hello from '../components/Hello';
 
 import MdInfoOutline from 'react-icons/lib/md/info-outline';
 
@@ -25,13 +26,14 @@ export default class Template extends React.Component {
     const { location } = this.props;
 
     const isRoot = location.pathname === '/';
+    const isAbout = location.pathname === '/about';
     const isTags = location.pathname.includes('/tags');
 
     return (
       <div
         style={{
           background:
-            isRoot || isTags
+            isRoot || isTags || isAbout
               ? `rgba(235,21,255,.025)` : 'white',
           minHeight: `100%`,
         }}
@@ -57,18 +59,32 @@ export default class Template extends React.Component {
               maxWidth: 2000,
             }}
           >
-            <h1>
-              <Link
-                to="/"
-                style={{
-                  color: '#222',
-                  textDecoration: 'none',
-                }}
-              >
-                Stephen Nixon
-              </Link>
-            </h1>
             <Icons />
+            <div className="site-nav"
+              style={{
+                display:`flex`,
+                alignItems: `center`,
+              }}>
+              <h1>
+                <Link
+                  to="/"
+                  style={{
+                    color: '#222',
+                    textDecoration: 'none',
+                  }}
+                >
+                  Stephen Nixon
+                </Link>
+              </h1>
+              <Link to="/about" className="about">
+                {/* <MdInfoOutline className="icon" /> */}
+                <SocialIcon className="social-link" icon={'info-icon'} />
+                {/* <div className="label-container sans-serif">
+                  <span>About</span>
+                </div> */}
+              </Link>
+            </div>
+            
             <ul style={{}}>
               <li style={{}}>
                 <a

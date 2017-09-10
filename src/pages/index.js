@@ -3,6 +3,7 @@ import GatsbyLink from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import Link from '../components/Link';
+import Hello from '../components/Hello';
 
 import '../css/blog-post.scss';
 import '../css/index.scss';
@@ -13,6 +14,7 @@ export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
     <div>
+      
       <div className="blog-posts">
         <h1 className="serif italic tag-header">
           Notes on <GatsbyLink to="/tags/design">design</GatsbyLink>,{' '}

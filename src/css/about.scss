@@ -2,7 +2,7 @@
 
 
 .fourohfour h1 {
-    font-size: 23vw;
+    font-size: 30vw;
     line-height: 0.9;
     margin: 0;
     position: absolute;
@@ -11,15 +11,21 @@
     color: $main-accent;
     z-index: 0;
     opacity: .4;
+    position: fixed;
 
     background: -webkit-linear-gradient(74deg, $main-accent 0%, $secondary-accent 50%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 
+    pointer-events: none;
+
     
     @media (min-width: 660px) {
         left: 2.25rem;
         top: 3vw;
+        font-size: 35vw;
+        top: 5vw;
+        left: 5vw;
     }
 
     &.error-1 {
@@ -30,7 +36,6 @@
         background: -webkit-linear-gradient(44deg, $secondary-accent 0%, blue 90%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        font-size: 23vw;
         transform: skew(3deg) translateY(3px);
     }
 }
@@ -41,22 +46,26 @@
         transform: skew(2deg) translateY(3px);
     }
     50% {
-        opacity: .25;
+        opacity: .2;
         transform: skew(-3deg) translateY(0px);
     }
     100% {
-        opacity: .4;
+        opacity: .3;
         transform: skew(0deg) translateY(-4px);
     }
 }
 
 .fourohfour p {
-    font-size: 2em;
+    font-size: 1.25em;
     line-height: 1.25;
      max-width: 20em; 
     opacity: .99;
     z-index: 100;
     // text-shadow: 1px 1px 0px white;
+
+    @media (min-width: 660px) {
+        font-size: 2em;
+    }
 
     a:hover {
         color: $white;
