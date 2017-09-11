@@ -18,7 +18,7 @@ export default () =>
         Hello, my name is Stephen Nixon. 
       </p>  
       <p> 
-        I am a designer who loves type, lettering, and making new things with technology. Currently, I am in the KABK Type]Media class of 2018, a one-year masters program for type design. Previously, I was designing and building websites and brand tools at IBM Watson. 
+        I am a designer who loves type, lettering, and making new things with technology. Currently, I am in the KABK TypeMedia class of 2018, a one-year masters program for type design. Previously, I was designing and building websites and brand tools at IBM Watson. 
       </p>  
       <p>  
         I am @thundernixon on <a href="https://twitter.com/thundernixon">Twitter</a>, <a href="https://instagram.com/thundernixon">Instagram</a>, <a href="https://codepen.io/thundernixon">CodePen</a>, and <a href="https://github.com/thundernixon">GitHub</a>. 
