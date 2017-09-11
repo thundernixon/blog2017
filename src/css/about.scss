@@ -19,6 +19,8 @@
 
     pointer-events: none;
 
+    animation:  fade-up .75s ease forwards;
+
     
     @media (min-width: 660px) {
         left: 2.25rem;
@@ -38,6 +40,12 @@
         -webkit-text-fill-color: transparent;
         transform: skew(3deg) translateY(3px);
     }
+}
+
+.about-content {
+    // transform: translateY(100vh) scale(0);
+    // opacity: 0;
+    animation:  fade-up 1.5s ease forwards;
 }
 
 @keyframes fade-inout {

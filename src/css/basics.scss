@@ -23,6 +23,14 @@ html, body, #___gatsby {
     font-family: $serif;
 }
 
+.accent {
+    color: $main-accent;
+}
+
+a.accent:hover {
+    color: $text;
+}
+
 .bold {
     font-weight: bold;
 }

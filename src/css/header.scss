@@ -76,6 +76,13 @@
     }
 }
 
+.about {
+    @media (min-width: 1040px) {
+        position: fixed;
+        bottom: 2.25rem;
+    }
+}
+
 // .about {
 //     transition: .25s ease;
 //     display: flex;

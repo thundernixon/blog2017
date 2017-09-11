@@ -13,7 +13,7 @@ export default () =>
   <div className="fourohfour bold ">
     <h1 className="serif-display italic error-1">Hello</h1>
     <h1 className="serif-display italic error-2">Hello</h1>
-    <div className="sans-serif blog-posts">
+    <div className="sans-serif blog-posts about-content">
       <p>
         Hello, my name is Stephen Nixon. 
       </p>  
@@ -26,7 +26,7 @@ export default () =>
       <p>
         Come say hello! 👋
       </p>
-      <Link to="/" className="sans-serif no-underline bold">
+      <Link to="/" className="sans-serif no-underline bold accent">
         <BackIcon
           style={{
             height: '1rem',

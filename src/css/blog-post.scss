@@ -5,18 +5,6 @@
   animation: fade-up 1.5s ease;
 }
 
-@keyframes fade-up {
-  0% {
-    transform: translateY(100vh) scale(0);
-    opacity: 0;
-  } 30% {
-    transform: translateY(0) scale(1);
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 
 
 .blog-post .title, .blog-post .date {
@@ -202,7 +190,7 @@
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   text-decoration: none;
   font-weight: bold;
-  color: #9115FF;
+  color: $main-accent;
   transition: .25s ease;
 }
 
