@@ -12,7 +12,7 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0;
-  max-width: 35rem; 
+  max-width: $body-width; 
 }
 
 .blog-post .title {
@@ -93,19 +93,7 @@
       padding-top: calc(1.45rem / 2);
     }
   }
-  hr {
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 10vh;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
-    margin-bottom: 10vh;
-    background: rgba($main-accent, 0.2);
-    border: none;
-    height: 2px;
-  }
+  
 }
 
 // experimental drop cap ... will try to use javascript instead

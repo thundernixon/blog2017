@@ -8,6 +8,17 @@ html, body, #___gatsby {
     height: 100%;
 }
 
+// colors 
+.accent {
+    color: $main-accent;
+}
+
+a.accent:hover {
+    color: $text;
+}
+
+// fonts 
+
 .sans-serif {
   font-family: $sans;
         font-size: 1rem;
@@ -23,16 +34,14 @@ html, body, #___gatsby {
     font-family: $serif;
 }
 
-.accent {
-    color: $main-accent;
-}
-
-a.accent:hover {
-    color: $text;
-}
+// font styles
 
 .bold {
     font-weight: bold;
+}
+
+.regular {
+    font-weight: normal;
 }
 
 .italic {
@@ -46,3 +55,43 @@ a.accent:hover {
 .list {
     list-style: none;
 }
+
+
+// type scale
+
+.f-body{
+    font-size: $body !important;
+    line-height: 1.5;
+}
+.f-4{
+    font-size: $h4 !important;
+    line-height: 1.5;
+}
+.f-3{
+    font-size: $h3 !important;
+    line-height: 1.5;
+}
+.f-2{
+    font-size: $h2 !important;
+    line-height: 1.25;
+}
+.f-1{
+    font-size: $h1 !important;
+    line-height: 1.125;
+}
+
+// misc typography
+
+hr {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    background: rgba($main-accent, 0.5);
+    border: none;
+    height: 2px;
+  }
