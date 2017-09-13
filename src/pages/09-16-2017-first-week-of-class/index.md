@@ -8,6 +8,8 @@ publish: false
 
 I won't be making a post to document _every_ week of TypeMedia, but because this was the first week of classes, I want to take the chance to record who is teaching, what we will be covering in the first semester, and a few of the lessons we receive in the first days here.
 
+[] Photo of me, with chipped tooth, plus story of stroopwaffel
+
 ## Day 1, Monday
 
 Teacher: Paul Van Der Laan
