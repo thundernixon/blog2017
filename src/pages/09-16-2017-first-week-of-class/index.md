@@ -46,7 +46,7 @@ We will be evaluated on the content & execution of our essay and type specimen.
 
 ---
 
-For the rest of the class, we enjoyed the incredible BBC documentary _The Machine that Made Us_, about Gutenberg, his printing press, and how it forever changed the world. The 58-minute film is [available on YouTube](https://www.youtube.com/watch?v=8svE2AjQWYE), and if you're interested in type, design, books, and/or technology, it's a must-watch.
+For the rest of the class, we enjoyed the incredible BBC documentary _The Machine that Made Us_, about Gutenberg, his printing press, and how it forever changed the world. The 58-minute film is [available on YouTube](https://www.youtube.com/watch?v=8svE2AjQWYE), and if you're interested in type, design, books, and/or technology, it's a must-watch. Today, the printing press seems ancient, but Gutenberg wasn't so unlike a successful modern-day entrepreneur – he had a vision, but to achieve it he had to court venture capitalists for investment, create proofs of concept to show the church how the press could be usefully monetized, and toil for years to make something that went on to change the world "overnight." One staggering fact that shows how quickly the technology spread: just 50 years after Gutenberg printed his first bibles, Europe had _250 million_ printed books.
 
 ## Day 2, Tuesday
 
