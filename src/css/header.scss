@@ -23,6 +23,24 @@
         height: 5rem;
             padding: 1rem 2.25rem;
         }
+        > ul a, h1 a {
+            padding: .5em; 
+            border-radius: 999px;
+            transition: .35s ease;
+            color: $text;
+            text-decoration: none;
+            margin-right: .5em;
+            // display: block;
+            display: flex;
+            align-items: center;
+            line-height: 1;
+
+            &:hover {
+                // background-color: #9115FF;
+                background-color: $white;
+                box-shadow: $pillowy-shadow;
+            }
+        }
     }
 
     h1 {
@@ -56,24 +74,7 @@
         }
     }
 
-    a {
-        padding: .5em; 
-        border-radius: 999px;
-        transition: .35s ease;
-        color: $text;
-        text-decoration: none;
-        margin-right: .5em;
-        // display: block;
-        display: flex;
-        align-items: center;
-        line-height: 1;
-
-        &:hover {
-            // background-color: #9115FF;
-            background-color: $white;
-            box-shadow: $pillowy-shadow;
-        }
-    }
+    
 }
 
 

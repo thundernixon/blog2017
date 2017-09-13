@@ -4,12 +4,16 @@ import styled from 'styled-components';
 import MdClose from 'react-icons/lib/md/close';
 
 import '../css/about.scss';
+import '../css/basics.scss';
 
 
 import SocialIcon from '../components/SocialIcon';
 
-const About = styled.div`
-    z-index: 100;
+const About = styled.div.attrs({
+	  className: 'about',
+  })`
+    z-index: 1000;
+    opacity: 0.999;
     width: 100vw;
     height: 100vh;
     overflow: auto;
@@ -17,12 +21,25 @@ const About = styled.div`
     display: block;
     top:0;
     left:0;
-    background: linear-gradient(74deg, rgba(93, 0, 181, 0.85) 0%, rgba(0,0,255,.8) 70%);
+    background: linear-gradient(74deg, rgba(93, 0, 181, 0.85) 0%, rgba(143, 23, 255, .9) 25%, rgba(255,149,123,.9) 96%);
     font-size: 1.5em;
     text-align: center;
     color: white;
     transform-origin: bottom left;
+    
+    p {
+      text-align: left;
+    }
+    a {
+      padding: 0;
+      color: inherit;
+    }
   `;
+
+
+const Colophon = styled.div`
+
+`;
 
 const OpenAbout = styled.div`
     cursor: pointer;
@@ -47,7 +64,7 @@ const OpenAbout = styled.div`
     &:hover {
       background: white;
       color: rgba(255,255,255,1);
-      box-shadow: 0px 5px 25px rgba(56.9%, 8.2%, 100%,.4);
+      box-shadow: 0px 5px 25px rgba(145, 21, 255, 0.4);
       transform: scale(1.25);
 
       svg {
@@ -63,7 +80,7 @@ const OpenAbout = styled.div`
     &:hover {
       background: #FF6A37;
       color: rgba(255,255,255,1);
-      box-shadow: 0px 2px 25px rgba(255,255,255,1);
+      box-shadow: none;
       transform: scale(1);
 
       svg {
@@ -91,34 +108,34 @@ class AboutModal extends Component {
   render() {
 
     const modal = (
-      <About className="overlay about-content">
+      <About className="about">
         <p>
-        Hello, my name is Stephen Nixon. 
-      </p>  
-      <p> 
-        I am a designer who loves type, lettering, and making new things with technology. Currently, I am in the KABK TypeMedia class of 2018, a one-year masters program for type design. Previously, I was designing and building websites and brand tools at IBM Watson. 
-      </p>  
-      <p>  
-        I am @thundernixon on <a href="https://twitter.com/thundernixon">Twitter</a>, <a href="https://instagram.com/thundernixon">Instagram</a>, <a href="https://codepen.io/thundernixon">CodePen</a>, and <a href="https://github.com/thundernixon">GitHub</a>. 
-      </p>
-      <p>
-        Come say hello! 👋
-      </p>
-      <hr/>
-      <div className="colophon serif regular body">
-        <h2 className="f-body">Colophon</h2>
-        <p>
-          This site is built with the <a href="https://github.com/DSchau/gatsby-blog-starter-kit">gatsby-blog-starter-kit</a>, which is in turn built on <a href="https://www.gatsbyjs.org">GatsbyJS</a>. Big thanks goes out to <a href="https://dustinschau.com">Dustin Schau</a> for making the Gatsby blog starter kit, and for helping fix an issue that was showing up on the tag pages of this blog.
+          Hello, my name is Stephen Nixon. 
+        </p>  
+        <p> 
+          I am a designer who loves type, lettering, and making new things with technology. Currently, I am in the KABK TypeMedia class of 2018, a one-year masters program for type design. Previously, I was designing and building websites and brand tools at IBM Watson. 
+        </p>  
+        <p>  
+          I am @thundernixon on <a href="https://twitter.com/thundernixon">Twitter</a>, <a href="https://instagram.com/thundernixon">Instagram</a>, <a href="https://codepen.io/thundernixon">CodePen</a>, and <a href="https://github.com/thundernixon">GitHub</a>. 
         </p>
         <p>
-          This site is hosted on <a href="https://www.netlify.com/">Netlify</a>, which is seriously a joy to use, especially if you've ever wrestled with a budget host, or launched static sites on a cloud PaaS (platform as a service).
+          Come say hello! 👋
         </p>
-        <p>
-          Serif type is <a href="https://www.rosettatype.com/Eskorte">Eskorte</a>, by Elena Schneider and at the Rosetta Type Foundry. Sans serif type is <a href="http://www.type-together.com/Ebony">Ebony</a>, by Veronika Burian & José Scaglione at typetogether.
-        </p>
-      </div>
-      
-        <CloseAbout showing className='button' onClick={this.handleClick}>
+        <hr/>
+        <Colophon className="serif regular f-body">
+          <h2 className="f-body">Colophon</h2>
+          <p>
+            This site is built with the <a href="https://github.com/DSchau/gatsby-blog-starter-kit">gatsby-blog-starter-kit</a>, which is in turn built on <a href="https://www.gatsbyjs.org">GatsbyJS</a>. Big thanks goes out to <a href="https://dustinschau.com">Dustin Schau</a> for making the Gatsby blog starter kit, and for helping fix an issue that was showing up on the tag pages of this blog.
+          </p>
+          <p>
+            This site is hosted on <a href="https://www.netlify.com/">Netlify</a>, which is seriously a joy to use, especially if you've ever wrestled with a budget host, or launched static sites on a cloud PaaS (platform as a service).
+          </p>
+          <p>
+            Serif type is <a href="https://www.rosettatype.com/Eskorte">Eskorte</a>, by Elena Schneider and at the Rosetta Type Foundry. Sans serif type is <a href="http://www.type-together.com/Ebony">Ebony</a>, by Veronika Burian & José Scaglione at typetogether.
+          </p>
+        </Colophon>
+        
+        <CloseAbout title="Close Info" onClick={this.handleClick}>
           <MdClose />
         </CloseAbout>
       </About>
@@ -126,8 +143,8 @@ class AboutModal extends Component {
     return (
         <div className="about">
 
-          <OpenAbout display={this.state.showModal ? "none" : "flex"} className='button' onClick={this.handleClick}>
-            <SocialIcon className="social-link" icon={'info-icon'} />
+          <OpenAbout title="Learn About Me" display={this.state.showModal ? "none" : "flex"} className='button' onClick={this.handleClick}>
+            <SocialIcon  className="social-link" icon={'info-icon'} />
           </OpenAbout>
 
             {this.state.showModal ? modal : ''} 
