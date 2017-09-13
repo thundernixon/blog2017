@@ -9,9 +9,7 @@ import '../css/basics.scss';
 
 import SocialIcon from '../components/SocialIcon';
 
-const About = styled.div.attrs({
-	  className: 'about',
-  })`
+const About = styled.div`
     z-index: 1000;
     opacity: 0.999;
     width: 100vw;
@@ -55,9 +53,10 @@ const AboutInner = styled.div`
     //   padding: 5vw 2.25rem 10vw;
     // }
 
-    // @media (min-width: 1040px) {
-    //       padding: calc(5vw + 54px) 11.25rem 10vw; //add space of fixed header
-    // }
+    @media (min-width: 1040px) {
+        max-width: 75vw;
+          padding: calc(5vw + 54px) 0 10vw; //add space of fixed header
+    }
 `;
 
 const Colophon = styled.div`

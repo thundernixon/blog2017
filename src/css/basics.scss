@@ -85,8 +85,14 @@ a.accent:hover {
 }
 
 .f-xl {
-    font-size: 3rem !important;
+    font-size: $h1 !important;
     line-height: 1.125;
+    @media (min-width: 660px) {
+        font-size: $h1 * 1.125 !important;
+    }
+    @media (min-width: 1040px) {
+        font-size: 5vw !important;
+    }
 }
 
 // misc typography
