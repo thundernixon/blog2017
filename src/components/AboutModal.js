@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'gatsby-link';
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import MdClose from 'react-icons/lib/md/close';
 
 import '../css/about.scss';
@@ -23,18 +23,23 @@ const About = styled.div`
     font-size: 1.5em;
     text-align: center;
     color: white;
-    transform-origin: bottom left;
     text-shadow: 2px 2px 15px rgba(49, 0, 96,1);
+    will-change: transform;
+    animation:  fade-up .75s ease forwards;
     
     p {
       text-align: left;
+      margin-bottom: 1em;
+      &:last-of-type {
+        margin-bottom:0;
+      }
     }
     a {
       padding: 0;
       color: inherit;
 
       &:hover {
-        color: rgba(49, 0, 96,1);
+        color: rgba(93, 0, 181,1);
         text-shadow: 2px 2px 5px white, -2px -2px 5px white;
       }
     }
@@ -43,29 +48,46 @@ const About = styled.div`
     }
   `;
 
+
+
 const AboutInner = styled.div`
     max-width: 60rem;
     margin: 0 auto;
     padding: 5vw 5vw 15vw;
     overflow-x: hidden;
 
-    // @media (min-width: 660px) {
-    //   padding: 5vw 2.25rem 10vw;
-    // }
-
     @media (min-width: 1040px) {
         max-width: 75vw;
           padding: calc(5vw + 54px) 0 10vw; //add space of fixed header
     }
+    
 `;
+
+
+// export const rotate360 = styled.keyframes`
+// 	from {
+// 		transform: rotate(0deg);
+// 	}
+
+// 	to {
+// 		transform: rotate(360deg);
+// 	}
+// `;
+
+// const HandEmoji = styled.span.attrs({
+// 	className: 'hand-emoji',
+// })`
+//     // animation: ${rotate360} 2s linear infinite;
+//     background: black;
+// `;
 
 const Colophon = styled.div`
       max-width: 39rem;
       margin: 0 auto;
-      padding: 5vw 5vw 15vw;
       text-align: left;
+      
       @media (min-width: 660px) {
-        padding: 5vw 2.25rem 10vw;
+        padding: 1vw 2.25rem 10vw;
       }
 `;
 
@@ -102,9 +124,11 @@ const OpenAbout = styled.div`
   `;
 
   const CloseAbout = OpenAbout.extend`
-    
-    
     display: flex;
+    margin: 2rem auto 0.5rem ;
+    @media (min-width: 1040px) {
+      margin: 0;
+    }
     &:hover {
       background: #FF6A37;
       color: rgba(255,255,255,1);
@@ -136,7 +160,10 @@ class AboutModal extends Component {
   render() {
 
     const modal = (
-      <About className="about">
+      <About className="about-container">
+        <CloseAbout title="Close Info" onClick={this.handleClick}>
+          <MdClose />
+        </CloseAbout>
         <AboutInner className="f-xl italic">
           <p>
             Hi, my name is Stephen Nixon. 
@@ -148,7 +175,7 @@ class AboutModal extends Component {
             I am @thundernixon on <a href="https://twitter.com/thundernixon">Twitter</a>, <a href="https://instagram.com/thundernixon">Instagram</a>, <a href="https://codepen.io/thundernixon">CodePen</a>, and <a href="https://github.com/thundernixon">GitHub</a>. 
           </p>
           <p>
-            Come say hello! <span className="roman">👋</span>
+            Come say hello! <span className="roman hand-emoji">👋</span>
           </p>
           <Colophon className="sans-serif roman f-body">
             <hr/>
@@ -165,9 +192,7 @@ class AboutModal extends Component {
           </Colophon>
         </AboutInner>
         
-        <CloseAbout title="Close Info" onClick={this.handleClick}>
-          <MdClose />
-        </CloseAbout>
+        
       </About>
     );
     return (

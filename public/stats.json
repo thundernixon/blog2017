@@ -4,21 +4,21 @@
       "commons-2baf7d0161be98c09823.js",
       "commons-2baf7d0161be98c09823.js.map"
     ],
+    "layout-component---index": [
+      "layout-component---index-b84a7d7442ca419d09b4.js",
+      "layout-component---index-b84a7d7442ca419d09b4.js.map"
+    ],
     "page-component---src-pages-index-js": [
       "page-component---src-pages-index-js-02dbc595b6a54d6d0575.js",
       "page-component---src-pages-index-js-02dbc595b6a54d6d0575.js.map"
-    ],
-    "layout-component---index": [
-      "layout-component---index-6514f889cf040cf5393c.js",
-      "layout-component---index-6514f889cf040cf5393c.js.map"
     ],
     "page-component---src-templates-blog-post-js": [
       "page-component---src-templates-blog-post-js-ba5ff16d26df95e79426.js",
       "page-component---src-templates-blog-post-js-ba5ff16d26df95e79426.js.map"
     ],
     "page-component---src-pages-about-js": [
-      "page-component---src-pages-about-js-0fbd65982d0511f995f5.js",
-      "page-component---src-pages-about-js-0fbd65982d0511f995f5.js.map"
+      "page-component---src-pages-about-js-6658c3266cefc276fe7f.js",
+      "page-component---src-pages-about-js-6658c3266cefc276fe7f.js.map"
     ],
     "page-component---src-templates-tags-js": [
       "page-component---src-templates-tags-js-3fed7ab33d75ba95f12f.js",
@@ -36,61 +36,69 @@
       "path---type-special-characters-on-a-mac-html-c029d61293cda78319bb.js",
       "path---type-special-characters-on-a-mac-html-c029d61293cda78319bb.js.map"
     ],
+    "path---three-ideas-to-have-fun-with-lettering-html": [
+      "path---three-ideas-to-have-fun-with-lettering-html-a7436ab19426c395b576.js",
+      "path---three-ideas-to-have-fun-with-lettering-html-a7436ab19426c395b576.js.map"
+    ],
     "path---tags": [
-      "path---tags-73c099e86b4fa4f16607.js",
-      "path---tags-73c099e86b4fa4f16607.js.map"
+      "path---tags-03aa11bf913348a86a71.js",
+      "path---tags-03aa11bf913348a86a71.js.map"
     ],
     "path---tags-typemedia": [
-      "path---tags-typemedia-1522f1835e8fcdd83678.js",
-      "path---tags-typemedia-1522f1835e8fcdd83678.js.map"
+      "path---tags-typemedia-69418010411ef45752f1.js",
+      "path---tags-typemedia-69418010411ef45752f1.js.map"
     ],
     "path---tags-type": [
-      "path---tags-type-8498726fb793eea0f7b6.js",
-      "path---tags-type-8498726fb793eea0f7b6.js.map"
+      "path---tags-type-6fb88dcb4fd5fe8311b7.js",
+      "path---tags-type-6fb88dcb4fd5fe8311b7.js.map"
+    ],
+    "path---tags-type-design": [
+      "path---tags-type-design-221758e0a6c253d84b0c.js",
+      "path---tags-type-design-221758e0a6c253d84b0c.js.map"
     ],
     "path---tags-travel": [
-      "path---tags-travel-8030977e0cfdbecb2d08.js",
-      "path---tags-travel-8030977e0cfdbecb2d08.js.map"
+      "path---tags-travel-bb3b27dbe3b9a3f2abce.js",
+      "path---tags-travel-bb3b27dbe3b9a3f2abce.js.map"
     ],
     "path---tags-rotterdam": [
-      "path---tags-rotterdam-15f94704c1c0434a3504.js",
-      "path---tags-rotterdam-15f94704c1c0434a3504.js.map"
+      "path---tags-rotterdam-c2c8a67dda17686bb11e.js",
+      "path---tags-rotterdam-c2c8a67dda17686bb11e.js.map"
     ],
     "path---tags-photography": [
-      "path---tags-photography-5c6c5c94c6b2fa30878e.js",
-      "path---tags-photography-5c6c5c94c6b2fa30878e.js.map"
+      "path---tags-photography-bd7ae1f829b5493e0c2d.js",
+      "path---tags-photography-bd7ae1f829b5493e0c2d.js.map"
     ],
     "path---tags-netherlands": [
-      "path---tags-netherlands-c55cb5c652c755d2ec73.js",
-      "path---tags-netherlands-c55cb5c652c755d2ec73.js.map"
+      "path---tags-netherlands-c9bc6d0ce5bd2fb87c5b.js",
+      "path---tags-netherlands-c9bc6d0ce5bd2fb87c5b.js.map"
     ],
     "path---tags-kabk": [
-      "path---tags-kabk-ab8dddbaac59214232fb.js",
-      "path---tags-kabk-ab8dddbaac59214232fb.js.map"
+      "path---tags-kabk-fa14313f2b1e84a82dea.js",
+      "path---tags-kabk-fa14313f2b1e84a82dea.js.map"
     ],
     "path---tags-hot-tips": [
-      "path---tags-hot-tips-fbcf1d70e7f82c1fb253.js",
-      "path---tags-hot-tips-fbcf1d70e7f82c1fb253.js.map"
+      "path---tags-hot-tips-61cc2dfc73df824ba072.js",
+      "path---tags-hot-tips-61cc2dfc73df824ba072.js.map"
     ],
     "path---tags-design": [
-      "path---tags-design-df6210fa6e8533b1a9b4.js",
-      "path---tags-design-df6210fa6e8533b1a9b4.js.map"
+      "path---tags-design-1cf7cbe6311dbf76732a.js",
+      "path---tags-design-1cf7cbe6311dbf76732a.js.map"
     ],
     "path---tags-den-haag": [
-      "path---tags-den-haag-00d8ff89b94d73fae4a5.js",
-      "path---tags-den-haag-00d8ff89b94d73fae4a5.js.map"
+      "path---tags-den-haag-87405299a970aeb74a9a.js",
+      "path---tags-den-haag-87405299a970aeb74a9a.js.map"
     ],
     "path---tags-delft": [
-      "path---tags-delft-f7a893df4f655d483075.js",
-      "path---tags-delft-f7a893df4f655d483075.js.map"
+      "path---tags-delft-04c9c2da16517df681c7.js",
+      "path---tags-delft-04c9c2da16517df681c7.js.map"
     ],
     "path---tags-code": [
-      "path---tags-code-43fa48a5ece321fb1d01.js",
-      "path---tags-code-43fa48a5ece321fb1d01.js.map"
+      "path---tags-code-5d6f16e72ebc4d05abc7.js",
+      "path---tags-code-5d6f16e72ebc4d05abc7.js.map"
     ],
     "path---tags-amsterdam": [
-      "path---tags-amsterdam-a66aab1ec56a5be59b79.js",
-      "path---tags-amsterdam-a66aab1ec56a5be59b79.js.map"
+      "path---tags-amsterdam-b0eafe8e74f55a07f37f.js",
+      "path---tags-amsterdam-b0eafe8e74f55a07f37f.js.map"
     ],
     "path---rotterdam-html": [
       "path---rotterdam-html-bf85d9d851cb6d4f1051.js",
@@ -105,8 +113,12 @@
       "path---montreal-is-beautiful-html-f46a27ae87f68f9eea73.js.map"
     ],
     "path---index": [
-      "path---index-8d5418487a0ec2cc5ebd.js",
-      "path---index-8d5418487a0ec2cc5ebd.js.map"
+      "path---index-818af258dc4ee9ab9023.js",
+      "path---index-818af258dc4ee9ab9023.js.map"
+    ],
+    "path---first-week-of-class-in-typemedia-html": [
+      "path---first-week-of-class-in-typemedia-html-3a20fd78a24bbd91c419.js",
+      "path---first-week-of-class-in-typemedia-html-3a20fd78a24bbd91c419.js.map"
     ],
     "path---den-haag-highlights-so-far-html": [
       "path---den-haag-highlights-so-far-html-b48b7d3762011dcf4e66.js",
@@ -129,8 +141,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-968a67f4d20c955c65e8.js",
-      "app-968a67f4d20c955c65e8.js.map"
+      "app-093ed2f35b12823e5858.js",
+      "app-093ed2f35b12823e5858.js.map"
     ]
   }
 }
