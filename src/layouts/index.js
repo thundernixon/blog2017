@@ -77,13 +77,9 @@ export default class Template extends React.Component {
                   Stephen Nixon
                 </Link>
               </h1>
-              <Link to="/about" className="about">
-                {/* <MdInfoOutline className="icon" /> */}
+              {/* <Link to="/about" className="about">
                 <SocialIcon className="social-link" icon={'info-icon'} />
-                {/* <div className="label-container sans-serif">
-                  <span>About</span>
-                </div> */}
-              </Link>
+              </Link> */}
 
               <AboutModal />
             </div>
