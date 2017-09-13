@@ -48,6 +48,10 @@ a.accent:hover {
     font-style: italic;
 }
 
+.roman {
+    font-style: normal;
+}
+
 .no-underline {
     text-decoration: none;
 }
@@ -77,6 +81,11 @@ a.accent:hover {
 }
 .f-1{
     font-size: $h1 !important;
+    line-height: 1.125;
+}
+
+.f-xl {
+    font-size: 3rem !important;
     line-height: 1.125;
 }
 

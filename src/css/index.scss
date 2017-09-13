@@ -159,7 +159,7 @@ body {
   text-decoration: none;
   position: relative;
   transition: 250ms ease-in-out;
-  z-index: 100;
+  // z-index: 10;
   /* background-color: transparent; */
 }
 
@@ -173,12 +173,12 @@ body {
   height: 100%;
   width: 100%;
   border-radius: 11px;
-  background-color: #eee;
+  background-color: rgba(0,0,0,.05);
   transition: 250ms ease-in-out;
   transform: scaleY(0);
   transform-origin: center center;
   margin-top: 0;
-  z-index: -1;
+  // z-index: -1;
   opacity: 0;
   
 }

@@ -21,11 +21,12 @@ const About = styled.div.attrs({
     display: block;
     top:0;
     left:0;
-    background: linear-gradient(74deg, rgba(93, 0, 181, 0.85) 0%, rgba(143, 23, 255, .9) 25%, rgba(255,149,123,.9) 96%);
+    background: linear-gradient(74deg, rgba(93, 0, 181, 0.85) 0%, rgba(143, 23, 255, .95) 40%, rgba(255,149,123,.9) 96%);
     font-size: 1.5em;
     text-align: center;
     color: white;
     transform-origin: bottom left;
+    text-shadow: 2px 2px 15px rgba(49, 0, 96,1);
     
     p {
       text-align: left;
@@ -33,12 +34,40 @@ const About = styled.div.attrs({
     a {
       padding: 0;
       color: inherit;
+
+      &:hover {
+        color: rgba(49, 0, 96,1);
+        text-shadow: 2px 2px 5px white, -2px -2px 5px white;
+      }
+    }
+    hr {
+      background: white;
     }
   `;
 
+const AboutInner = styled.div`
+    max-width: 60rem;
+    margin: 0 auto;
+    padding: 5vw 5vw 15vw;
+    overflow-x: hidden;
+
+    // @media (min-width: 660px) {
+    //   padding: 5vw 2.25rem 10vw;
+    // }
+
+    // @media (min-width: 1040px) {
+    //       padding: calc(5vw + 54px) 11.25rem 10vw; //add space of fixed header
+    // }
+`;
 
 const Colophon = styled.div`
-
+      max-width: 39rem;
+      margin: 0 auto;
+      padding: 5vw 5vw 15vw;
+      text-align: left;
+      @media (min-width: 660px) {
+        padding: 5vw 2.25rem 10vw;
+      }
 `;
 
 const OpenAbout = styled.div`
@@ -109,31 +138,33 @@ class AboutModal extends Component {
 
     const modal = (
       <About className="about">
-        <p>
-          Hello, my name is Stephen Nixon. 
-        </p>  
-        <p> 
-          I am a designer who loves type, lettering, and making new things with technology. Currently, I am in the KABK TypeMedia class of 2018, a one-year masters program for type design. Previously, I was designing and building websites and brand tools at IBM Watson. 
-        </p>  
-        <p>  
-          I am @thundernixon on <a href="https://twitter.com/thundernixon">Twitter</a>, <a href="https://instagram.com/thundernixon">Instagram</a>, <a href="https://codepen.io/thundernixon">CodePen</a>, and <a href="https://github.com/thundernixon">GitHub</a>. 
-        </p>
-        <p>
-          Come say hello! 👋
-        </p>
-        <hr/>
-        <Colophon className="serif regular f-body">
-          <h2 className="f-body">Colophon</h2>
+        <AboutInner className="f-xl italic">
           <p>
-            This site is built with the <a href="https://github.com/DSchau/gatsby-blog-starter-kit">gatsby-blog-starter-kit</a>, which is in turn built on <a href="https://www.gatsbyjs.org">GatsbyJS</a>. Big thanks goes out to <a href="https://dustinschau.com">Dustin Schau</a> for making the Gatsby blog starter kit, and for helping fix an issue that was showing up on the tag pages of this blog.
+            Hi, my name is Stephen Nixon. 
+          </p>  
+          <p> 
+            I am a designer who loves type, lettering, and making new things with technology. Currently, I am in the KABK TypeMedia class of 2018, a one-year masters program for type design. Previously, I was designing and building websites and brand tools at IBM Watson. 
+          </p>  
+          <p>  
+            I am @thundernixon on <a href="https://twitter.com/thundernixon">Twitter</a>, <a href="https://instagram.com/thundernixon">Instagram</a>, <a href="https://codepen.io/thundernixon">CodePen</a>, and <a href="https://github.com/thundernixon">GitHub</a>. 
           </p>
           <p>
-            This site is hosted on <a href="https://www.netlify.com/">Netlify</a>, which is seriously a joy to use, especially if you've ever wrestled with a budget host, or launched static sites on a cloud PaaS (platform as a service).
+            Come say hello! <span className="roman">👋</span>
           </p>
-          <p>
-            Serif type is <a href="https://www.rosettatype.com/Eskorte">Eskorte</a>, by Elena Schneider and at the Rosetta Type Foundry. Sans serif type is <a href="http://www.type-together.com/Ebony">Ebony</a>, by Veronika Burian & José Scaglione at typetogether.
-          </p>
-        </Colophon>
+          <Colophon className="sans-serif roman f-body">
+            <hr/>
+            <h2 className="f-body">Colophon</h2>
+            <p>
+              This site is built with the <a href="https://github.com/DSchau/gatsby-blog-starter-kit">gatsby-blog-starter-kit</a>, which is in turn built on <a href="https://www.gatsbyjs.org">GatsbyJS</a>. Big thanks goes out to <a href="https://dustinschau.com">Dustin Schau</a> for making the Gatsby blog starter kit and for helping me to fix a date-formatting issue that was showing up on the tag pages of this blog.
+            </p>
+            <p>
+              This site is hosted on <a href="https://www.netlify.com/">Netlify</a>, which is seriously a joy to use, especially if you've ever wrestled with a budget host, or launched static sites on a cloud PaaS (platform as a service).
+            </p>
+            <p>
+              Serif type is <a href="https://www.rosettatype.com/Eskorte">Eskorte</a>, by Elena Schneider and at the Rosetta Type Foundry. Sans-serif type is <a href="http://www.type-together.com/Ebony">Ebony</a>, by Veronika Burian & José Scaglione at typetogether.
+            </p>
+          </Colophon>
+        </AboutInner>
         
         <CloseAbout title="Close Info" onClick={this.handleClick}>
           <MdClose />
