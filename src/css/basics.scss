@@ -87,6 +87,7 @@ a.accent:hover {
 .f-xl {
     font-size: $h1 !important;
     line-height: 1.125;
+    padding: .1em;
     @media (min-width: 660px) {
         font-size: $h1 * 1.125 !important;
     }

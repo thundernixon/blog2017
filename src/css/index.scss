@@ -38,8 +38,11 @@ body {
 }
 
 .blog-posts>h1 {
-  padding: 0rem 2rem;
+  padding: 0rem 5vw;
   font-size: 1.5rem;
+  @media (min-width: 660px) {
+    padding: 0rem 2.25rem;
+  }
 }
 
 .blog-post-preview {
@@ -49,18 +52,17 @@ body {
   flex-direction: column;
   align-items: flex-start;
   /* justify-content: center; */
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 5vw;
   border: 2px solid $white; 
   color: #222;
   text-decoration: none;
   border-radius: $border-radius;
 
-  @media (max-width: 660px) {
-    .blog-post-preview {
-      padding: 2.5vw;
-    }
+  @media (min-width: 660px) {
+    padding: 1.5rem 2.25rem;
+
     .blog-posts>h1 {
-      padding: 1.5rem 2.5vw 0;
+      padding: 1.5rem 2.25rem 0;
     }
   }
 

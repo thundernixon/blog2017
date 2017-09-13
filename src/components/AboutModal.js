@@ -12,8 +12,8 @@ import SocialIcon from '../components/SocialIcon';
 const About = styled.div`
     z-index: 1000;
     opacity: 0.999;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     overflow: auto;
     position: fixed;
     display: block;
@@ -21,15 +21,15 @@ const About = styled.div`
     left:0;
     background: linear-gradient(74deg, rgba(93, 0, 181, 0.85) 0%, rgba(143, 23, 255, .95) 40%, rgba(255,149,123,.9) 96%);
     font-size: 1.5em;
-    text-align: center;
     color: white;
     text-shadow: 2px 2px 15px rgba(49, 0, 96,1);
-    will-change: transform;
+    // will-change: transform;
     animation:  fade-up .75s ease forwards;
     
     p {
       text-align: left;
       margin-bottom: 1em;
+      padding: .1em;
       &:last-of-type {
         margin-bottom:0;
       }
@@ -58,7 +58,7 @@ const AboutInner = styled.div`
 
     @media (min-width: 1040px) {
         max-width: 75vw;
-          padding: calc(5vw + 54px) 0 10vw; //add space of fixed header
+        padding: calc(5vw + 54px) 0 10vw;
     }
     
 `;
@@ -98,7 +98,6 @@ const OpenAbout = styled.div`
         position: fixed;
         bottom: 2.25rem;
         left: 2.25rem;
-        
     }
     cursor: pointer;
     width: 2rem;
@@ -132,7 +131,7 @@ const OpenAbout = styled.div`
     &:hover {
       background: #FF6A37;
       color: rgba(255,255,255,1);
-      box-shadow: none;
+      box-shadow: 0px 5px 25px rgba(0,0,0, 0.4);
       transform: scale(1);
 
       svg {
@@ -164,12 +163,12 @@ class AboutModal extends Component {
         <CloseAbout title="Close Info" onClick={this.handleClick}>
           <MdClose />
         </CloseAbout>
-        <AboutInner className="f-xl italic">
+        <AboutInner className="f-xl italic bold">
           <p>
             Hi, my name is Stephen Nixon. 
           </p>  
           <p> 
-            I am a designer who loves type, lettering, and making new things with technology. Currently, I am in the KABK TypeMedia class of 2018, a one-year masters program for type design. Previously, I was designing and building websites and brand tools at IBM Watson. 
+            I love type, lettering, code, and making new things with technology. Currently, I am in the KABK TypeMedia class of 2018, a one-year masters program for type design. Previously, I was designing and building websites and brand tools at IBM Watson. 
           </p>  
           <p>  
             I am @thundernixon on <a href="https://twitter.com/thundernixon">Twitter</a>, <a href="https://instagram.com/thundernixon">Instagram</a>, <a href="https://codepen.io/thundernixon">CodePen</a>, and <a href="https://github.com/thundernixon">GitHub</a>. 
