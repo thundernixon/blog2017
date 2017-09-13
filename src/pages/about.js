@@ -2,7 +2,6 @@ import React from 'react';
 import BackIcon from 'react-icons/lib/fa/chevron-left';
 
 import Link from 'gatsby-link';
-import Modal from '../components/modal';
 
 import '../css/tags.scss';
 import '../css/index.scss';
@@ -13,7 +12,6 @@ import '../css/blog-post.scss';
 export default () =>
 
   <div className="fourohfour bold ">
-    <Modal />
     <h1 className="serif-display italic error-1">Hello</h1>
     <h1 className="serif-display italic error-2">Hello</h1>
     <div className="sans-serif blog-posts about-content f-1">

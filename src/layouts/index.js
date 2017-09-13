@@ -6,6 +6,7 @@ import Helmet from 'react-helmet';
 import Tags from '../components/Tags';
 import Icons from '../components/Icons';
 import SocialIcon from '../components/SocialIcon';
+import AboutModal from '../components/AboutModal.js';
 // import Hello from '../components/Hello';
 
 import MdInfoOutline from 'react-icons/lib/md/info-outline';
@@ -83,6 +84,8 @@ export default class Template extends React.Component {
                   <span>About</span>
                 </div> */}
               </Link>
+
+              <AboutModal />
             </div>
             
             <ul style={{}}>
