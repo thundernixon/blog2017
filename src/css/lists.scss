@@ -1,0 +1,22 @@
+@import 'vars';
+
+ol, ul {
+    @media (max-width: 660px) {
+
+        margin-left: 1rem !important;
+        
+        img {
+
+        }
+        .gatsby-resp-image-wrapper {
+
+            width: 100% !important;
+            padding-left: 1rem;
+        }
+    }
+}
+
+li > ol li {
+    list-style: lower-alpha;
+    margin-left: 1rem;
+}
