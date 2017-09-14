@@ -1,12 +1,12 @@
 ---
-path: "/three-ideas-to-have-fun-with-lettering.html"
+path: "/five-tips-to-start-having-fun-with-lettering.html"
 date: "2017-09-16T09:49:16.408Z" 
-title: "Five tips to have fun with lettering and calligraphy, with no experience or budget"
-tags: ["kabk", "typemedia", "type design"]
+title: "Five tips to have start having fun with lettering and calligraphy, with (almost) no budget"
+tags: ["lettering", "calligraphy", "hot tips"]
 publish: false
 ---
 
-I just got a message from a friend from my freshman year dormitory at the University of Minnesota.
+I just got a message from a friend from my freshman year dormitory at the University of Minnesota:
 
 > hey, i thought you would maybe be the guy to ask about this sort of thing. For a weird period every day, i'm a high school art teacher, and the first thing i'm doing is on hand-lettering. Wondering if you had any tips/links/etc about what a good place to start is, a fun structure for some unenthusiastic highschoolers, low floor/high ceiling projects, what kinds of pens i should buy (if any)... or anything else you think could be useful. Particularly the pens - the rest would be a bonus. 
 > 
@@ -25,12 +25,12 @@ The German language has an all-encompassing word for designing with letters: _sc
 | Type Design  | Designing a system of letters (e.g. "type" or "fonts") to use in any combination  |
 | Typography  | Using and organizing type to design  |
 
-## 1. Check out some inspiration 
+## 1. Check out some inspiration & example alphabets
 
-## 2. Tape any two pens together, and draw on any paper
+## 2. Trace, Trace, Trace – to learn and to iterate
 
-## 3. Use a crayola marker for brush script
+## 3. Tape any two pens together, and draw on any paper
 
-## 4. dig up some paintbrushes
+## 4. Use a crayola marker for brush script
 
-## 5. "draw the skeleton" first
+## 5. "Draw the skeleton" of letters and compositions, then build on top
