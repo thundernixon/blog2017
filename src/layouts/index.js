@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
+import styled from 'styled-components';
 
 import Tags from '../components/Tags';
 import Icons from '../components/Icons';
@@ -17,6 +18,14 @@ import '../css/header.scss';
 import '../css/typography.scss';
 import '../css/index.scss';
 import '../css/link.css';
+
+const StyledAboutModal = styled(AboutModal)``;
+
+const PageContent = styled.div`
+      ${StyledAboutModal}:hover & {
+        position: fixed;
+      }
+`;
 
 export default class Template extends React.Component {
   static propTypes = {
@@ -119,14 +128,14 @@ export default class Template extends React.Component {
 
           </div>
         </div>
-        <div
+        <PageContent
           className="page-content"
           style={{
             margin: `0 auto`,
           }}
         >
           {this.props.children()}
-        </div>
+        </PageContent>
         {/* <MdInfoOutline /> */}
       </div>
     );
