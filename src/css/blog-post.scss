@@ -93,6 +93,21 @@
       padding-top: calc(1.45rem / 2);
     }
   }
+
+  .screenshot {
+    // box-shadow: $pillowy-shadow;
+    border: 2px solid rgba($main-accent, .125);
+    border-radius: .25rem;
+    overflow: hidden;
+    display: block;
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+    
+    span {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
   
 }
 

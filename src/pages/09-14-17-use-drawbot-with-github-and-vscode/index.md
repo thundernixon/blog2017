@@ -31,7 +31,7 @@ Possibly, there *is* something that could act like BrowserSync does for web deve
 ## First, let’s set up our remote repo on GitHub
 1. If you don’t already have a GitHub account, sign up at https://github.com.
 2. Next, you need a repository (“repo” for short – basically a folder for code). There are a few ways to create a new repository in GitHub, but one is to click the “plus” sign in the top right of the toolbar, next to your avatar.
-<p>
+<p class="screenshot">
 <img src="./images/1.png">
 </p>
 
@@ -40,15 +40,17 @@ Possibly, there *is* something that could act like BrowserSync does for web deve
   1. Repos are public by default. Partly, this is because the spirit of software development on GitHub is to be opensource-first, so that others can see what you’ve made and build on it themselves. If you want private repos, you can pay $7/month. I haven’t had a good reason to do this yet, but I might at some point.
   2. You can “Initialize this repository with a README” if you want to describe it further, but let’s skip that for now.
   3. Click the green “Create Repository” button to create your repo!
-<p>
+
+<span class="screenshot">
 <img src="./images/2.png">
-</p>
+</span>
 
 
-4. So long as you initialized without a README, you now see your repo, with instructions on how to set it up.
-<p>
+7. So long as you initialized without a README, you now see your repo, with instructions on how to set it up.
+
+<span class="screenshot">
 <img src="./images/3.png">
-</p>
+</span>
 
 
 ## Set up your local repo
@@ -84,8 +86,9 @@ Now that we have a “remote” repo (on GitHub’s servers), we can hook it up 
   7. Hot Tip™: you can actually just copy/paste all six lines from GitHub into your command line and run them all at once, but it’s useful to know what each one does.
 4. Now that you’ve pushed your project, go back to GitHub in your web browser, and refresh the page. It should now show that you have README.md in your project code, plus any other files that may have been in the folder you made into your git repo.
 
+<span class="screenshot">
 <img src="./images/5.png">
-
+</span>
 
 ## Now, let’s make a new version of your project
 
@@ -93,9 +96,9 @@ We’re going to work in VS Code just a bit, now. If you haven’t already, down
 Once you’ve installed it, go back into your Terminal window.
 
 1. Just like you can open the current directory in Finder by running `open .`, you can open your current directory in VS Code by running `code .` – go ahead and do this now.
-<p>
+
 <img src="./images/6.png">
-</p>
+
 
 
 2. You should now have a VS Code window, along with your files displaying on the left side.
@@ -108,9 +111,9 @@ Once you’ve installed it, go back into your Terminal window.
 5. If you don’t already have your script open in Drawbot, open Drawbot, then open the file you’ve just edited. 
   1. Edits in VS Code will show up in Drawbot as soon as you change from VS Code to Drawbot. You can change back and forth really quickly between apps with the shortcut `command + tab`. You can navigate back further by holding down `command` , and either hitting `tab` again or just by using `left` and `right` arrow keys (this is incredibly useful for using a Mac in general, so if you aren’t already using it … try it: you’ll love it).
 6. Now for the cool part: using VS Code’s built-in Source Control manager (SCM). See how there’s a few icons on the left bar of VS Code? Click the one with the number badge on it. This will show the SCM sidebar. Any time you save a change to a file in a git repo, it will be added to this SCM sidebar.
-<p>
+
 <img src="./images/7.png">
-</p>
+
 7. When you click into the SCM sidebar, you should automatically be in the text input box – if not, click into it. Write a “commit message” here.
     1. A commit message can be anything short, but good commit messages are present-tense descriptions of the change(s) you’ve made, so that another person (or yourself, in the future) can see it in the git history and have a good idea of what changed with a given commit. Commits should happen pretty frequently, so you should never have to describe very many changes in any one commit message. If you are making a website, an example commit might be “Increased logo size” or “Changed button color in footer.”
     2. Here, I will write “added second rectangle”
@@ -118,15 +121,17 @@ Once you’ve installed it, go back into your Terminal window.
 
 
 8. Now, we just need to push your changes, so they’re on GitHub, and both backed up and ready to collaborate on and/or manage. Click the ••• icon in the top of the SCM sidebar, and select “Push.”  
-<p>
+
+<p class="screenshot">
 <img src="./images/8.png">
 </p>
 
 9. Go to GitHub, and refresh the page. You should see your edited file, your commit message right next to it, and the time since you committed the change. Files that were changed earlier show their distinct commits.
-<p>
-<img src="./images/9.png">
-</p>
 
+<span class="screenshot">
+<img src="./images/9.png">
+</span>
+</br>
 
 💥 **Boom!** 💥 
 
