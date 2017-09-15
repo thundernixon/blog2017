@@ -1,6 +1,6 @@
 ---
 path: "/handle-events-in-react-components.html"
-date: "2017-09-15T09:49:16.408Z" 
+date: "2017-09-13T09:49:16.408Z" 
 title: "Handle events in Gatsby React Components"
 tags: ["lettering", "calligraphy", "hot tips"]
 publish: true
@@ -9,7 +9,7 @@ publish: true
 **My initial question:**
 
 
-> I’ve recently been working on a blog using GatsbyJS, which is based on React. (typefloundry)[https://typefloundry.com]
+> I’ve recently been working on a blog using GatsbyJS, which is based on React.
 > 
 > The main challenge I have with it right now is how to the use javascript to manipulate the DOM in react. I know basic javascript, but my basic knowledge is querying for an element, adding an event listener, and triggering a function with that, such as adding CSS or HTML to the page. However, my initial efforts aren’t working in React. I’d love to do simple things with JS like grabbing the first letter of a blog post then duplicating that as a “drop cap” to the side of the post, or converting my “About” page into an overlay, rather than a separate page.
 > 

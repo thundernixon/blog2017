@@ -8,6 +8,7 @@ import Tags from '../components/Tags';
 
 import '../css/basics.scss';
 import '../css/blog-post.scss';
+import '../css/lists.scss';
 
 export default function Template({ data, pathContext }) {
   const { markdownRemark: post } = data;
