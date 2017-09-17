@@ -36,7 +36,7 @@ export default function Template({ data, pathContext }) {
                 style={{
                   height: '0.75rem',
                   position: 'relative',
-                  top: '0.3rem',
+                  top: '0.15rem',
                 }}
               />
               <p className="sans-serif">
@@ -52,7 +52,7 @@ export default function Template({ data, pathContext }) {
                 style={{
                   height: '0.75rem',
                   position: 'relative',
-                  top: '0.3rem',
+                  top: '0.15rem',
                 }}
               />
             </Link>}
