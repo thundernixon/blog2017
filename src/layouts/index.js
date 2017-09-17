@@ -12,12 +12,16 @@ import AboutModal from '../components/AboutModal.js';
 
 import MdInfoOutline from 'react-icons/lib/md/info-outline';
 
+
+// require('prismjs/themes/prism-solarizedlight.css')
+
 import '../css/basics.scss';
 import '../css/icons.css';
 import '../css/header.scss';
 import '../css/typography.scss';
 import '../css/index.scss';
 import '../css/link.css';
+import '../css/prismjs.scss';
 
 const StyledAboutModal = styled(AboutModal)``;
 
