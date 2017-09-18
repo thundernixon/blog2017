@@ -3,7 +3,7 @@ path: "/five-tips-to-start-having-fun-with-lettering.html"
 date: "2017-09-16T09:49:16.408Z" 
 title: "Five tips for beginners to start having fun with lettering and calligraphy, with (almost) no budget"
 tags: ["lettering", "calligraphy", "hot tips"]
-publish: false
+publish: true
 ---
 
 I just got a message from a friend from my freshman year dormitory at the University of Minnesota:
@@ -75,12 +75,16 @@ A very incomplete list of a few of my favorite IG accounts, in no particular ord
 - I've only recently come across the work of [Jen Mussari](https://www.instagram.com/jenmussari/), but this letterer makes some awesome stuff with (mostly) brush script.
 - [Louise Fili](https://www.instagram.com/louisefili/) has done some of the most-successful (and beautiful) lettering-led brand design work for restaurants, food packaging, and books.
 - [Nix Benson](https://www.instagram.com/nixbenson/) is a stone carver who cuts letters into stone. His work is classic and breathtaking.
+- [Jean Mosambi](https://www.instagram.com/jeanmosambi/) screenprints modern posters with a jazz vibe, using both type and custom lettering
 - [John Stevens](https://www.instagram.com/calligraphile/): Widely recognized (including by Seb Lester) as perhaps the world's best living calligrapher
 - [Kelly Thorn](https://www.instagram.com/jellythorn/) makes wonderful work that is at once classic and realy fresh. Lately, she's been mixing in more illustration, including some tattoos that make me want a tattoo. Kelly recently formed the studio [charlesandthorn](https://www.instagram.com/charlesandthorn/) with her partner [Spencer Charles](https://www.instagram.com/spencercharles/), who has similarly awesome work, and lately a lot of great calligraphy.
+- [Lauren Hom](https://www.instagram.com/homsweethom/) makes colorful, swoopy, friendly lettering for murals, menus, advertisements, and more.
 - [Simon Walker](https://www.instagram.com/superfurry/) creates lettered logos that look a bit like the record covers you might dig up in an old vinyl collection of funk and rock bands. They are sweet, and always make me want to doodle letters with soft corners and wavy flow.
 - [Carla Hacket](https://www.instagram.com/carlahackett/) does great work with brush and pen scripts.
 - [Jonathan Faust](https://www.instagram.com/jonathanfaust/) puts out what are consistently my favorite letter-writing videos, especially of brush and marker-based scripts.
 - [Sergey Shapiro](https://www.instagram.com/sergeyshapiro/) makes more awesome script logos.
+- [Gemma O'Brien](https://www.instagram.com/mrseaves101/) paints mostly black-and-white, very-detailed, super-cool murals.
+- I met [Adé Hogue](https://www.instagram.com/adehogue/) at a Ken Barber script-lettering workshop a couple years ago, and he has since been cranking out work and getting really, really good at it.
 - [Martina Flor](https://www.instagram.com/martinaflor/) makes colorful, gorgeous scripts that make me happy.
 - [Dana Tanamachi](https://www.instagram.com/dana_tanamachi/) does lovely lettering work for murals, products, books, and stationery.
 - There are a bunch of Instagram letterers that I don't know much about, but who do consistently nice work. 
