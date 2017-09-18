@@ -107,11 +107,11 @@ Start to notice things like the way the tops of a capital "S", "B", and "R" are 
 
 Once you start to grow familiar with letters, a really fun way to practice lettering and calligraphy is to "remix" styles you see and like. You still need to be honest when you're mostly copying someone else versus when you are creating really new work. To be safe, it's usually good to link to work that inspired what you're making. It's super informative and satisfying, though, to try your hand at a script or blackletter you really love, guessing what other letters might be like in that same style, and trying to add your own flavor.
 
+You can also use calligraphy to come up with ideas and to understand how a tool makes a shape, then re-draw it as lettering, which gives you the chance to refine and perfect your less-than-perfect calligraphy. This is a favored technique of mine.
+
 ## 3. Tape any two pens together, and draw on any paper
 
 Like in the Seb Lester video above, this really is a fun, easy, and cheap way to try calligraphy, right now. This can be two cheap ballpoint pens, two regular pencils, two Sharpie markers, two whiteboard markers ... whatever. You can even get creative and add more than two pens, though you'll need to experiment to keep the tips in a rigid, straight line.
-
-Once you've set up your pen, practice copying calligraphy alphabets that are made with a broad nib. When you try to draw something, you can usually get a sense, pretty quickly, if it was made with a flat-topped tool or not.
 
 ## 4. Use a crayola marker for brush script
 
@@ -120,6 +120,21 @@ One step up from taping pens together is finding some standard crayola markers, 
 Here's a great tutorial on this:
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/Axihf95GNyw" frameborder="0" allowfullscreen></iframe>
+
+
+## 4.5 You can also get a little more fancy with your tools
+
+Once you've set up your pen, practice copying calligraphy alphabets that are made with a broad nib. When you try to draw something, you can usually get a sense, pretty quickly, if it was made with a flat-topped tool or not.
+
+If you want to go a bit further, the [Pilot Parallel Pen](http://www.dickblick.com/products/pilot-parallel-pens/) is a great pen for calligraphy. It's about $10, is super-smooth to write with, and is easy to refill. They come in multiple sizes, but my favorite version is the 6mm size. 
+
+<iframe width="100%" height="500" src="https://www.youtube.com/embed/JfbmcyAdU-U" frameborder="0" allowfullscreen></iframe>
+
+There are also some really nice pens for brush script. A couple that I have tried and enjoyed are the [Pentel Pocket Brush Pen](https://www.jetpens.com/Pentel-Pocket-Brush-Pen-XGFKP-A/pd/1793) and the [Molotow Aqua Pump Softliner](https://shop.molotow.com/en/alle-produkte/aqua-pump-softliner-1-mm.html).
+
+If you get any kind of fancier ink pens like this, it's also very much worth getting paper which is smooth and won't let the ink bleed. My favorite is [slightly-thick Bristol paper](http://www.dickblick.com/products/canson-xl-bristol-pads/) (I don't have much of an opinion on the specific brand).
+
+For ink lettering, it's best to start with pencil, then trace on thinner paper, with a felt-tip pen such as a [Micron marker](http://www.dickblick.com/products/sakura-pigma-micron-pen/) or as a level-up, the [Copic Multiliner SP](https://www.jetpens.com/Copic-Multiliner-SP-Pen-0.5-mm-Black/pd/3390). If you are using this approach, I find it most helpful to use a just-transparent-enough marker paper, such as [70g Canson XL Marker](http://www.dickblick.com/products/canson-xl-marker-pads/). This prevents ink bleed, allows you to trace from one sheet to another, and gives a really satisfying final result.
 
 ## 5. "Draw the skeleton" of letters and compositions, then build on top
 
