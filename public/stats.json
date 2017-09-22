@@ -1,20 +1,20 @@
 {
   "assetsByChunkName": {
     "commons": [
-      "commons-2baf7d0161be98c09823.js",
-      "commons-2baf7d0161be98c09823.js.map"
+      "commons-30b7c8bfd63f11f4b5d6.js",
+      "commons-30b7c8bfd63f11f4b5d6.js.map"
     ],
     "layout-component---index": [
-      "layout-component---index-83390f3fc79062187634.js",
-      "layout-component---index-83390f3fc79062187634.js.map"
-    ],
-    "page-component---src-pages-index-js": [
-      "page-component---src-pages-index-js-02dbc595b6a54d6d0575.js",
-      "page-component---src-pages-index-js-02dbc595b6a54d6d0575.js.map"
+      "layout-component---index-8bc9300d6e54a4f13da0.js",
+      "layout-component---index-8bc9300d6e54a4f13da0.js.map"
     ],
     "page-component---src-templates-blog-post-js": [
-      "page-component---src-templates-blog-post-js-b8471a0f5d6d1ad1908c.js",
-      "page-component---src-templates-blog-post-js-b8471a0f5d6d1ad1908c.js.map"
+      "page-component---src-templates-blog-post-js-b72224a76dcc05c04b4e.js",
+      "page-component---src-templates-blog-post-js-b72224a76dcc05c04b4e.js.map"
+    ],
+    "page-component---src-pages-index-js": [
+      "page-component---src-pages-index-js-ea096482071b88fb6ba0.js",
+      "page-component---src-pages-index-js-ea096482071b88fb6ba0.js.map"
     ],
     "page-component---src-pages-about-js": [
       "page-component---src-pages-about-js-6658c3266cefc276fe7f.js",
@@ -29,16 +29,16 @@
       "page-component---src-pages-404-js-3f867aebaea8032bd4b5.js.map"
     ],
     "path---use-drawbot-with-github-and-vscode-html": [
-      "path---use-drawbot-with-github-and-vscode-html-cab743429b5e68eb5f42.js",
-      "path---use-drawbot-with-github-and-vscode-html-cab743429b5e68eb5f42.js.map"
+      "path---use-drawbot-with-github-and-vscode-html-bdaad30ef1c5b18c6ef4.js",
+      "path---use-drawbot-with-github-and-vscode-html-bdaad30ef1c5b18c6ef4.js.map"
     ],
     "path---typemedia-class-introductions-html": [
-      "path---typemedia-class-introductions-html-54ac63d26c412ef1850d.js",
-      "path---typemedia-class-introductions-html-54ac63d26c412ef1850d.js.map"
+      "path---typemedia-class-introductions-html-7cdb19c79645d81b77a5.js",
+      "path---typemedia-class-introductions-html-7cdb19c79645d81b77a5.js.map"
     ],
     "path---type-special-characters-on-a-mac-html": [
-      "path---type-special-characters-on-a-mac-html-a061a7354a75c93bb807.js",
-      "path---type-special-characters-on-a-mac-html-a061a7354a75c93bb807.js.map"
+      "path---type-special-characters-on-a-mac-html-1756f7a6b8db5b5f60f3.js",
+      "path---type-special-characters-on-a-mac-html-1756f7a6b8db5b5f60f3.js.map"
     ],
     "path---tags": [
       "path---tags-a249fbed735275161e1d.js",
@@ -129,40 +129,40 @@
       "path---tags-amsterdam-fbef20beeae04be901d4.js.map"
     ],
     "path---rotterdam-html": [
-      "path---rotterdam-html-313d99afeff2c9cbc557.js",
-      "path---rotterdam-html-313d99afeff2c9cbc557.js.map"
+      "path---rotterdam-html-11b3b366c40a72090b54.js",
+      "path---rotterdam-html-11b3b366c40a72090b54.js.map"
     ],
     "path---orientation-at-kabk-html": [
-      "path---orientation-at-kabk-html-d7d976183d0f51d6c45b.js",
-      "path---orientation-at-kabk-html-d7d976183d0f51d6c45b.js.map"
+      "path---orientation-at-kabk-html-97ebfcda584b7194ce91.js",
+      "path---orientation-at-kabk-html-97ebfcda584b7194ce91.js.map"
     ],
     "path---montreal-is-beautiful-html": [
-      "path---montreal-is-beautiful-html-793f8ecd735f331a04c5.js",
-      "path---montreal-is-beautiful-html-793f8ecd735f331a04c5.js.map"
+      "path---montreal-is-beautiful-html-d74684e2e628ce58cd67.js",
+      "path---montreal-is-beautiful-html-d74684e2e628ce58cd67.js.map"
     ],
     "path---index": [
       "path---index-0b0f46bd6e009a53d7c1.js",
       "path---index-0b0f46bd6e009a53d7c1.js.map"
     ],
     "path---handle-events-in-react-components-html": [
-      "path---handle-events-in-react-components-html-fd345f9d5838f53a0519.js",
-      "path---handle-events-in-react-components-html-fd345f9d5838f53a0519.js.map"
+      "path---handle-events-in-react-components-html-fe243f9d381dedba43b3.js",
+      "path---handle-events-in-react-components-html-fe243f9d381dedba43b3.js.map"
     ],
     "path---five-tips-to-start-having-fun-with-lettering-html": [
-      "path---five-tips-to-start-having-fun-with-lettering-html-f116e3a03ca12693c98e.js",
-      "path---five-tips-to-start-having-fun-with-lettering-html-f116e3a03ca12693c98e.js.map"
+      "path---five-tips-to-start-having-fun-with-lettering-html-2547674fb48b8a0cf7d3.js",
+      "path---five-tips-to-start-having-fun-with-lettering-html-2547674fb48b8a0cf7d3.js.map"
     ],
     "path---first-week-of-class-in-typemedia-html": [
-      "path---first-week-of-class-in-typemedia-html-bfe1f176e9f8af6f3930.js",
-      "path---first-week-of-class-in-typemedia-html-bfe1f176e9f8af6f3930.js.map"
+      "path---first-week-of-class-in-typemedia-html-4a0479819f0beee5f693.js",
+      "path---first-week-of-class-in-typemedia-html-4a0479819f0beee5f693.js.map"
     ],
     "path---den-haag-highlights-so-far-html": [
-      "path---den-haag-highlights-so-far-html-c3c4d2ba6a8a489e564a.js",
-      "path---den-haag-highlights-so-far-html-c3c4d2ba6a8a489e564a.js.map"
+      "path---den-haag-highlights-so-far-html-1fd303dc5167a8b512f5.js",
+      "path---den-haag-highlights-so-far-html-1fd303dc5167a8b512f5.js.map"
     ],
     "path---amsterdam-and-delft-html": [
-      "path---amsterdam-and-delft-html-92c537cb6061ebbf4aa4.js",
-      "path---amsterdam-and-delft-html-92c537cb6061ebbf4aa4.js.map"
+      "path---amsterdam-and-delft-html-c018357e89a5380ca1df.js",
+      "path---amsterdam-and-delft-html-c018357e89a5380ca1df.js.map"
     ],
     "path---about": [
       "path---about-a0e39f21c11f6a62c5ab.js",
@@ -177,8 +177,8 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-9107f9978ba1344cccd7.js",
-      "app-9107f9978ba1344cccd7.js.map"
+      "app-93bc311318616bbd0c90.js",
+      "app-93bc311318616bbd0c90.js.map"
     ]
   }
 }

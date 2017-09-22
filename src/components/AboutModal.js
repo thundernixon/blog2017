@@ -63,24 +63,6 @@ const AboutInner = styled.div`
     
 `;
 
-
-// export const rotate360 = styled.keyframes`
-// 	from {
-// 		transform: rotate(0deg);
-// 	}
-
-// 	to {
-// 		transform: rotate(360deg);
-// 	}
-// `;
-
-// const HandEmoji = styled.span.attrs({
-// 	className: 'hand-emoji',
-// })`
-//     // animation: ${rotate360} 2s linear infinite;
-//     background: black;
-// `;
-
 const Colophon = styled.div`
       max-width: 39rem;
       margin: 0 auto;

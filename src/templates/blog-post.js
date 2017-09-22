@@ -1,14 +1,36 @@
 import React from 'react';
 import Helmet from 'react-helmet';
+import styled, { keyframes } from 'styled-components';
 import BackIcon from 'react-icons/lib/fa/chevron-left';
 import ForwardIcon from 'react-icons/lib/fa/chevron-right';
 
 import Link from '../components/Link';
 import Tags from '../components/Tags';
 
+import '../css/_vars.scss';
 import '../css/basics.scss';
 import '../css/blog-post.scss';
 import '../css/lists.scss';
+
+
+const Dropcap = styled.div`
+  font-weight: bold;
+  font-style: italic;
+  position: absolute;
+  font-size: 80vw;
+  line-height: 0;
+  color: rgba(145, 21, 255, .125);
+  text-shadow: .5rem .25rem 0 rgba(255, 106, 55, 0.0625);
+  pointer-events: none;
+  z-index: 0;
+  font-family: cursive;
+  top: 20rem;
+  @media (min-width: 640px) {
+    margin-left: 2rem;
+    font-size: 25em;
+  }
+`;
+
 
 export default function Template({ data, pathContext }) {
   const { markdownRemark: post } = data;
@@ -16,6 +38,10 @@ export default function Template({ data, pathContext }) {
   return (
     <div className="blog-post-container">
       <Helmet title={`${post.frontmatter.title}`} />
+      <Dropcap
+          className="blog-post-dropcap">
+          {post.excerpt.charAt(0)}
+        </Dropcap>
       <div className="blog-post">
         <h2 className="date">
           {post.frontmatter.date}
@@ -23,7 +49,7 @@ export default function Template({ data, pathContext }) {
         <h1 className="title serif-display">
           {post.frontmatter.title}
         </h1>
-
+        
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -66,6 +92,7 @@ export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
+      excerpt(pruneLength: 5)
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path

@@ -3,6 +3,8 @@
 .blog-post {
   padding: 0 0 2rem;
   animation: fade-up 1.5s ease;
+  z-index: 100;
+  opacity: .99;
 }
 
 
@@ -11,6 +13,7 @@
   /* text-align: center; */
   margin-left: auto;
   margin-right: auto;
+  margin-top:0;
   padding: 0;
   max-width: $body-width; 
 }
