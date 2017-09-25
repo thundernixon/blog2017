@@ -1,0 +1,22 @@
+{
+    "workbench.colorTheme": "Atom One Light",
+    "workbench.colorCustomizations": {
+        // sidebar
+        "titleBar.activeBackground": "#ccc",
+        "activityBar.background": "#ddd",
+        "activityBar.foreground": "#222",
+        "activityBarBadge.background": "#9115FF",
+        "activityBarBadge.foreground": "#fff",
+        "sideBar.background": "#eee",
+        // bottom bar
+        "statusBar.background": "#3B195E",
+        "statusBar.foreground": "#eee",
+        // tabs
+        "tab.inactiveBackground": "#eee",
+        "tab.inactiveForeground": "#666",
+        "tab.activeBackground": "#f8f8f8",
+        "tab.activeBorder": "#f8f8f8",
+        //editor
+        "editor.background": "#f8f8f8",
+    }
+}

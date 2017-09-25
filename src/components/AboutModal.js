@@ -23,8 +23,7 @@ const About = styled.div`
     font-size: 1.5em;
     color: white;
     text-shadow: 2px 2px 15px rgba(49, 0, 96,1);
-    // will-change: transform;
-    animation:  fade-up .75s ease forwards;
+    animation:  fade-in .75s ease forwards;
     
     p {
       text-align: left;
