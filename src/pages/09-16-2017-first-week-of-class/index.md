@@ -6,6 +6,8 @@ tags: ["kabk", "typemedia", "type design"]
 publish: false
 ---
 
+# (Draft post)
+
 We've finished the first two weeks of class in TypeMedia, and we now have a pretty good view of what this semester will be like – and a very full plate of exciting, challenging projects.
 
 In part because of how much work there already is to do, I won't be making posts to document most weeks of TypeMedia, but before I'm really in up to my eyeballs, I want to take the chance to record who is teaching, what we will be covering in the first semester, and a few of the lessons we received in the first days of class.
