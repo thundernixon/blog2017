@@ -1,12 +1,12 @@
 ---
-path: "/randomurl-hsdfjlrwewernzsdf.html"
+path: "/first-semester-of-typemedia.html"
 date: "2017-10-14T09:49:16.408Z" 
-title: "The first class sessions in TypeMedia"
+title: "Our class schedule for the first semester of TypeMedia"
 tags: ["kabk", "typemedia", "type design"]
-publish: false
+publish: true
 ---
 
-*Note: I finished the majority of this post in the second week of class, but things got so busy, so fast, that it's taken me until now to really finish it and post it. Hopefully the classes and projects below point out why it's taken so long.* 😄
+*Note: I finished the majority of this post in the second week of class, but things got so busy, so fast, that it's taken me until now to really finish it and post it. Hopefully the classes and projects described below point out why it's taken so long.* 😄
 
 We've finished the first two weeks of class in TypeMedia, and we now have a pretty good view of what this semester will be like – and a very full plate of exciting, challenging projects.
 
@@ -100,7 +100,9 @@ François is pretty awesome, and I'm excited to learn from her. One funny and co
 
 Class won't properly start for another couple of weeks, but we had an introductory session that was a "type walk," where François showed us some of her favorite instances of lettering in public spaces in Den Haag.
 
+<p>
 <img src="./images/2017-10-12-13.21.46.jpg" alt="Monument for the 25th government anniversary of the throne of Queen Wilhelmina" />
+</p>
 
 *One of the class favorites on the type walk was the above monument for the 25th anniversary of the throne of Queen Wilhelmina, designed by [Hendrik Petrus Berlage](https://theculturetrip.com/europe/the-netherlands/articles/hendrik-petrus-berlage-father-of-modern-dutch-architecture/), who is apparently Holland's first Modernist architect.*
 
@@ -177,7 +179,7 @@ Our final presentation will be based on one of these extremes. Even though we wi
 - construction of a roman, lowercase, translation alphabet
 - analysis of how an alphabet is often made up of only a few distinct components. There's the shoulder (a, n, m, h), the upright (b, d, i, j, l,), the bowl (b, c, d, g, o, p, q), angled strokes (w, x, y, z), and sometimes, the serif.
 
-> "Try to like what you are doing. Actually, forget about the word _try_. Like what you're doing, and it will show." —Peiter Verheul
+> "Try to like what you are doing. Actually, forget about the word _try_. Like what you're doing, and it will show." —Peter Verheul
 
 ## Investigations in Type Design, with Erik van Blokland
 
@@ -245,7 +247,9 @@ _Two narrow N's set on a printing press._
 
 For the second round, I made drew vectors of a blackletter **S** in Glyphs, chopped it up a bit in Illustrator, then lasercut it from wood and printed it. It's letterpress, so things that might otherwise be centered are off-center, but I'm quite happy with the overall result. It was fun to make, and I can't wait to have a booklet of the awesome initial prints from my classmates!
 
+<p>
 <img src="./images/2017-10-11-15.31.58.jpg" alt="my initials, S and N" />
+</p>
 
 We are also settling into the classroom, and creating our workspaces. I should have brought a US keyboard along with me, but aside from the current lack of an external keyboard, I am pretty stoked on my setup.
 
