@@ -6,15 +6,15 @@ tags: ["python", "code", "type design", "type testing"]
 publish: true
 ---
 
-Lately, I find myself needing to work with strings of text to test my partially-complete fonts. For instance, I may want to test a font that has only a lowercase drawn, or maybe even a font with a partial lowercase and no punctuation.
+These days, I'm doing a lot of type design for class, and part of this is testing fonts that are just in their early stages, often with a very limited character set. For this, I find myself needing to work with strings of text to test my partially-complete fonts. For instance, I may want to test a font that has only a lowercase drawn, or maybe even a font with a partial lowercase and no punctuation.
 
 With [RoboFont](http://doc.robofont.com/), I can easily "Test Install" a font, and use it within programs like InDesign, which I can then print test pages from.
 
-For this, I want to be able to test strings of text that I copy from books, Wikipedia, or wherever else – without getting "tofu" (rectangles where there a characters the font doesn't include) or picking through the text to delete or replace characters I don't have. Computers are good at that kind of repetative, boring work, right?
+For this, I want to be able to test strings of text that I copy from books, Wikipedia, or wherever else – without getting "tofu" (rectangles where there a characters the font doesn't include) or picking through the text to delete or replace characters I don't have. Computers are good at that kind of repetitive, boring work, right?
 
 Enter Python! With a few very simple lines of Python, you can easily manipulate strings of text to transform them into whatever you need. At first, I was using the fantastic app [Drawbot](http://www.drawbot.com/) to add a string and print it in a changed way, but I've since realized that Python can also be used in any macOS terminal app. For me, this is even faster, as I already have [iTerm2](https://www.iterm2.com/) set to be accessible with a hotkey command.
 
-## Without further ado, here's how to manipulate a string with Python in the macOS command line:
+## Without further ado, here's how to manipulate a string with Python in the macOS command line
 
 ### Set it up
 
@@ -71,7 +71,7 @@ In computer progrmming  string is trditionlly  sequence of chrcters either s  li
 
 #### Adding a "control character" between every character in your string
 
-One of the cool things RoboFont does in its "Space Center" is to allow you to add any character between every character in a test string. This is super helpful for spacing, because you can do things like adding the letter "l" between every other letter, and make sure all spacing is visually consistent against this vertical character. The one problem: I can't figuer out how to copy the control character string for testing print in InDesign, etc. Luckily, this is super easy to do in Python, too! Simply use the `join()` method.
+One of the cool things RoboFont does in its "Space Center" is to allow you to add any character between every character in a test string. This is super helpful for spacing, because you can do things like adding the letter "l" between every other letter, and make sure all spacing is visually consistent against this vertical character. The one problem: I can't figure out how to copy the control character string for testing print in InDesign, etc. Luckily, this is super easy to do in Python, too! Simply use the `join()` method.
 
 ```
 >>> print("n".join(myString))
