@@ -40,7 +40,7 @@ export default function Template({ data, pathContext }) {
       <Helmet title={`${post.frontmatter.title}`} />
       <Dropcap
           className="blog-post-dropcap">
-          {post.excerpt.charAt(0)}
+          {post.excerpt.charAt(0) == "." ? "" : post.excerpt.charAt(0)}
         </Dropcap>
       <div className="blog-post">
         <h2 className="date">

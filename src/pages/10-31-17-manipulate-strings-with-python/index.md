@@ -111,3 +111,7 @@ HIHNH HCHOHMHPHUHTHEHRH HPHRHOHGHRHAHMHMHIHNHGH HAH HSHTHRHIHNHGH HIHSH HTHRHAHD
 ```
 
 There you have it! Happy font testing.
+
+---
+
+_Update: Don't want to type or copy-paste the alphabet or numbers? I've also written [a simple post about how you can easily generate sample strings with Python](/generate-sample-strings-with-python)._
