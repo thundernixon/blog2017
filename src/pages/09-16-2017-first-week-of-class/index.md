@@ -6,7 +6,7 @@ tags: ["kabk", "typemedia", "type design"]
 publish: true
 ---
 
-*Please note: I finished the majority of this post in the second week of class, but things got so busy, so fast, that it's taken me until now to really finish it and post it. Hopefully the classes and projects described below point out why it's taken so long.* 😄
+*Note: I finished the majority of this post in the second week of class, but things got so busy, so fast, that it's taken me until now to really finish it and post it. Hopefully the classes and projects described below point out why it's taken so long.* 😄
 
 We've finished the first two weeks of class in TypeMedia, and we now have a pretty good view of what this semester will be like – and a very full plate of exciting, challenging projects.
 
