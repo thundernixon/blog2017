@@ -42,6 +42,24 @@ IN COMPUTER PROGRAMMING, A STRING IS TRADITIONALLY A SEQUENCE OF CHARACTERS, EIT
 
 Alternatively, you could change this to all-lowercase letters by running `print(myString.lower())`.
 
+#### Transforming a non-English string (e.g. Greek) to all-lowercase
+
+If you have a non-English string, it won't work to just put `.lower()` or `.upper()` on it, but it's still easy to transform.
+
+Simply add `decode('utf-8')`, like the following:
+
+```
+greekString = "Η Ανάδρομη Κίνηση Είναι η Κίνηση Σε Αντίθετη Κατεύθυνση Από Την Κίνηση Ενός Άλλου Αντικειμένου"
+print greekString.decode('utf-8').lower()
+```
+
+This will print:
+
+```
+η ανάδρομη κίνηση είναι η κίνηση σε αντίθετη κατεύθυνση από την κίνηση ενός άλλου αντικειμένου
+```
+
+
 #### Removing characters such as punctuation
 
 Want to remove punctuation, or maybe all instances of a certain letter? The way to remove things in Python is to use the `replace()` method, then replace your unwanted character with an empty string. 
@@ -110,7 +128,7 @@ HIHNH HCHOHMHPHUHTHEHRH HPHRHOHGHRHAHMHMHIHNHGH HAH HSHTHRHIHNHGH HIHSH HTHRHAHD
 
 ```
 
-There you have it! Happy font testing.
+There you have it! Happy font testing. 🤖
 
 ---
 
