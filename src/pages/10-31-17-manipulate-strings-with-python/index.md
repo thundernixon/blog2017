@@ -46,18 +46,25 @@ Alternatively, you could change this to all-lowercase letters by running `print(
 
 If you have a non-English string, it won't work to just put `.lower()` or `.upper()` on it, but it's still easy to transform.
 
-Simply add `decode('utf-8')`, like the following:
+Set up your string (I've made this "title case" to make this example more obvious):
 
 ```
 greekString = "Η Ανάδρομη Κίνηση Είναι η Κίνηση Σε Αντίθετη Κατεύθυνση Από Την Κίνηση Ενός Άλλου Αντικειμένου"
+```
+
+Use the same `print` method as usual, but add inn `decode('utf-8')`, like the following:
+
+```
 print greekString.decode('utf-8').lower()
 ```
 
-This will print:
+This will print the string in all lowercase:
 
 ```
 η ανάδρομη κίνηση είναι η κίνηση σε αντίθετη κατεύθυνση από την κίνηση ενός άλλου αντικειμένου
 ```
+
+Of course, you can also use `print greekString.decode('utf-8').upper()` to print the whole thing in all-caps.
 
 
 #### Removing characters such as punctuation
