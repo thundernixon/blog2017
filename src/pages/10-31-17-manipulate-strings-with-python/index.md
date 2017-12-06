@@ -6,7 +6,7 @@ tags: ["python", "code", "type design", "type testing"]
 publish: true
 ---
 
-These days, I'm doing a lot of type design for class, and part of this is testing fonts that are just in their early stages, often with a very limited character set. For this, I find myself needing to work with strings of text to test my partially-complete fonts. For instance, I may want to test a font that has only a lowercase drawn, or maybe even a font with a partial lowercase and no punctuation.
+These weeks, I'm doing a lot of type design for class, and part of this is testing fonts that are just in their early stages, often with a very limited character set. For this, I find myself needing to work with strings of text to test my partially-complete fonts. For instance, I may want to test a font that has only a lowercase drawn, or maybe even a font with a partial lowercase and no punctuation.
 
 With [RoboFont](http://doc.robofont.com/), I can easily "Test Install" a font, and use it within programs like InDesign, which I can then print test pages from.
 
