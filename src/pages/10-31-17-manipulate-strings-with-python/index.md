@@ -94,7 +94,7 @@ In computer progrmming  string is trditionlly  sequence of chrcters either s  li
 
 ```
 
-_Update, December 9, 2017: [@JesenTanadi](https://twitter.com/jesentanadi) made a script to give these sorts of character substitutions a simple, quick UI within RoboFont. Check it out [on GitHub](https://github.com/jtanadi/robofontScripts/tree/master/noTofu)_
+_Update, December 9, 2017: [@JesenTanadi](https://twitter.com/jesentanadi) made a script to give these sorts of character substitutions a simple, quick UI within RoboFont. [Check it out on GitHub.](https://github.com/jtanadi/robofontScripts/tree/master/noTofu)_
 
 #### Adding a "control character" between every character in your string
 

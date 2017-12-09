@@ -6,6 +6,8 @@ tags: ["python", "code", "type design", "type testing"]
 publish: false
 ---
 
+_Note: this post is currently a draft. If you found it through my pagination or another method, kudos to you for exploring my blog! It will soon be more polished and published to the home page._
+
 As part of [Type and Media](http://typemedia.org), I am taking classes on Python from  Just van Rossum. Just has done a ton to move type design technology forward, and he has done some wonderful design collaboration over the years — a recent project of note was the identity for the Lowlands festival, with [Hansje van Halem](http://www.hansje.net/Lowlands-Festival-2017-ongoing-project). Fun/crazy fact: Just's brother, Guido, invented Python. Just also happens to be patient and great at breaking down programming concepts for beginners, so it's been great to learn from him. 
 
 I tend to learn best when I take notes. When I'm learning about code, it's helpful for me to follow along with the code as well as document some of the instruction around the code. I've found that Dropbox Paper is really great for this kind of quick note-taking, because it is the best of markdown and a collaborative, easy document tool like Google Docs. Because I'm already taking notes, I will be cleaning them up a bit and sharing them here so others can get started on learning Python, making cool things in Drawbot, and maybe even using scripting in type development.
@@ -37,11 +39,6 @@ http://www.drawbot.com/content/download.html
     rect(100,200,300,400)
 
 `⌘R` to run
-
-- 
-
-
-
 
 > Strings use stupid quotes (primes).
 
