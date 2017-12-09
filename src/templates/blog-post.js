@@ -6,7 +6,7 @@ import ForwardIcon from 'react-icons/lib/fa/chevron-right';
 
 import Link from '../components/Link';
 import Tags from '../components/Tags';
-import Pagination from '../components/Pagination';
+// import Pagination from '../components/Pagination';
 
 import '../css/_vars.scss';
 import '../css/basics.scss';
