@@ -164,7 +164,7 @@ class AboutModal extends Component {
               This site is built with the <a href="https://github.com/DSchau/gatsby-blog-starter-kit">gatsby-blog-starter-kit</a>, which is in turn built on <a href="https://www.gatsbyjs.org">GatsbyJS</a>. Big thanks goes out to <a href="https://dustinschau.com">Dustin Schau</a> for making the Gatsby blog starter kit and for helping me to fix a date-formatting issue that was showing up on the tag pages of this blog.
             </p>
             <p>
-              This site is hosted on <a href="https://www.netlify.com/">Netlify</a>, which is seriously a joy to use, especially if you've ever wrestled with a budget host, or launched static sites on a cloud PaaS (platform as a service).
+              This site is hosted on <a href="https://www.netlify.com/">Netlify</a>, which is a joy to use, especially if you've ever launched static sites on a cloud PaaS (platform as a service) or wrestled with a budget web host.
             </p>
             <p>
             Serif type is <a href="https://www.rosettatype.com/Eskorte">Eskorte</a>, designed by Elena Schneider and published by the Rosetta Type Foundry. Sans serif type is <a href="http://www.type-together.com/Ebony">Ebony</a>, designed by Veronika Burian & José Scaglione and published by typetogether. Fonts hosted on <a href="typekit.com">Adobe TypeKit</a>.
