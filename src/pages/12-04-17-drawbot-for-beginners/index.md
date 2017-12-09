@@ -8,7 +8,7 @@ publish: false
 
 _Note: this post is currently a draft. If you found it through my pagination or another method, kudos to you for exploring my blog! It will soon be more polished and published to the home page._
 
-As part of [Type and Media](http://typemedia.org), I am taking classes on Python from  Just van Rossum. Just has done a ton to move type design technology forward, and he has done some wonderful design collaboration over the years — a recent project of note was the identity for the Lowlands festival, with [Hansje van Halem](http://www.hansje.net/Lowlands-Festival-2017-ongoing-project). Fun/crazy fact: Just's brother, Guido, invented Python. Just also happens to be patient and great at breaking down programming concepts for beginners, so it's been great to learn from him. 
+As part of [Type and Media](http://typemedia.org), I am taking classes on Python from  [Just van Rossum](https://twitter.com/justvanrossum?lang=en). Just has done a ton to move type design technology forward, and he has done some wonderful design collaboration over the years — a recent project of note was the identity for the Lowlands festival, with [Hansje van Halem](http://www.hansje.net/Lowlands-Festival-2017-ongoing-project). Fun/crazy fact: Just's brother, Guido, invented Python. Just also happens to be patient and great at breaking down programming concepts for beginners, so it's been great to learn from him. 
 
 I tend to learn best when I take notes. When I'm learning about code, it's helpful for me to follow along with the code as well as document some of the instruction around the code. I've found that Dropbox Paper is really great for this kind of quick note-taking, because it is the best of markdown and a collaborative, easy document tool like Google Docs. Because I'm already taking notes, I will be cleaning them up a bit and sharing them here so others can get started on learning Python, making cool things in Drawbot, and maybe even using scripting in type development.
 
@@ -16,7 +16,7 @@ Without further ado, here are the mostly-unchanged notes from our first session 
 
 ---
 
-> Python is simple. DrawBot adds the ability to draw stuff.
+> Python is simple. DrawBot adds the ability to draw stuff. — Just van Rossum
 
 
 **Docs at:**
@@ -24,6 +24,9 @@ http://www.drawbot.com
 
 **Download at:**
 http://www.drawbot.com/content/download.html
+
+**Some super-cool examples of what you can do in Drawbot:**
+http://dailydrawbot.tumblr.com/
 
 
 ## Getting started
