@@ -149,7 +149,7 @@ class AboutModal extends Component {
             Hi, my name is Stephen Nixon. 
           </p>  
           <p> 
-            I love type, lettering, code, and making new things with technology. Currently, I am in the KABK TypeMedia class of 2018, a one-year masters program for type design. Previously, I was designing and building websites and brand tools at IBM Watson. 
+            I love type, lettering, code, and making new things with technology. I am a student in <a href="http://new.typemedia.org/" target="_blank">KABK TypeMedia</a>, a one-year masters program for type design. Previously, I was designing and building websites and brand tools at IBM Watson. 
           </p>  
           <p>  
             I am @thundernixon on <a href="https://twitter.com/thundernixon">Twitter</a>, <a href="https://instagram.com/thundernixon">Instagram</a>, <a href="https://codepen.io/thundernixon">CodePen</a>, and <a href="https://github.com/thundernixon">GitHub</a>. 
@@ -167,7 +167,7 @@ class AboutModal extends Component {
               This site is hosted on <a href="https://www.netlify.com/">Netlify</a>, which is seriously a joy to use, especially if you've ever wrestled with a budget host, or launched static sites on a cloud PaaS (platform as a service).
             </p>
             <p>
-              Serif type is <a href="https://www.rosettatype.com/Eskorte">Eskorte</a>, by Elena Schneider and at the Rosetta Type Foundry. Sans-serif type is <a href="http://www.type-together.com/Ebony">Ebony</a>, by Veronika Burian & José Scaglione at typetogether. Fonts hosted on <a href="typekit.com">Adobe TypeKit</a>.
+            Serif type is <a href="https://www.rosettatype.com/Eskorte">Eskorte</a>, designed by Elena Schneider and published by the Rosetta Type Foundry. Sans serif type is <a href="http://www.type-together.com/Ebony">Ebony</a>, designed by Veronika Burian & José Scaglione and published by typetogether. Fonts hosted on <a href="typekit.com">Adobe TypeKit</a>.
             </p>
           </Colophon>
         </AboutInner>
