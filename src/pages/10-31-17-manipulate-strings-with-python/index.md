@@ -94,6 +94,8 @@ In computer progrmming  string is trditionlly  sequence of chrcters either s  li
 
 ```
 
+_Update, December 9, 2017: [@JesenTanadi](https://twitter.com/jesentanadi) made a script to give these sorts of character substitutions a simple, quick UI within RoboFont. Check it out [on GitHub](https://github.com/jtanadi/robofontScripts/tree/master/noTofu)_
+
 #### Adding a "control character" between every character in your string
 
 One of the cool things RoboFont does in its "Space Center" is to allow you to add any character between every character in a test string. This is super helpful for spacing, because you can do things like adding the letter "l" between every other letter, and make sure all spacing is visually consistent against this vertical character. The one problem: I can't figure out how to copy the control character string for testing print in InDesign, etc. Luckily, this is super easy to do in Python, too! Simply use the `join()` method.
