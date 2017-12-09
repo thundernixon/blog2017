@@ -10,7 +10,7 @@ These weeks, I'm doing a lot of type design for class, and part of this is testi
 
 With [RoboFont](http://doc.robofont.com/), I can easily "Test Install" a font, and use it within programs like InDesign, which I can then print test pages from.
 
-For this, I want to be able to test strings of text that I copy from books, Wikipedia, or wherever else – without getting "tofu" (rectangles where there a characters the font doesn't include) or picking through the text to delete or replace characters I don't have. Computers are good at that kind of repetitive, boring work, right?
+For this, I want to be able to test strings of text that I copy from books, Wikipedia, or wherever else – without getting "tofu" (rectangles where there are characters the font doesn't include) or picking through the text to delete or replace characters I don't have. Computers are good at that kind of repetitive, boring work, right?
 
 Enter Python! With a few very simple lines of Python, you can easily manipulate strings of text to transform them into whatever you need. At first, I was using the fantastic app [Drawbot](http://www.drawbot.com/) to add a string and print it in a changed way, but I've since realized that Python can also be used in any macOS terminal app. For me, this is even faster, as I already have [iTerm2](https://www.iterm2.com/) set to be accessible with a hotkey command.
 
