@@ -1,8 +1,8 @@
 ---
 path: "/getting-started-with-drawbot"
-date: "2017-11-01T11:46:16.408Z" 
+date: "2017-12-10T11:46:16.408Z" 
 title: "Getting started with parametric design in Drawbot"
-tags: ["python", "code", "type design", "type testing"]
+tags: ["python", "code", "type design", "type testing", "drawbot"]
 publish: false
 ---
 
