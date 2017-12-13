@@ -45,6 +45,8 @@ http://dailydrawbot.tumblr.com/
 
 > Strings use stupid quotes (primes).
 
+## Some advice from Just
+
 Clarity in code matters. You might use comments to explain certain things. Do not write only for the computer – write for others.
 
 The computer does only what you *tell it* to do, not always what you *want it* to do.
@@ -213,7 +215,7 @@ Try adding a random color:
     
     fill(random(),random(),random())
     rect(100,100,100, randint(10, 500))
-
+    
 <img src="./images/3.png" alt="" />
 
 # Let’s make a letter
