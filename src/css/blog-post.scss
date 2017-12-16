@@ -190,7 +190,7 @@
 }
 
 .blog-post .navigation .link {
-  max-width: 50%;
+  max-width: 40%;
   display: flex;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -198,6 +198,10 @@
   font-weight: bold;
   color: $main-accent;
   transition: .25s ease;
+  @media (max-width: 600px) {
+    max-width: 100%;
+    padding: 1em 0;
+  }
 }
 
 .navigation .link svg {

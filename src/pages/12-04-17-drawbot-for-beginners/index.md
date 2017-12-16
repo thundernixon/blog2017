@@ -3,16 +3,14 @@ path: "/getting-started-with-drawbot"
 date: "2017-12-10T11:46:16.408Z" 
 title: "Getting started with parametric design in Drawbot"
 tags: ["python", "code", "type design", "type testing", "drawbot"]
-publish: false
+publish: true
 ---
-
-_Note: this post is currently a draft. If you found it through my pagination or another method, kudos to you for exploring my blog! It will soon be more polished and published to the home page._
 
 As part of [Type and Media](http://typemedia.org), I am taking classes on Python from  [Just van Rossum](https://twitter.com/justvanrossum?lang=en). Just has done a ton to move type design technology forward, and he has done some wonderful design collaboration over the years — a recent project of note was the identity for the Lowlands festival, with [Hansje van Halem](http://www.hansje.net/Lowlands-Festival-2017-ongoing-project). Fun/crazy fact: Just's brother, Guido, invented Python. Just also happens to be patient and great at breaking down programming concepts for beginners, so it's been great to learn from him. 
 
 I tend to learn best when I take notes. When I'm learning about code, it's helpful for me to follow along with the code as well as document some of the instruction around the code. I've found that Dropbox Paper is really great for this kind of quick note-taking, because it is the best of markdown and a collaborative, easy document tool like Google Docs. Because I'm already taking notes, I will be cleaning them up a bit and sharing them here so others can get started on learning Python, making cool things in Drawbot, and maybe even using scripting in type development.
 
-Without further ado, here are the mostly-unchanged notes from our first session of class on September 13th, 2017:
+Without further ado, here are the slightly-cleaned-up notes from our first session of class on September 13th, 2017:
 
 ---
 
@@ -134,32 +132,41 @@ To make a different color, just use decimals in the color naming. So, `fill(1,0.
 
 - You can use decimals with these. 
 - If you add a fourth number, it will be the alpha channel (transparency)
-- (tip for europeans) If you use floating-point numbers, be sure to use a dot, not a comma
+- (tip for Europeans) If you use floating-point numbers, be sure to use a dot, not a comma
 
 
 
 <img src="./images/2.png" alt="change your fill color to orange" />
-**Change your fill color to orange**
 
-<img src="./images/2.png" alt="You can even play with things like shadows, in colors if you want" />
-**You can even play with things like colorful shadows if you want**
+*Change your fill color to orange*
+
+<img src="./images/3.png" alt="You can even play with things like shadows, in colors if you want" />
+
+*You can even play with things like colorful shadows if you want*
 
 
 # Let’s learn some Python fundamentals
 
-`print` `""` will print in the console
+`print "some string"` will print in the console
 
 - a string must be inside quotes
+- you can print other things, like var
 - you can do math by using numbers and symbols
 
 **Strings**
 
-- Must be on a single line*
+- Must be on a single line
+
+```
     # strings must be on a single line
     print "abc
         def
-      … will throw an error: `SyntaxError: EOL while scanning string literal` (EOL means “end of line”)
-- *but, you can set a block of text by starting and ending with `"""`:
+```
+… will throw an error: `SyntaxError: EOL while scanning string literal` (EOL means “end of line”)
+
+- but, you can set a block of text by starting and ending with `"""`:
+
+```
     # strings must be on a single line, unless you wrap with """
     print """
     
@@ -177,7 +184,7 @@ To make a different color, just use decimals in the color naming. So, `fill(1,0.
            ===
         \\______//
           ``````
-
+```
 
   **Q: When  will we use the triple quotes?**
   When you want to set columns of text, this can be helpful. Python doesn’t really have the concept of a “console,” but rather it has standard text output. 
@@ -216,7 +223,7 @@ Try adding a random color:
     fill(random(),random(),random())
     rect(100,100,100, randint(10, 500))
     
-<img src="./images/3.png" alt="" />
+<img src="./images/4.png" alt="" />
 
 # Let’s make a letter
     rect(100, 200, 40, 400)
@@ -225,11 +232,11 @@ Try adding a random color:
 
 
 
-<img src="./images/4.png" alt="" />
-
-
-
 <img src="./images/5.png" alt="" />
+
+
+
+<img src="./images/6.png" alt="" />
 
 # Tips
 
@@ -247,20 +254,24 @@ Use the [Courseware](http://www.drawbot.com/content/courseware.html) in the Docs
 ## Q & A
 
 **Q: are there plugins/extensions?**
+
 Not really. Everything you write is a kind of plugin. 
 
-- However, there are python libraries which you can “import.” There is a whole python library you can load. There are also third party libraries. Drawbot has built-in things like Math and Random number generators
+However, there are python libraries which you can “import.” There is a whole python library you can load. There are also third party libraries. Drawbot has built-in things like Math and Random number generators
 
 **Q: how do we draw rounded rectangles?**
+
 There’s not really a way. This is pretty primitive. 
 
 One tip: type `print dir()` to see all your options in the console.
 
 **Q: Can you import a PDF vector and interact with it?**
+
 Sort of. You can place jpegs and pdfs, then position, stretch, and clip them. But you can’t really modify them.
 
 **Q: can you group things? Can you set a class?**
+
 Not really. That’s thinking in HTML/CSS terms. It’s a higher-level of thinking. DrawBot is a bit more like painting things. PageBot does work more along those lines. A general coding principle is to avoid repeating yourself. 
 
-more: https://www.youtube.com/watch?v=fPasHswCB8E
+Lecture about PageBot, from Petr van Blokland: https://www.youtube.com/watch?v=fPasHswCB8E
 
