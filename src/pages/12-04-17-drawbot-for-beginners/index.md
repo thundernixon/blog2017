@@ -6,7 +6,9 @@ tags: ["python", "code", "type design", "type testing", "drawbot"]
 publish: true
 ---
 
-As part of [Type and Media](http://typemedia.org), I am taking classes on Python from  [Just van Rossum](https://twitter.com/justvanrossum?lang=en). Just has done a ton to move type design technology forward, and he has done some wonderful design collaboration over the years — a recent project of note was the identity for the Lowlands festival, with [Hansje van Halem](http://www.hansje.net/Lowlands-Festival-2017-ongoing-project). Fun/crazy fact: Just's brother, Guido, invented Python. Just also happens to be patient and great at breaking down programming concepts for beginners, so it's been great to learn from him. 
+As part of [Type and Media](http://typemedia.org), I am taking classes on Python from  [Just van Rossum](https://twitter.com/justvanrossum?lang=en). Just has done a ton to move type design technology forward, and he has done some wonderful design collaboration over the years — a recent project of note was the identity for the Lowlands festival, with [Hansje van Halem](http://www.hansje.net/Lowlands-Festival-2017-ongoing-project). Fun/crazy fact: Just's brother, Guido, invented Python. Just also happens to be patient and great at breaking down programming concepts for beginners, so it's been great to learn from him.
+
+Just van Rossum has started teaching us Python with [Drawbot](http://www.drawbot.com), which is a fun program that allows you to make artwork and animations with code. This can be tricky in some ways, but also allows you to make things that would be impossible (or stupidly time-consuming) in tools like Adobe Illustrator or After Effects. As a benefit specific to type designers, once you learn about working with Python in Drawbot, you can take these same skills into Robofont or Glyphs to manipulate your fonts.
 
 I tend to learn best when I take notes. When I'm learning about code, it's helpful for me to follow along with the code as well as document some of the instruction around the code. I've found that Dropbox Paper is really great for this kind of quick note-taking, because it is the best of markdown and a collaborative, easy document tool like Google Docs. Because I'm already taking notes, I will be cleaning them up a bit and sharing them here so others can get started on learning Python, making cool things in Drawbot, and maybe even using scripting in type development.
 
@@ -232,11 +234,11 @@ Try adding a random color:
 
 
 
-<img src="./images/5.png" alt="" />
+<img src="./images/5.png" alt="A letter H with two stems and a crossbar" />
 
 
 
-<img src="./images/6.png" alt="" />
+<img src="./images/6.png" alt="Using a variable to set stroke widths of letter H" />
 
 # Tips
 
@@ -273,5 +275,8 @@ Sort of. You can place jpegs and pdfs, then position, stretch, and clip them. Bu
 
 Not really. That’s thinking in HTML/CSS terms. It’s a higher-level of thinking. DrawBot is a bit more like painting things. PageBot does work more along those lines. A general coding principle is to avoid repeating yourself. 
 
-Lecture about PageBot, from Petr van Blokland: https://www.youtube.com/watch?v=fPasHswCB8E
+Very interesting lecture about PageBot, from Petr van Blokland at ATypI 2017: https://www.youtube.com/watch?v=fPasHswCB8E
 
+# Thanks for reading!
+
+I'm typing into the void, so hopefully someone out there has enjoyed this. Did you actually read this post? Have you tried any of these examples in DrawBot yet? Would you like me to clean up my other notes to in follow-up posts? Let me know [on Twitter](https://twitter.com/thundernixon)!
