@@ -597,26 +597,29 @@ code {
   background-color: rgba($main-accent, .125);
   border-radius: .25em;
   font-family: $mono;
-  padding: .25em;
-  padding-top: 0.2em;
-  padding-bottom: 0.2em;
 }
 pre code {
   background: none;
   line-height: 1.42;
 }
 code:before,
-code:after,
+// code:after,
 tt:before,
 tt:after {
   letter-spacing: -0.2em;
   content: "";
 }
 pre code:before,
-pre code:after,
+// pre code:after,
 pre tt:before,
 pre tt:after {
   content: "";
+}
+
+p code {
+  padding: .25em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
 }
 @media only screen and (max-width: 480px) {
   html {

@@ -3,7 +3,7 @@ path: "/getting-started-with-drawbot"
 date: "2017-12-10T11:46:16.408Z" 
 title: "Getting started with parametric design in Drawbot"
 tags: ["python", "code", "type design", "type testing", "drawbot"]
-publish: false
+publish: true
 ---
 
 As part of [Type and Media](http://typemedia.org) I am taking classes on Python from  [Just van Rossum](https://twitter.com/justvanrossum?lang=en) (Just is pronounced like "Yoost"). Just has done a ton to move type design technology forward, such as being one of the three main developers of the [UFO](https://fr.wikipedia.org/wiki/Unified_Font_Object) font file format. He has done some wonderful design/development collaboration over the years — a recent project of note was the identity for the Lowlands festival, with visual design by [Hansje van Halem](http://www.hansje.net/Lowlands-Festival-2017-ongoing-project) and coding by Just. A fun and crazy fact: Just's brother, Guido, invented Python. Most importantly, Just also happens to be patient and great at breaking down programming concepts for beginners, so it's been great to learn from him.
@@ -35,13 +35,17 @@ http://dailydrawbot.tumblr.com/
 
 ### Say hello
 
-    print "hello"
+```Python
+print "hello"
+```
 
 Hit the shortcut `⌘R` to run
 
 ### Draw a rectangle
 
-    rect(100,200,300,400)
+```Python
+rect(100,200,300,400)
+```
 
 Hit the shortcut `⌘R` to run
 
@@ -95,26 +99,38 @@ What happens in a syntax error
 
 ### Draw an ellipse
 
-    oval(500,500,500,500)
+```Python
+oval(500,500,500,500)
+```
 
 ### Coordinate system
 
-`(origin from left, origin from bottom, width, height)`
+The coordinate system is like the grids you learned about in math class, not like the system you might know from web layout. The origin is the bottom-left, making rectangle objects use the following arguments:
+
+```
+(distance from left, distance from bottom, width, height)
+```
 
 
 ## Colors
 
 If you want red shapes, put the following at the top of your document:
 
-    fill(1,0,0)
+```Python
+fill(1,0,0)
+```
 
 If you want a blue stroke
 
-    stroke(0,0,1)
+```Python
+stroke(0,0,1)
+```
 
 Make the stroke thicker
 
-    strokeWidth(10)
+```Python
+strokeWidth(10)
+```
 
 ### Order matters.
 
@@ -157,40 +173,48 @@ To make a different color, just use decimals in the color naming. So, `fill(1,0.
 
 ### Strings
 
-- Must be on a single line
+Strings must be on a single line. So:
+
+```Python
+print "abc
+    def
+    ghi
+"
 
 ```
-    # strings must be on a single line
-    print "abc
-        def
-```
+
 … will throw an error: `SyntaxError: EOL while scanning string literal` (EOL means “end of line”)
 
-- but, you can set a block of text by starting and ending with `"""`:
+But, you can set a block of text by starting and ending with `"""`:
 
+```Python
+# strings must be on a single line, unless you wrap with """
+print """
+
+    ||  ||  ||
+        ||
+        ===
+    \\\______//
+        ``````
+
+    """
 ```
-    # strings must be on a single line, unless you wrap with """
-    print """
-    
-        ||  ||  ||
-            ||
-           ===
-        \\\______//
-          ``````
-    
-        """
+
 - prints
-    
-        ||  ||  ||
-            ||
-           ===
-        \\______//
-          ``````
+
+```    
+    ||  ||  ||
+        ||
+        ===
+    \\______//
+        ``````
 ```
 
-  ### Q: When  will we use the triple quotes?
-  When you want to set columns of text, this can be helpful. Python doesn’t really have the concept of a “console,” but rather it has standard text output. 
-  … these are good questions, but we will cover other stuff and come back to this later
+This can be helpful if you're working with ASCII art, or using multiple paragraphs of text for a string variable.
+
+### Q: When  will we use the triple quotes?
+When you want to set columns of text, this can be helpful. Python doesn’t really have the concept of a “console,” but rather it has standard text output. 
+… these are good questions, but we will cover other stuff and come back to this later
 
 
 
@@ -198,18 +222,20 @@ To make a different color, just use decimals in the color naming. So, `fill(1,0.
 
 Defined like `a = 123`. Case-sensitive.
 
+```Python
+a = 123
 
-    a = 123
-    
-    print a
-    
-    print A # throws error
+print a
 
-Variables cannot start with a number. 
+print A # throws error
+```
 
-    a2 # valid variable
-    2a # throws error
+Variables cannot start with a number.
 
+```Python
+a2 # valid variable
+2a # throws error
+```
 
 
 ## Random numbers
@@ -221,36 +247,48 @@ Try `rect(100,100,100, randint(10, 500))` to create a rectangle that will have a
 
 Try adding a random color:
 
+```Python
+fill(random(),random(),random())
+rect(100,100,100, randint(10, 500))
+```
     
-    fill(random(),random(),random())
-    rect(100,100,100, randint(10, 500))
-    
-<img src="./images/4.png" alt="" />
+<img src="./images/4.png" alt="Random rectangles in Drawbot" />
 
 # Let’s make a letter
-    rect(100, 200, 40, 400)
-    rect(400, 200, 40, 400)
-    rect(140, 400, 260 , 40)
 
+```Python
+rect(100, 200, 40, 400)
+rect(400, 200, 40, 400)
+rect(140, 400, 260 , 40)
+```
 
+...will result in a capital H with a red crossbar:
 
 <img src="./images/5.png" alt="A letter H with two stems and a crossbar" />
 
+You can make it more flexible if you set the "stroke thickness" of the letter with a variable:
 
+```Python
+w = 40
+
+rect(100, 200, w, 400)
+rect(400, 200, w, 400)
+rect(140, 400, 260 , w * 0.9)
+```
+
+...resulting in this:
 
 <img src="./images/6.png" alt="Using a variable to set stroke widths of letter H" />
 
 # Tips
 
-You may be tempted to write comments in your primary language, but it is useful to write comments in English – even if you are pretty sure you are the only person who will ever see this code.
+If English is your non-primary language, you may be tempted to write comments in your primary language. However, it is useful to write comments in English – even if you are pretty sure you are the only person who will ever see this code. For better or worse, English is the common language of technology and code, so at some point, you will need English to collaborate with others in code.
 
-Code is about breaking down your ideas into smaller and smaller components. Don’t think “I want to make a font editor,” Think, “how do i make a rectangle.” 
+Code is about breaking down your ideas into smaller and smaller components. Don’t think “I want to make a font editor;” think, “how do i make a rectangle?”
 
 # Homework
 
 Use the [Courseware](http://www.drawbot.com/content/courseware.html) in the Docs. If you get stuck or zoned out, don’t waste a whole evening trying to get unstuck – reach out for help to get unstuck. It may be a simple thing – don’t waste too much time on it.
-
-- Make notes of your questions, so you can ask in the next class
 
 
 ## Q & A
@@ -284,3 +322,7 @@ Not really. That’s thinking in HTML/CSS terms. It’s a higher-level of thinki
 # Thanks for reading!
 
 I'm typing into the void, so hopefully someone out there has enjoyed this. Did you actually read this post? Have you tried any of these examples in DrawBot yet? Would you like me to clean up my other notes to in follow-up posts? Let me know [on Twitter](https://twitter.com/thundernixon)!
+
+## Next up:
+
+There's plenty more to learn about the basics of Python and DrawBot. If you're still going strong, [check out Part 2 of this introduction](../getting-started-with-drawbot-part_2).
