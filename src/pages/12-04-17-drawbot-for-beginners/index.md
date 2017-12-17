@@ -3,12 +3,14 @@ path: "/getting-started-with-drawbot"
 date: "2017-12-10T11:46:16.408Z" 
 title: "Getting started with parametric design in Drawbot"
 tags: ["python", "code", "type design", "type testing", "drawbot"]
-publish: true
+publish: false
 ---
 
 As part of [Type and Media](http://typemedia.org) I am taking classes on Python from  [Just van Rossum](https://twitter.com/justvanrossum?lang=en) (Just is pronounced like "Yoost"). Just has done a ton to move type design technology forward, such as being one of the three main developers of the [UFO](https://fr.wikipedia.org/wiki/Unified_Font_Object) font file format. He has done some wonderful design/development collaboration over the years — a recent project of note was the identity for the Lowlands festival, with visual design by [Hansje van Halem](http://www.hansje.net/Lowlands-Festival-2017-ongoing-project) and coding by Just. A fun and crazy fact: Just's brother, Guido, invented Python. Most importantly, Just also happens to be patient and great at breaking down programming concepts for beginners, so it's been great to learn from him.
 
-Just van Rossum has started teaching us Python with [Drawbot](http://www.drawbot.com), which is a fun program that allows you to make artwork and animations with code. This can be tricky in some ways, but also allows you to make things that would be impossible (or stupidly time-consuming) in tools like Adobe Illustrator or After Effects. As a benefit specific to type designers, once you learn about working with Python in Drawbot, you can take these same skills into Robofont or Glyphs to manipulate your fonts.
+Just van Rossum has started teaching us Python with [DrawBot](http://www.drawbot.com), which is a fun program for macOS that allows you to make artwork and animations with code. If you've ever tried [CodePen](https://codepen.com), DrawBot is a bit like that, but for Python instead of HTML/CSS/JS. Basically, you type code in one panel of the app, and when you run it, the result shows up on the other panel. You can then export the result into different file formats like PDF, SVG, MOV, PNG, JPEG, etc.
+
+Making artwork with code can definitely be tricky in some ways, but also allows you to make things that would be impossible (or stupidly time-consuming) in tools like Adobe Illustrator or After Effects. As a benefit specific to type designers, once you learn about working with Python in Drawbot, you can take these same skills into Robofont or Glyphs to manipulate your fonts.
 
 I tend to learn best when I take notes. When I'm learning about code, it's helpful for me to follow along with the code as well as document some of the instruction around the code. I've found that Dropbox Paper is really great for this kind of quick note-taking, because it is the best of markdown and a collaborative, easy document tool like Google Docs. Because I'm already taking notes, I will be cleaning them up a bit and sharing them here so others can get started on learning Python, making cool things in Drawbot, and maybe even using scripting in type development.
 
@@ -19,29 +21,29 @@ Without further ado, here are the slightly-cleaned-up notes from our first sessi
 > Python is simple. DrawBot adds the ability to draw stuff. — Just van Rossum
 
 
-**Docs at:**
+### Docs at:
 http://www.drawbot.com
 
-**Download at:**
+### Download at:
 http://www.drawbot.com/content/download.html
 
-**Some super-cool examples of what you can do in Drawbot:**
+### Some super-cool examples of what you can do in Drawbot:
 http://dailydrawbot.tumblr.com/
 
 
 ## Getting started
 
-**Say hello**
+### Say hello
 
     print "hello"
 
-`⌘R` to run
+Hit the shortcut `⌘R` to run
 
-**Draw a rectangle**
+### Draw a rectangle
 
     rect(100,200,300,400)
 
-`⌘R` to run
+Hit the shortcut `⌘R` to run
 
 > Strings use stupid quotes (primes).
 
@@ -51,10 +53,14 @@ Clarity in code matters. You might use comments to explain certain things. Do no
 
 The computer does only what you *tell it* to do, not always what you *want it* to do.
 
+### Commenting Code
+
 You can comment a line with `#`, but commenting is so frequent, it has shortcuts:
 
 - `⌘}` to comment a line (command shift right bracket)
 - `⌘{` to uncomment a line (command shift right bracket)
+
+### Syntax and syntax errors
 
 Whitespace is sometimes optional, unless you’re in a string. 
 
@@ -87,11 +93,12 @@ What happens in a syntax error
     - (so, there are 28.346456693 points in a cm)
   - You can save this as a vector PDF, then open in illustrator, etc
 
-**Draw an ellipse**
+### Draw an ellipse
 
     oval(500,500,500,500)
 
-**Coordinate system**
+### Coordinate system
+
 `(origin from left, origin from bottom, width, height)`
 
 
@@ -109,23 +116,16 @@ Make the stroke thicker
 
     strokeWidth(10)
 
-***Order matters.***
+### Order matters.
 
 - If you set a color, only the shapes that follow will be that color. 
 - If you place a shape after another, it will be on top of the former shape.
 - To exclude a stroke from a shape, place `stroke(None)` before a shape
 
-
-
-
-<p>
-![](https://d2mxuefqeaa7sj.cloudfront.net/s_E5A04C27368DACACF710CC435D8CEA6C5815F037285ECBED5EBF244945BD6423_1505295150181_image.png)
-</p>
-
 <img src="./images/1.png" alt="red circles" />
 
 
-**Color trivia: why is RGB set in 255?** 
+### Color trivia: why is RGB set in 255?
 256 is 2⁸. A byte is the smallest unit of information that can be stored on a computer – 0 is “off” and 1 is “on”. If we use 3 bits, we can count to 3. With 8 bits, we can count to 256. So, if you start at 0, you can count to 255. So, for each color channel, you can count from 0 to 255. The total amount of colors is 2²⁴ (or 16,777,216). 
 
 Let’s try this in Python: `print 2 ** 24` yields `16777216`.
@@ -155,7 +155,7 @@ To make a different color, just use decimals in the color naming. So, `fill(1,0.
 - you can print other things, like var
 - you can do math by using numbers and symbols
 
-**Strings**
+### Strings
 
 - Must be on a single line
 
@@ -188,7 +188,7 @@ To make a different color, just use decimals in the color naming. So, `fill(1,0.
           ``````
 ```
 
-  **Q: When  will we use the triple quotes?**
+  ### Q: When  will we use the triple quotes?
   When you want to set columns of text, this can be helpful. Python doesn’t really have the concept of a “console,” but rather it has standard text output. 
   … these are good questions, but we will cover other stuff and come back to this later
 
@@ -255,23 +255,23 @@ Use the [Courseware](http://www.drawbot.com/content/courseware.html) in the Docs
 
 ## Q & A
 
-**Q: are there plugins/extensions?**
+### Q: are there plugins/extensions?
 
 Not really. Everything you write is a kind of plugin. 
 
 However, there are python libraries which you can “import.” There is a whole python library you can load. There are also third party libraries. Drawbot has built-in things like Math and Random number generators
 
-**Q: how do we draw rounded rectangles?**
+### Q: how do we draw rounded rectangles?
 
 There’s not really a way. This is pretty primitive. 
 
 One tip: type `print dir()` to see all your options in the console.
 
-**Q: Can you import a PDF vector and interact with it?**
+### Q: Can you import a PDF vector and interact with it?
 
 Sort of. You can place jpegs and pdfs, then position, stretch, and clip them. But you can’t really modify them.
 
-**Q: can you group things? Can you set a class?**
+### Q: can you group things? Can you set a class?
 
 Not really. That’s thinking in HTML/CSS terms. It’s a higher-level of thinking. DrawBot is a bit more like painting things. PageBot does work more along those lines. A general coding principle is to avoid repeating yourself.
 
