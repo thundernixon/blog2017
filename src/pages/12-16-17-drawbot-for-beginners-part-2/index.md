@@ -238,9 +238,10 @@ if (i + j) % 2:
 # Questions from class
 
 ### Q: What version of python should we be focused on?
-In drawbot, we are using Python 2.7.
 
-Robofont and Glyphs are also using Python 2.7, though the next version of Robofont will use Python 3.6.
+In DrawBot, we are using Python 2.7. There is also an experimental version of DrawBot that uses Python 3.6.
+
+Robofont scripting uses Python 2.7, so as beginners and students learning about type design, using Drawbot in Python 2.7 works in our favor. 
 
 <h1 id="thanks"> Thanks for reading!</h1>
 

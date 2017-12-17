@@ -141,16 +141,21 @@ strokeWidth(10)
 <img src="./images/1.png" alt="red circles" />
 
 
-### Color trivia: why is RGB set in 255?
+### Color trivia: why is RGB typically set in 255?
 256 is 2⁸. A byte is the smallest unit of information that can be stored on a computer – 0 is “off” and 1 is “on”. If we use 3 bits, we can count to 3. With 8 bits, we can count to 256. So, if you start at 0, you can count to 255. So, for each color channel, you can count from 0 to 255. The total amount of colors is 2²⁴ (or 16,777,216). 
 
-Let’s try this in Python: `print 2 ** 24` yields `16777216`.
+Let’s try this type of math operation in Python: `print 2 ** 24` is the markup for 2²⁴, and it prints `16777216`.
 
-To make a different color, just use decimals in the color naming. So, `fill(1,0.5,0)` will give full red, half green, and yield orange. 
+### Setting colors in Drawbot uses values of 0 to 1.
 
-- You can use decimals with these. 
+To make a different color, just use decimals in the color naming. So, `fill(1,0.5,0)` will give full red, half green, and yield orange.
+
+To convert, you can simply divide typical 0–255 RGB values by 255, and use the result. So, if you have `rgba(145,21,255,.125)`, you can divide 145 by 255 to get about .569, 21 by 255 to get about .082, and 255 by 255 to get 1. The alpha is already 0–1, so it's fine as-is.
+
+In brief:
+- You can use decimals with color values. 
 - If you add a fourth number, it will be the alpha channel (transparency)
-- (tip for Europeans) If you use floating-point numbers, be sure to use a dot, not a comma
+- (Tip for Europeans): if you use floating-point numbers, be sure to use a dot, not a comma
 
 
 
