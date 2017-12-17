@@ -273,9 +273,13 @@ Sort of. You can place jpegs and pdfs, then position, stretch, and clip them. Bu
 
 **Q: can you group things? Can you set a class?**
 
-Not really. That’s thinking in HTML/CSS terms. It’s a higher-level of thinking. DrawBot is a bit more like painting things. PageBot does work more along those lines. A general coding principle is to avoid repeating yourself. 
+Not really. That’s thinking in HTML/CSS terms. It’s a higher-level of thinking. DrawBot is a bit more like painting things. PageBot does work more along those lines. A general coding principle is to avoid repeating yourself.
 
-Very interesting lecture about PageBot, from Petr van Blokland at ATypI 2017: https://www.youtube.com/watch?v=fPasHswCB8E
+**What is PageBot?** 
+
+(My short answer): PageBot is the future of professional document design, especially for print, which allows you to program document layouts that you might otherwise make in a tool like InDesign. The programmatic nature promises more flexibility, efficiency, and allows responsive export to different sizes for print as well as web and ebook formats.
+
+(Just's answer): Watch a lecture about PageBot, from Petr van Blokland at ATypI 2017: https://www.youtube.com/watch?v=fPasHswCB8E
 
 # Thanks for reading!
 
