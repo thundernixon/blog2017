@@ -3,7 +3,7 @@ path: "/aliases-on-the-mac_os-command-line"
 date: "2017-12-16T11:46:16.408Z" 
 title: "Make the macOS command line super convenient with aliases"
 tags: ["command line", "git", "code", "hot tips"]
-publish: false
+publish: true
 ---
 
 You may already know that the command line allows you to interact with the core of your computer via the “bash” shell (I’m resisting the urge to get into etymology and a description of shells, but if you’re curious, check out the “More Reading” section at the end of this post). 
