@@ -142,9 +142,16 @@ strokeWidth(10)
 
 
 ### Color trivia: why is RGB typically set in 255?
-256 is 2⁸. A byte is the smallest unit of information that can be stored on a computer – 0 is “off” and 1 is “on”. If we use 3 bits, we can count to 3. With 8 bits, we can count to 256. So, if you start at 0, you can count to 255. So, for each color channel, you can count from 0 to 255. The total amount of colors is 2²⁴ (or 16,777,216). 
 
-Let’s try this type of math operation in Python: `print 2 ** 24` is the markup for 2²⁴, and it prints `16777216`.
+If you're already a designer or developer, you have probably already learned about how screen color is made of a combination of red, green, and blue pixels. When all three are fully off, you see black, when all three are fully on, you see white, and the other colors are just mixes in between.
+
+A bit is the smallest unit of information that can be stored on a computer – 0 is “off” and 1 is “on”. With 2 bits, we have four possible combinations, so we can count up from 0 to 3: `00` is 0, `01` is 1, `10` is 2, `11` is 3. If we use 3 bits, we can count to 8: `100` is 5, `101` is 6, etc. With *8 bits*, also known as 1 *byte*, we have 256 possible combinations, so we can  you can count from 0 to 255. 
+
+For each color channel in RGB, you can use a single byte to count from 0 to 255, in order to have all those steps between fully-off and fully-on. With three channels, the total amount of possible colors is 2⁸ * 2⁸ * 2⁸, or 2²⁴ (16,777,216). With just 3 bytes, a computer can store a color value that is one in almost 17 million!
+
+Wikipedia has a pretty amazing article on the [RGB color model](https://en.wikipedia.org/wiki/RGB_color_model) if you'd like a deeper explanation and some useful diagrams.
+
+As an aside to this aside, we can do this type of math operation in Python: `2 ** 24` is the markup for 2²⁴, so `print 2 ** 24` prints `16777216`.
 
 ### Setting colors in Drawbot uses values of 0 to 1.
 
