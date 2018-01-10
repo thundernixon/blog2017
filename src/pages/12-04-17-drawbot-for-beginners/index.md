@@ -1,45 +1,51 @@
 ---
 path: "/getting-started-with-drawbot"
 date: "2017-12-10T11:46:16.408Z" 
-title: "Getting started with parametric design in Drawbot"
+title: "Getting started with parametric design in DrawBot"
 tags: ["python", "code", "type design", "type testing", "drawbot"]
 publish: true
 ---
 
 As part of [Type and Media](http://typemedia.org) I am taking classes on Python from  [Just van Rossum](https://twitter.com/justvanrossum?lang=en) (Just is pronounced like "Yoost"). Just has done a ton to move type design technology forward, such as being one of the three main developers of the [UFO](https://fr.wikipedia.org/wiki/Unified_Font_Object) font file format. He has done some wonderful design/development collaboration over the years — a recent project of note was the identity for the Lowlands festival, with visual design by [Hansje van Halem](http://www.hansje.net/Lowlands-Festival-2017-ongoing-project) and coding by Just. A fun and crazy fact: Just's brother, Guido, invented Python. Most importantly, Just also happens to be patient and great at breaking down programming concepts for beginners, so it's been great to learn from him.
 
-Just van Rossum has started teaching us Python with [DrawBot](http://www.drawbot.com), which is a fun program for macOS that allows you to make artwork and animations with code. If you've ever tried [CodePen](https://codepen.com), DrawBot is a bit like that, but for Python instead of HTML/CSS/JS. Basically, you type code in one panel of the app, and when you run it, the result shows up on the other panel. You can then export the result into different file formats like PDF, SVG, MOV, PNG, JPEG, etc.
+Just van Rossum has started teaching us Python with [DrawBot](http://www.DrawBot.com), which is a fun program for macOS that allows you to make artwork and animations with code. If you've ever tried [CodePen](https://codepen.com), DrawBot is a bit like that, but for Python instead of HTML/CSS/JS. Basically, you type code in one panel of the app, and when you run it, the result shows up on the other panel. You can then export the result into different file formats like PDF, SVG, MOV, PNG, JPEG, etc.
 
-Making artwork with code can definitely be tricky in some ways, but also allows you to make things that would be impossible (or stupidly time-consuming) in tools like Adobe Illustrator or After Effects. As a benefit specific to type designers, once you learn about working with Python in Drawbot, you can take these same skills into Robofont or Glyphs to manipulate your fonts.
+Making artwork with code can definitely be tricky in some ways, but also allows you to make things that would be impossible (or stupidly time-consuming) in tools like Adobe Illustrator or After Effects. As a benefit specific to type designers, once you learn about working with Python in DrawBot, you can take these same skills into RoboFont or Glyphs to manipulate your fonts.
 
-I tend to learn best when I take notes. When I'm learning about code, it's helpful for me to follow along with the code as well as document some of the instruction around the code. I've found that Dropbox Paper is really great for this kind of quick note-taking, because it is the best of markdown and a collaborative, easy document tool like Google Docs. Because I'm already taking notes, I will be cleaning them up a bit and sharing them here so others can get started on learning Python, making cool things in Drawbot, and maybe even using scripting in type development.
+I tend to learn best when I take notes. When I'm learning about code, it's helpful for me to follow along with the code as well as document some of the instruction around the code. I've found that Dropbox Paper is really great for this kind of quick note-taking, because it is the best of markdown and a collaborative, easy document tool like Google Docs. Because I'm already taking notes, I will be cleaning them up a bit and sharing them here so others can get started on learning Python, making cool things in DrawBot, and maybe even using scripting in type development.
 
 Without further ado, here are the slightly-cleaned-up notes from our first session of class on September 13th, 2017:
 
 ---
 
-> Python is simple. DrawBot adds the ability to draw stuff. — Just van Rossum
+## Some basics
+
+> Python is simple. DrawBot adds the ability to draw stuff. 
+> — Just van Rossum
 
 
-### Docs at:
-http://www.drawbot.com
+**Docs at:** http://www.DrawBot.com
 
-### Download at:
-http://www.drawbot.com/content/download.html
+**Download at:** http://www.DrawBot.com/content/download.html
 
-### Some super-cool examples of what you can do in Drawbot:
-http://dailydrawbot.tumblr.com/
+**Super-cool examples of what you can do in DrawBot:** http://dailyDrawBot.tumblr.com/
 
 
 ## Getting started
 
+Open DrawBot. We will start with a simple print function and then make a rectangle.
+
 ### Say hello
 
+In the Code Editor pane, type the following:
+
 ```Python
-print "hello"
+print("hello")
 ```
 
-Hit the shortcut `⌘R` to run
+Hit the shortcut **⌘R** (Command + R) to run your code (also available with the menu item *Python > Run*).
+
+This will put the word `hello` in the Output View (bottom-right pane) of DrawBot.
 
 ### Draw a rectangle
 
@@ -47,7 +53,7 @@ Hit the shortcut `⌘R` to run
 rect(100,200,300,400)
 ```
 
-Hit the shortcut `⌘R` to run
+Hit the shortcut **⌘R** to run. This will draw a rectangle in the Preview View (left, canvas area) of DrawBot.
 
 > Strings use stupid quotes (primes).
 
@@ -88,7 +94,7 @@ What happens in a syntax error
 
 
 ## Let’s talk more about the rectangle
-- Drawbot has a canvas
+- DrawBot has a canvas
   - this is a default size, which you can change
   - coordinates start at left-bottom
   - default units are “points”. you can change this later.
@@ -143,7 +149,7 @@ strokeWidth(10)
 
 ### Color trivia: why is RGB typically set in 255?
 
-If you're already a designer or developer, you have probably already learned about how screen color is made of a combination of red, green, and blue pixels. When all three are fully off, you see black, when all three are fully on, you see white, and the other colors are just mixes in between.
+You may already know about how screen color is made of a combination of red, green, and blue pixels. When all three are fully off, you see black, when all three are fully on, you see white, and the other colors are just mixes in between.
 
 A bit is the smallest unit of information that can be stored on a computer – 0 is “off” and 1 is “on”. With 2 bits, we have four possible combinations, so we can count up from 0 to 3: `00` is 0, `01` is 1, `10` is 2, `11` is 3. If we use 3 bits, we can count to 8: `100` is 5, `101` is 6, etc. With *8 bits*, also known as 1 *byte*, we have 256 possible combinations, so we can  you can count from 0 to 255. 
 
@@ -151,9 +157,9 @@ For each color channel in RGB, you can use a single byte to count from 0 to 255,
 
 Wikipedia has a pretty amazing article on the [RGB color model](https://en.wikipedia.org/wiki/RGB_color_model) if you'd like a deeper explanation and some useful diagrams.
 
-As an aside to this aside, we can do this type of math operation in Python: `2 ** 24` is the markup for 2²⁴, so `print 2 ** 24` prints `16777216`.
+As an aside to this aside, we can do this type of math operation in Python: `2 ** 24` is the markup for 2²⁴, so `print(2 ** 24)` prints `16777216`.
 
-### Setting colors in Drawbot uses values of 0 to 1.
+### Setting colors in DrawBot uses values of 0 to 1.
 
 To make a different color, just use decimals in the color naming. So, `fill(1,0.5,0)` will give full red, half green, and yield orange.
 
@@ -177,15 +183,17 @@ In brief:
 
 # Let’s learn some Python fundamentals
 
-`print "some string"` will print in the console
+`print("some string")` will print in the console
 
 - a string must be inside quotes
 - you can print other things, like var
 - you can do math by using numbers and symbols
 
-### Strings
+### Strings & ASCII art
 
-Strings must be on a single line. So:
+You may want to make some [ASCII art](https://en.wikipedia.org/wiki/ASCII_art). Beyond ASCII art being generally cool, using it in Python and DrawBot can be helpful for some modular letter building, later on.
+
+Strings must be on a single line. So this won't quite work:
 
 ```Python
 print "abc
@@ -195,9 +203,9 @@ print "abc
 
 ```
 
-… will throw an error: `SyntaxError: EOL while scanning string literal` (EOL means “end of line”)
+The above will throw an error: `SyntaxError: EOL while scanning string literal` (EOL means “end of line”)
 
-But, you can set a block of text by starting and ending with `"""`:
+However, you can set a block of text by starting and ending with `"""`. It's a different approach than the current Python `print()` syntax, but it works for this scenario.
 
 ```Python
 # strings must be on a single line, unless you wrap with """
@@ -224,12 +232,6 @@ print """
 
 This can be helpful if you're working with ASCII art, or using multiple paragraphs of text for a string variable.
 
-### Q: When  will we use the triple quotes?
-When you want to set columns of text, this can be helpful. Python doesn’t really have the concept of a “console,” but rather it has standard text output. 
-… these are good questions, but we will cover other stuff and come back to this later
-
-
-
 ## Variables
 
 Defined like `a = 123`. Case-sensitive.
@@ -237,9 +239,9 @@ Defined like `a = 123`. Case-sensitive.
 ```Python
 a = 123
 
-print a
+print(a)
 
-print A # throws error
+print(A) # throws error
 ```
 
 Variables cannot start with a number.
@@ -252,8 +254,8 @@ a2 # valid variable
 
 ## Random numbers
 
-`print random()` will provide a random number between 0 and 1.
-`print randint(10,25)` will give random integer between 10 and 25
+`print(random())` will provide a random number between 0 and 1.
+`print(randint(10,25))` will give random integer between 10 and 25
 
 Try `rect(100,100,100, randint(10, 500))` to create a rectangle that will have a random height on any run
 
@@ -264,7 +266,7 @@ fill(random(),random(),random())
 rect(100,100,100, randint(10, 500))
 ```
     
-<img src="./images/4.png" alt="Random rectangles in Drawbot" />
+<img src="./images/4.png" alt="Random rectangles in DrawBot" />
 
 # Let’s make a letter
 
@@ -300,7 +302,7 @@ Code is about breaking down your ideas into smaller and smaller components. Don�
 
 # Homework
 
-Use the [Courseware](http://www.drawbot.com/content/courseware.html) in the Docs. If you get stuck or zoned out, don’t waste a whole evening trying to get unstuck – reach out for help to get unstuck. It may be a simple thing – don’t waste too much time on it.
+Use the [Courseware](http://www.DrawBot.com/content/courseware.html) in the Docs. If you get stuck or zoned out, don’t waste a whole evening trying to get unstuck – reach out for help to get unstuck. It may be a simple thing – don’t waste too much time on it.
 
 
 ## Q & A
@@ -309,13 +311,13 @@ Use the [Courseware](http://www.drawbot.com/content/courseware.html) in the Docs
 
 Not really. Everything you write is a kind of plugin. 
 
-However, there are python libraries which you can “import.” There is a whole python library you can load. There are also third party libraries. Drawbot has built-in things like Math and Random number generators
+However, there are python libraries which you can “import.” There is a whole python library you can load. There are also third party libraries. DrawBot has built-in things like Math and Random number generators
 
 ### Q: how do we draw rounded rectangles?
 
 There’s not really a way. This is pretty primitive. 
 
-One tip: type `print dir()` to see all your options in the console.
+One tip: type `print(dir())` to see all your options in the console.
 
 ### Q: Can you import a PDF vector and interact with it?
 
@@ -337,4 +339,4 @@ I'm typing into the void, so hopefully someone out there has enjoyed this. Did y
 
 ## Next up:
 
-There's plenty more to learn about the basics of Python and DrawBot. If you're still going strong, [check out Part 2 of this introduction](../getting-started-with-drawbot-part_2).
+There's plenty more to learn about the basics of Python and DrawBot. If you're still going strong, [check out Part 2 of this introduction](../getting-started-with-DrawBot-part_2).

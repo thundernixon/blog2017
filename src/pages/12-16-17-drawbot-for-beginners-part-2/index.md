@@ -1,7 +1,7 @@
 ---
 path: "/getting-started-with-drawbot-part_2"
 date: "2017-12-16T11:46:16.408Z" 
-title: "Getting started with parametric design in Drawbot, Part 2"
+title: "Getting started with parametric design in DrawBot, Part 2"
 tags: ["python", "code", "type design", "type testing", "drawbot"]
 publish: true
 ---
@@ -32,30 +32,30 @@ You can tab in/out a whole block of text by highlighting it, then using `Command
 
 ```Python
 if 3:
-    print "yes"
+    print("yes")
     # non-zero numbers or strings are true
     
 if 0:
-    print "zero"
+    print("zero")
     # false
     
 if "":
-    print "empty string"
+    print("empty string")
     # false
     
 if True:
-    print "True"
+    print("True")
     # True (and False) have capitals
     
 
 if 2 < 5:
-    print "yup"
+    print("yup")
     # 2 < 5 can be run anywhere, and the True/False value can be referenced
     
 a = 123
 
 if a is not None:
-    print "yes"
+    print("yes")
 ```
 
 You can compare the values of two variables:
@@ -65,9 +65,9 @@ nameA = "Stephen"
 nameB = "Steven"
 
 if nameA == nameB:
-    print "the names are equal"
+    print("the names are equal")
 else:
-    print "the names are different"
+    print("the names are different")
 
 # prints "the names are different"
 
@@ -75,7 +75,7 @@ numA = 12
 numB = 12
 
 if numA == numB:
-    print "the numbers are equal"
+    print("the numbers are equal")
 
 # prints "the numbers are equal"
 ```
@@ -98,7 +98,7 @@ Can also be called a “parameter”
 
 ```Python
 if a != b:
-    print "yes"
+    print("yes")
 ```
 
 
@@ -107,7 +107,7 @@ if a != b:
 ```Python
 list = [12, 34, 123, 232, "string"]
 
-print list[1] # 34
+print(list[1]) # 34
 ```
 
 Python is “zero indexed” – counting on lists starts from zero (the same is true in for loops, etc).
@@ -115,21 +115,21 @@ Python is “zero indexed” – counting on lists starts from zero (the same is
 ### Length
 
 ```Python
-print len(list) # prints 5, the "length" of the list
+print(len(list)) # prints 5, the "length" of the list
 ```
 
 You can print the last item of the list, or count from the last item
 
 ```Python
-print list[-1] # prints last item
-print list[-2] # prints second-to-last item
-print list[len(list) - 1] # longer form of list[-1]
+print(list[-1]) # prints last item
+print(list[-2]) # prints second-to-last item
+print(list[len(list) - 1]) # longer form of list[-1]
 ```
 
 A string also has a length:
 
 ```Python
-print len("abc") # prints 3
+print(len("abc")) # prints 3
 ```
 
 ## Managing lists
@@ -138,17 +138,17 @@ You can manage data in lists, like
 
 ```Python
 list.append("a new item")
-print list # [12, 34, 123, 232, 'hey look a string', 'a new item']
+print(list) # [12, 34, 123, 232, 'hey look a string', 'a new item']
 ```
 
 
 ## “For” loops
 
 ```Python
-residents = ["carlos", "stephen", "sean"]
+family = ["Homer", "Marge", "Lisa", "Bart"]
 
-for roommate in residents:
-    print roommate # prints carlos stephen sean (on new lines each)
+for member in family: # here, you set up "member" as a variable to describe each element of the list
+    print(member) # prints Homer, Marge, Lisa, and Bart, each on a new line
 ```
       
 
@@ -156,7 +156,7 @@ You can also loop through the letters of a string
 
 ```Python
 for item in "abcde":
-    print item # prints a b c d e
+    print(item) # prints a b c d e
 ```
 
 
@@ -187,7 +187,7 @@ rect(x,100,100,100)
 ```Python
 for i in range(6):
     x = 50 + i * 150
-    print x
+    print(x)
     rect(x, 300, 100, 100)
 ```
 
@@ -239,9 +239,11 @@ if (i + j) % 2:
 
 ### Q: What version of python should we be focused on?
 
-In DrawBot, we are using Python 2.7. There is also an experimental version of DrawBot that uses Python 3.6.
+~In DrawBot, we are using Python 2.7. There is also an experimental version of DrawBot that uses Python 3.6.~
 
-Robofont scripting uses Python 2.7, so as beginners and students learning about type design, using Drawbot in Python 2.7 works in our favor. 
+~Robofont scripting uses Python 2.7, so as beginners and students learning about type design, using Drawbot in Python 2.7 works in our favor.~
+
+Update, Jan 2018: DrawBot now uses Python 3.6, and RoboFont 2, current in Beta and being released this spring, will use Python 3.6 for scripting.
 
 <h1 id="thanks"> Thanks for reading!</h1>
 
