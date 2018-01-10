@@ -80,16 +80,6 @@ if numA == numB:
 # prints "the numbers are equal"
 ```
 
-### is “Variable” the name?
-
-They could also be described as “labels for objects”
-
-Can also be called a “parameter”
-
-
-> Python is completely object oriented, and not "statically typed". You do not need to declare variables before using them, or declare their type. Every variable in Python is an object.
-> https://www.learnpython.org/en/Variables_and_Types
-
 ### Identity equivalents
 
 - strong equivalents are `is` and `is not`

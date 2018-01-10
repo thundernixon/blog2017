@@ -18,17 +18,27 @@ Without further ado, here are the slightly-cleaned-up notes from our first sessi
 
 ---
 
-## Some basics
+## Starter resources
 
 > Python is simple. DrawBot adds the ability to draw stuff. 
 > — Just van Rossum
 
 
-**Docs at:** http://www.DrawBot.com
+**Docs at:** 
 
-**Download at:** http://www.DrawBot.com/content/download.html
+http://www.DrawBot.com
 
-**Super-cool examples of what you can do in DrawBot:** http://dailyDrawBot.tumblr.com/
+**Download at:** 
+
+http://www.DrawBot.com/content/download.html
+
+**Forum at:** 
+
+http://forum.drawbot.com/
+
+**Super-cool examples of what you can do in DrawBot:** 
+
+http://dailyDrawBot.tumblr.com/
 
 
 ## Getting started
