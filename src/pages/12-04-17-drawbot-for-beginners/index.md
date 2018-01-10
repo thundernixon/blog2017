@@ -206,28 +206,27 @@ You may want to make some [ASCII art](https://en.wikipedia.org/wiki/ASCII_art). 
 Strings must be on a single line. So this won't quite work:
 
 ```Python
-print "abc
+print)"abc
     def
     ghi
-"
+")
 
 ```
 
-The above will throw an error: `SyntaxError: EOL while scanning string literal` (EOL means “end of line”)
+The above will throw an error: `SyntaxError: invalid syntax`.
 
-However, you can set a block of text by starting and ending with `"""`. It's a different approach than the current Python `print()` syntax, but it works for this scenario.
+To set a block of text with multiple lines, wrap the multi-line string with `"""`.
 
 ```Python
 # strings must be on a single line, unless you wrap with """
-print """
-
+print("""
     ||  ||  ||
         ||
         ===
     \\\______//
         ``````
 
-    """
+    """)
 ```
 
 - prints
