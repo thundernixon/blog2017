@@ -15,8 +15,6 @@ import '../css/lists.scss';
 
 
 const Dropcap = styled.div`
-  font-weight: bold;
-  font-style: italic;
   position: absolute;
   font-size: 80vw;
   line-height: 0;
@@ -24,7 +22,7 @@ const Dropcap = styled.div`
   text-shadow: .5rem .25rem 0 rgba(255, 106, 55, 0.0625);
   pointer-events: none;
   z-index: 0;
-  font-family: cursive;
+  font-family: "hobeaux-rococeaux", cursive;
   top: 20rem;
   @media (min-width: 640px) {
     margin-left: 2rem;
