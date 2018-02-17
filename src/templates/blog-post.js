@@ -39,7 +39,7 @@ export default function Template({ data, pathContext }) {
       <Helmet title={`${post.frontmatter.title}`} />
       <Dropcap
           className="blog-post-dropcap">
-          {post.excerpt.charAt(0) == "." ? "" : post.excerpt.charAt(0)}
+          {post.excerpt.charAt(0) == "…" ? "" : post.excerpt.charAt(0)}
         </Dropcap>
       <div className="blog-post">
         <h2 className="date">
@@ -48,7 +48,7 @@ export default function Template({ data, pathContext }) {
         <h1 className="title serif-display">
           {post.frontmatter.title}
         </h1>
-        
+
         <div
           className="blog-post-content"
           dangerouslySetInnerHTML={{ __html: post.html }}
@@ -91,7 +91,7 @@ export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       html
-      excerpt(pruneLength: 5)
+      excerpt(pruneLength: 20)
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
