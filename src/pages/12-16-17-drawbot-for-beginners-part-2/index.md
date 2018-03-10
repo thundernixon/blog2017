@@ -20,7 +20,7 @@ Highlight a number, then hold `command` while hitting up/down arrows. Hold `Shif
 
 When you have a number highlighted, you can old `command`, then `click + drag` to move the value up and down. You can even highlight two numbers to move them together.
 
-### Text highlighting with the keyboard only
+### Text highlighting with the keyboard only === yo
 
 Like most text environments, you can highlight text by holding `shift`, then using left/right/up/down arrows.
 

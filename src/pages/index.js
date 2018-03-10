@@ -10,6 +10,8 @@ import '../css/index.scss';
 import '../css/basics.scss';
 import '../css/link.css';
 
+/// code comment yay xxxx fff hllo
+
 export default function Index({ data }) {
   const { edges: posts } = data.allMarkdownRemark;
   return (
