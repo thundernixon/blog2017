@@ -8,6 +8,10 @@ publish: true
 
 Occasionally, I’ll be talking with someone as I’m on my computer, and I pull up my terminal to enter a git command or something similar. If they use the terminal a lot but haven’t seen or tried the “hotkey window” in a terminal before, they sometimes react with, “*wait – what the heck was that??*” I remember when I first had that reaction, too, and I was glad when someone showed me how to look and feel like an elite hacker.
 
+<span class="screenshot">
+<img src="./images/iterm-hotkey-window-example.png" alt="iTerm2's Hotkey Window is a convenient way to access the command line" />
+</span>
+
 The secret is iTerm2, “a terminal emulator for macOS that does amazing things,” according to [its website](http://iterm2.com/). It’s super-customizable, and even though [Hyper](https://hyper.is/) terminal is more trendy these days, the hotkey window in iTerm2 works so much more smoothly than anything else I’ve tried. I love using multiple macOS spaces while I work, often using a web browser in one space, a code editor in another, and visual design tools in more spaces. With a hotkey window, I have a convenient terminal always at the ready, without worrying about switching my current space to enter a quick command.
 
 ## How to get iTerm and set up the “Hotkey Window”
