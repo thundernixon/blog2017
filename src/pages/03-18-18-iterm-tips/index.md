@@ -20,8 +20,7 @@ Let’s set up the hotkey window:
 
 1. Download [iTerm2](http://iterm2.com/), unzip it, move it to your applications folder, and right-click to open it.
 2. Open the iTerm2 Preferences (It has a *lot* of settings, so in the past, setting it up on new computers has taken me some time to figure out again. That’s partly why I’m writing this guide). Since you'll be opening up the settings a lot while you set things up, remember that you can access Preferences with the shortcut `command`+`,`.
-3. Go to the *Profiles* tab.
-  1. Something quirky about iTerm2 is that it has overall settings *plus* “Profiles” which you can set up with different collections of settings – you can reconfigure every setting for each profile. This may seem complicated at first, but it’s useful in that it allows you to experiment with different setups. You could even use a completely different style of terminal based on what type of work you were doing, if you *really* live in the terminal. Anyway, for now we will simply set up a single profile to have a Hotkey window.
+3. Go to the *Profiles* tab. Something quirky about iTerm2 is that it has overall settings *plus* “Profiles” which you can set up with different collections of settings – you can reconfigure every setting for each profile. This may seem complicated at first, but it’s useful in that it allows you to experiment with different setups. You could even use a completely different style of terminal based on what type of work you were doing, if you *really* live in the terminal. Anyway, for now we will simply set up a single profile to have a Hotkey window.
 4. Go to the *Keys* section of the *Profiles* tab.
 
 <p>
@@ -30,28 +29,47 @@ Let’s set up the hotkey window:
 
 4. While you’re in the *Keys* section, check the box in the “Hotkey Window” section. 
 5. Now, click the button labeled “Configure Hotkey Window…”
-6. A panel with options slides down. Use “click to set” the Hotkey, then hit your desired key combo. 
-  1. I use **control+space** for my hotkey combo, because it’s easy to hit with one hand, and it’s right next to my [Alfred app](https://www.alfredapp.com/) hotkey.
+6. A panel with options slides down. Use “click to set” the Hotkey, then hit your desired key combo. I use **control+space** for my hotkey combo, because it’s easy to hit with one hand, and it’s right next to my [Alfred app](https://www.alfredapp.com/) hotkey.
 7. You can select other options, if you want. I personally like to select “Animate showing and hiding,” and I don’t find that the “Floating window” works very well (it stays behind my other windows, for whatever reason).
 
 <p>
 <img src="./images/iterm-configure-hotkey.png" alt="iTerm2's Hotkey Configuration panel" />
 </p>
 
+### Make iTerm open on Login to prevent double-window confusion later
 
-8. The last step to making this hotkey window work well is to make sure iTerm2 launches when you boot up your computer, *but also* that it launches in a hidden state. Otherwise, you’ll get a non-hotkey window when you boot it up, and you will have two iTerm2 windows to deal with, which can be confusing and annoying. To do this:
-  1. Open your mac System Preferences, then go to *Users & Groups.*
-  2. Go to the *Login Items* tab. These are all the apps that will start when you log into your mac user profile.
-  3. Click the `+` button to add an item to this list, then navigate to your Applications folder and select iTerm.
-  4. Mark the checkbox to “Hide” iTerm on log in. If you haven’t already done so, I highly recommend hiding *all* your login items so you aren’t greeting with a bunch of windows each time you power up your computer.
-
+1. The last step to making this hotkey window work well is to make sure iTerm2 launches when you boot up your computer, *but also* that it launches in a hidden state. Otherwise, you’ll get a non-hotkey window when you boot it up, and you will have two iTerm2 windows to deal with, which can be confusing and annoying. To do this:
+2. Open your mac System Preferences, then go to *Users & Groups.*
+3. Go to the *Login Items* tab. These are all the apps that will start when you log into your mac user profile.
+4. Click the `+` button to add an item to this list, then navigate to your Applications folder and select iTerm.
+5. Mark the checkbox to “Hide” iTerm on log in. If you haven’t already done so, I highly recommend hiding *all* your login items so you aren’t greeting with a bunch of windows each time you power up your computer.
 
 <p>
 <img src="./images/mac_os-login-items.png" alt="macOS user login items" />
 </p>
 
-
 Well done! You should now be able to pull open your terminal with the quick press of a hotkey, and impress your friends with your elite hacking skills.
+
+## Configure the size and positioning of the Hotkey Window
+
+If you've just set up the hotkey window without changing other settings, you'll just have a convenient way to pull up a typical floating window. However, if you'd like to get the Master Chief / Iron Man / TRON / HUD-style slide-down Hotkey Window, there's one or two more steps. 
+
+1. To adjust your window location, find the setting at *Profiles > Window > Style*. I find that the nicest option is "Full-Width Top of Screen." 
+
+<p>
+<img src="./images/iterm-profiles-window.png" alt="iTerm window settings" />
+</p>
+
+Note: when iTerm is open, `command`+`enter` will toggle a full-screen mode, regardless of your Window Style. This can be surprising if you don't expect it.
+
+2. Optional Step: in this same *Window* settings panel, it's also possible to enable a touch of *Transparency* plus a generous background *Blur*. I think it's aesthetically pleasing and helps reinforce the feeling of an always-in-context terminal, but I recognize that this look might not be for everyone. You could even set a background image, but I've only ever found that useful for gently trolling my classmates and coworkers by pulling up their face on my computer. 
+
+3. Optional option: if you want to read logs or help documentation in the terminal, you probably want to fully pay attention. For that reason, if you do make the Hotkey Window transparent, make sure that fullscreen mode is opaque. Do this by going to *Appearance* (this is global, not under *Profiles*, but don't ask me why) and in the *Window* options, and making sure that the box is checked next to "Disable transparency for fullscreen windows by default."
+
+<p>
+<img src="./images/iterm-disable-transparency.png" alt="Preventing full-screen transparency in iTerm" />
+</p>
+
 
 ## Give yourself a better text cursor
 
