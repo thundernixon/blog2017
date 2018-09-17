@@ -124,17 +124,29 @@ In the future, I will also consider taking some lessons from how I tend to work 
 
 ## Meet with visitors ASAP
 
-Tobias vs Paul
+RoboThon is a triennial font technology conference held by TypeMedia, which luckily coincided with my class year. During RoboThon, there were many incredibly knowledgable type designers visiting. Even though my project was at an extremely early state (and embarrassingly drawn), I showed it to several visiting designers, and I asked them questions on my mind. I got extremely useful feedback and advice which drove my project in several ways. I was able to do this because I didn't wait until the end, but rather started asking for feedback from the first coffee break on Day 1 of the conference. This was not very chill of me, but I was kind and polite about it, and most people responded well to my enthusiasm.
+
+By contrast, we had a very experience type designer who I look up to visited when we were about 2/3 of the way through the semester. He was in the classroom for two whole days, giving individual critiques. I really wanted to get the best possible feedback and I also wanted to make a good impression, so I felt a need to work through a backlog of corrections and set up my web testing site properly to show this designer my project. To give myself extra time, I took the last slot for critique, on Day 2 of the visit. Unfortunately, we all but ran out of time, and I barely got in ten minutes of time with a visibly fatigued reviewer. Many of my classmates were more eager and available for critique sooner, and they were able to get in maybe 45 minutes of time with a more-alert reviewer on Day 1. In some cases, these classmates were even able to check back in with further corrections and questions on Day 2. Their openness and energy gave them a better set of feedback to move forward with, and it also happened to make a better impression.
+
+The reviewing type designer was generous enough to give me the chance to have a follow-up email critique – which I gladly took up and worked hard to make the best of – but they were back to work and not able to offer quite the same level of advice.
+
+As Benjamin Franklin famously said, "The early bird gets the design critique." (I may be paraphrasing that slightly).
 
 ## Don't expect to finish your projects during the school year
 
-If you can release your font inside the year, you probably haven't been ambitious enough.
+I wanted to release a beta version of my thesis project before graduation. That wasn't possible, and trying to complete my entire typeface made it much harder for me to present my project in the end.
+
+If you can release your font inside the year, you probably haven't been ambitious enough about the scope or quality of you project.
+
+At graduation, you'll be showing a prototype of a typeface – plan accordingly.
 
 ## Work on a single "core" font, with partial extensions
 
+One strategy that many of my classmates took for their thesis was focussing on pushing a "regular" weight of their typeface to near-completion, then building a small character set in the stylistic extensions of their type family. This allowed them to typeset their process book, poster, specimen, and final presentation in their typeface, and to make useful diagrams to show their broader structure of the family. Focussing on a regular weight and being more loose about other styles allowed them to better show how the type family would extend as a multi-lingual tool, but also to better present the system in animations, imagery, and example use cases.
+
 ## Variable fonts have some issues
 
-## Finish strong
+## Finish strong (start with your final presentation, then make the process book)
 
 To graduate, we had to present our final projects in the following ways:
 
