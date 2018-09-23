@@ -1,21 +1,20 @@
 ---
 path: "/things-learned-at-typemedia.html"
 date: "2018-09-01T17:13:20+02:00"  
-title: "A few things I learned at TypeMedia"
+title: "A few things I learned at TypeMedia – a general summary, plus tips for current & prospective students"
 tags: ["typemedia", "design", "type", "hot-tips"]
-publish: false
+publish: true
 ---
 
-This July, I graduated from TypeMedia in the class of 2018. It was one of the most difficult, most rewarding experiences of my life. I'm too close to it to understand its long-term impact on my design career, but I learned a tremendous amount and got to know a bunch of amazing people.
+This July, I graduated from [TypeMedia](http://typemedia.org) in the class of 2018. It was one of the most difficult, most rewarding experiences of my life. I'm too close to it to understand its long-term impact on my design career, but I learned a tremendous amount and got to know a bunch of amazing people.
 
 In this post, I will:
 
-1. Explain what TypeMedia is, for those who don't already know
-2. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! explain what i learned
-3. Give a few brief tips on getting in, for those who are considering applying
-4. Describe my two biggest questions when I was considering attending
-5. Give concrete tips on the practices I found useful in getting through the program successfully
-6. Offer a few tips about how to finish strong
+1. Explain what TypeMedia is for those who don't already know
+2. Give a few brief tips on getting accepted to the course
+3. Describe my two biggest worries before attending, and give my hindsight view of these
+4. Summarize the design lessons I learned, and document a few of the practices I found useful in getting through the program successfully
+5. Offer a few general tips about life, finances, and admin in the Hague
 
 # First off: what is TypeMedia?
 
@@ -72,17 +71,15 @@ Because TypeMedia is so varied, I never felt burned out in the way I worried I m
 
 People _do_ burn out at TypeMedia, and by the very end, I partly did myself. The combination of being surrounded by competitive classmates and having teachers that openly expect remarkable results is a lot to handle. In the second semester, I deliberately took on a final project which I knew was ambitious enough that “finishing” it was an open risk. I wanted a broad variable font family, but what if working through technical hurdles would leave me with an unpresentable mess? In the final month, I chose to make changes that were extensive but felt necessary – in addition to creating the final exhibition poster, presentation, process book, and specimen. That final month is the closest I have come to “not sleeping” in favor of working, with two solid weeks of very short nights of sleep. I _did_ accomplish a lot in that time, but on the day of final presentations, I had the feeling that if the same intensity were to continue for another week, I would just ... stop functioning. Whether I could have kept working beyond that is an open question, but I definitely was forced to confront my limits of emotional and digital output.
 
-Luckily, I have since had the chance to take some vacation, move back to the US, and learn at an internship that was more about coding and exploratory drawing than obsessive focus on a single typeface. I've gotten to spend more time thinking, writing, and doing web coding, and these things have helped clear my head a bit, and made me eager to get back to more type design.
+Luckily, I have since had the chance to take some vacation, move back to the US, and learn at an internship that was more about coding and exploratory drawing than obsessive focus on a single typeface. I've gotten to spend more time thinking, writing, and doing web coding. These things have helped clear my head a bit and have made me eager to get back to more type design.
 
-# Concrete tips
+# Concrete lessons & tips
 
 Now that I've finally provided some context for this post, here are a few of the top lessons I left TypeMedia with. A few of them are good design lessons I'll carry on, and most are specific things things that helped me through the year or things I wish I would have done better. As such, the following section is written to anyone currently starting a year of TypeMedia, though I believe that these lessons apply to just about anyone working in a design team or working on a big project.
 
-## Keep yourself happy & healthy.
+## Be enthusiastic and learn everything you can from each of the teachers
 
-I found out again how much I enjoy running outside. The Haagse Bos (Hague's Woods) are a huge park right next to KABK. They are wonderful to walk in with classmates, and maybe even better to explore on your own while jogging.
-
-I barely made it to the beach, which is nuts. It is gorgeous, and I was an easy 20 minute tram or bike ride away! It's a busy year so you'll get caught up in work, but make sure to visit for at least a few sunsets.
+In general, I think that approaching most topics with curiosity and enthusiasm is the best way to learn and to have a good time. I know this can be hard sometimes, especially if you feel busy or pressured by multiple projects. However, in a course like TypeMedia – which mixes many disciplines, classes, teachers, and approaches to teaching – it makes a huge difference to attend classes with an open mind and gung-ho attitude. Every one of the teachers has done great work and you can learn important things from each of them. A few of them give more assignments or teach in a more unconventional, less-direct way. Treat the assignments less as "homework" and more as opportunities to learn, and ask lots of questions to get want you want out of unconventional lessons. My classmates all did wonderful work and got a lot out of the course, but those who kept an optimistic perspective seemed to have about 50% more fun.
 
 ## Be nice to your classmates.
 
@@ -100,7 +97,7 @@ You are surrounded by type programming experts. Yes, you should Google a bit and
 
 The second semester comes quickly, and then it goes quickly. Try to come up with a few good ideas for your thesis project in the first semester and over winter break. Test these as early and as quickly as possible, so you can start the second semester with at least three ideas you are excited about. We presented each month of the spring semester, starting on February 15th. Everyone showed few ideas in the first presentation. Some students kept generating ideas and deciding what the project should be. Other students made a decision in the days after that and had started to develop it by the second presentation. That gave them an extra month to work on their project – a very significant advantage when there were just 4 months to develop large and complex projects.
 
-Type design has infinite possibilities, and that can feel paralyzing at times, because it's not always possible to devise a logical argument for one solution over another. Still, take each decision as a design process: generate multiple ideas, test them in context, and ask for feedback when you can. Go with what seems best, but keep copies of your work as you go, in case you need to backtrack.
+Despite its many constraints, type design has infinite possibilities. That can feel paralyzing at times, because it's not always possible to devise a logical argument for one solution over another. Still, take each decision as a design process: generate multiple ideas, test them in context, and ask for feedback when you can. Go with what seems best, but keep copies of your work as you go, in case you need to backtrack.
 
 ## Make models.
 
@@ -108,7 +105,7 @@ Petr van Blokland will hammer this lesson home in his class sessions, but at eac
 
 Petr uses the example of an architect building a house. Instead of telling their clients to "relax and expect great things in a few months," the architect will show a physical or virtual model of the project design. That way, a sink can be moved without ripping out the whole kitchen.
 
-In terms of a typeface, making models means different things at different stages in the process. When you're in the first hours of exploring what a type family should be, that might mean drawing a few test characters (e.g. `Hamburgerfonts`, or my prefered alternative, `Newfishtacoburg`), and/or testing your overall design space ideas by making just one letter (e.g. `a` in Thin, Regular, Heavy, and then interpolating these styles to test how your idea works as a system) . A few days or weeks in, that probably means having a full lowercase set in at least the regular weight, so you can begin setting running text in realistic-looking typographic layouts to judge the font by reading it.
+In terms of a typeface, making models means different things at different stages in the process. When you're in the first hours of exploring what a type family should be, that might mean drawing a few test characters (e.g. `Hamburgerfonts`, or my preferred alternative, `Newfishtacoburg`), and/or testing your overall design space ideas by making just one letter (e.g. `a` in Thin, Regular, Heavy, and then interpolating these styles to test how your idea works as a system) . A few days or weeks in, that probably means having a full lowercase set in at least the regular weight, so you can begin setting running text in realistic-looking typographic layouts to judge the font by reading it.
 
 ## It’s as much about getting critique as making letters … Be quick and flexible, not perfect.
 
@@ -148,9 +145,15 @@ One strategy that many of my classmates took for their thesis was focussing on p
 
 ## Variable fonts have some issues right now.
 
-A big goal of mine at TypeMedia was getting to be more familiar with making and pushing forward the development of variable font. For any readers that may not already know about variable fonts, they are fonts that contain multiple weights or styles in a single file, allowing the end user to select the precise weight they want, rather than having a bunch of separate files with only those few exact stylistic options. This is more efficient to serve over the web, and allows interesting possibilities like fluid transistions between styles.
+A big goal of mine at TypeMedia was getting to be more familiar with making and pushing forward the development of variable font. For any readers that may not already know about variable fonts, they are fonts that contain multiple weights or styles in a single file, allowing the end user to select the precise weight they want, rather than having a bunch of separate files with only those few exact stylistic options. This is more efficient to serve over the web, and allows interesting possibilities like fluid transitions between styles.
 
 This was a fun pursuit for me, and it gave me a great focus for my final project. In the end, I found it super rewarding. However, it definitely took more time than I had expected to wrestle with unexpected export issues, and it has been harder than expected to use variable fonts in web browsers to do things like animation. I'll have to make a separate post to try to document this process in a digestible way, but know that if you are set on making a variable font (or if you plan to work with any other new technology) you'll probably have some issues to work through.
+
+## Keep yourself happy & healthy.
+
+I found out again how much I enjoy running outside. The Haagse Bos (Hague's Woods) are a huge park right next to KABK. They are wonderful to walk in with classmates, and maybe even better to explore on your own while jogging.
+
+I barely made it to the beach, which is nuts. It is gorgeous, and I was an easy 20 minute tram or bike ride away! It's a busy year so you'll get caught up in work, but make sure to visit for at least a few sunsets.
 
 ## Finish strong (start with your final presentation, then make the process book)
 
@@ -177,7 +180,8 @@ I wrote notes throughout the semester, but these were more helpful in my day-to-
 
 ### Random things
 
-* Try the HEMA breakfast. It's pretty cheap and good. You get 5 items for 2 Euro. Fair warning: they do count everything as an item, including the little single-serving butter.
-* Recycling is a bit hard. They do recycle glass, paper, plastic, aluminum, and drink cartons, but you just need to find the right drop-off containers. A few that were close to me were [here].
-* If you use something every day in your life before TM, you'll probably miss it if you don't bring it in favor of packing light. I particularly missed my travel coffee mug (surprise: I kept my coffee addiction in The Hague). I already do missed my oblique pen holder (surprise: there really is a fair bit of time for letting and calligraphy in the course). On the other hand, I also brought a musical instrument which I barely found time for. Packing can be hard.
-* When you've graduated and it's time to return home, close out your bank account and phone account while you're still in the Netherlands. Otherwise, you'll end up puzzling your way through customer service help lines on Google Voice at $0.19/minute (but if you _do_ end up in that situation, I've found that mashing the number keys is the surest way to get through to a person).
+* Go try the HEMA breakfast with a classmate. It's fun, cheap, and good. You get 5 items for 2 Euro. Fair warning: they do count _everything_ as an item – including the little single-serving butter – so get some eggs and cappuccino before you opt for condiments.
+* Recycling is a bit hard. The Hague does recycle glass, paper, plastic, aluminum, and drink cartons, but you just need to find the right drop-off containers, which is harder than it should be. I lived close to the center of town, and right near my house there were containers for glass and paper at [Bocht van Guinea 25](https://www.google.com/maps/place/Bocht+van+Guinea+25,+2515+MA+Den+Haag,+Netherlands/@52.0746688,4.3199311,20.32z/data=!4m19!1m13!4m12!1m6!1m2!1s0x47c5b71f67721047:0xdb686df277ee9184!2sHuygenspark,+The+Hague,+Netherlands!2m2!1d4.3203438!2d52.0717373!1m3!2m2!1d4.3200856!2d52.0747662!3e3!3m4!1s0x47c5b721fd5a663b:0x3ea576fa0b9ce305!8m2!3d52.0744537!4d4.3199184). Shamefully, it took me until my last days in the Netherlands to finally find that there were containers for plastics and drink cartons within a short walk, at [Paviljoensgracht 41](https://www.google.com/maps/place/Paviljoensgracht+41,+2512+BL+Den+Haag,+Netherlands/@52.0738111,4.3119617,19z/data=!3m1!4b1!4m5!3m4!1s0x47c5b726c628b179:0x6d43fefc8aa91740!8m2!3d52.0738111!4d4.3125089).
+* If you use something almost every day in your life before TypeMedia, you'll probably miss it if you don't bring it in favor of packing light. I particularly missed my travel coffee mug (surprise: my coffee addiction persisted in The Hague). I also really missed my oblique pen holder for pointed-pen writing (surprise: there really is a fair bit of time for letting and calligraphy in the course). On the other hand, I also brought a musical instrument which I barely found time for, and I should have instead replaced it with more of my art and lettering supplies. Packing can be hard to get right!
+* I tried to budget for the program beforehand, and it was very difficult to know how much art supplies and printing would cost. I wanted to keep track in a spreadsheet, but this was difficult to keep up with the many unplanned or incidental costs. I got an estimate from a former student that it there was maybe 50€ per semester in supply and printing costs. I would estimate that it was closer to 150–200€ per semester. This was partly because I should have brought a few more things from home, and partly because KABK has incredible, very affordable workshops for printing and making things. I particularly fell in love with riso printing, though there were also options for screenprinting, laser cutting, 3D printing, metalwork, and more. 200€ is spendy, but I found it useful to remember that KABK is a fraction of the cost of American and English universities.
+* When you've graduated and it's time to return home, close out your bank account and phone account while you're still in the Netherlands. Otherwise, you'll end up puzzling your way through customer service help lines on Google Voice at $0.19/minute. (If you _do_ end up on Dutch customer service phone lines, I've found that mashing the number keys is the surest way to get through to a person, and they have always spoken near-perfect English).

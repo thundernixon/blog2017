@@ -6,7 +6,7 @@ const BUILD_TIME = new Date().getTime();
 
 export default class HTML extends React.Component {
   static propTypes = {
-    body: PropTypes.string,
+    body: PropTypes.string
   };
 
   render() {
@@ -15,7 +15,7 @@ export default class HTML extends React.Component {
       css = (
         <style
           dangerouslySetInnerHTML={{
-            __html: require('!raw!../public/styles.css'),
+            __html: require('!raw!../public/styles.css')
           }}
         />
       );
@@ -33,10 +33,8 @@ export default class HTML extends React.Component {
 
           {this.props.headComponents}
           {css}
-
-          
         </head>
-        <body >
+        <body>
           <div
             id="___gatsby"
             dangerouslySetInnerHTML={{ __html: this.props.body }}

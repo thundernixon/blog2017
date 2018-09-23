@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import styled from 'styled-components';
+import FaviconSVG from '../assets/favicon.svg';
+import Favicon32 from '../assets/favicon-32.png';
 
 import Tags from '../components/Tags';
 import Icons from '../components/Icons';
@@ -11,7 +13,6 @@ import AboutModal from '../components/AboutModal.js';
 // import Hello from '../components/Hello';
 
 import MdInfoOutline from 'react-icons/lib/md/info-outline';
-
 
 // require('prismjs/themes/prism-solarizedlight.css')
 
@@ -26,14 +27,14 @@ import '../css/prismjs.scss';
 const StyledAboutModal = styled(AboutModal)``;
 
 const PageContent = styled.div`
-      ${StyledAboutModal}:hover & {
-        position: fixed;
-      }
+  ${StyledAboutModal}:hover & {
+    position: fixed;
+  }
 `;
 
 export default class Template extends React.Component {
   static propTypes = {
-    children: PropTypes.func,
+    children: PropTypes.func
   };
 
   render() {
@@ -47,46 +48,54 @@ export default class Template extends React.Component {
       <div
         style={{
           background:
-            isRoot || isTags || isAbout
-              ? `rgba(235,21,255,.025)` : 'white',
-          minHeight: `100%`,
-        }}
-      >
+            isRoot || isTags || isAbout ? `rgba(235,21,255,.025)` : 'white',
+          minHeight: `100%`
+        }}>
         <Helmet
           title="Stephen Nixon’s Design Blog"
           meta={[
-            { name: 'description', content: 'Notes and photos about design, travel, TypeMedia, and more.' },
-            { name: 'keywords', content: 'Stephen Nixon, design, code, type, lettering, photography' },
+            {
+              name: 'description',
+              content:
+                'Notes and photos about design, travel, TypeMedia, and more.'
+            },
+            {
+              name: 'keywords',
+              content:
+                'Stephen Nixon, design, code, type, lettering, photography'
+            }
+          ]}
+          link={[
+            { rel: 'shortcut icon', type: 'image/svg', href: `${FaviconSVG}` },
+            { rel: 'shortcut icon', type: 'image/png', href: `${Favicon32}` }
           ]}
         />
         <div
           className="header"
           style={{
-            background: `transparent`,
-          }}
-        >
+            background: `transparent`
+          }}>
           <div
             className="header-inner"
             style={{
               margin: `0 auto`,
               width: `100%`,
-              maxWidth: 2000,
-            }}
-          >
+              maxWidth: 2000
+            }}>
             <Icons />
-            <div className="site-nav"
+            <div
+              className="site-nav"
               style={{
-                display:`flex`,
-                alignItems: `center`,
+                display: `flex`,
+                alignItems: `center`
               }}>
               <h1>
                 <Link
                   to="/"
                   style={{
                     color: '#222',
-                    textDecoration: 'none',
-                  }}
-                >
+                    textDecoration: 'none'
+                  }}>
                   Stephen Nixon
                 </Link>
               </h1>
@@ -96,15 +105,14 @@ export default class Template extends React.Component {
 
               <AboutModal />
             </div>
-            
+
             <ul style={{}}>
               <li style={{}}>
                 <a
                   title="Instagram"
                   className="social-link"
                   href="https://instagram.com/thundernixon"
-                  style={{}}
-                >
+                  style={{}}>
                   <SocialIcon icon={'ig-icon'} />
                 </a>
               </li>
@@ -113,8 +121,7 @@ export default class Template extends React.Component {
                   title="Twitter"
                   className="social-link"
                   href="https://twitter.com/thundernixon"
-                  style={{}}
-                >
+                  style={{}}>
                   <SocialIcon icon={'twitter-icon'} />
                 </a>
               </li>
@@ -123,21 +130,18 @@ export default class Template extends React.Component {
                   title="GitHub"
                   className="social-link"
                   href="https://github.com/thundernixon/blog2017"
-                  style={{}}
-                >
+                  style={{}}>
                   <SocialIcon icon={'github-icon'} />
                 </a>
               </li>
             </ul>
-
           </div>
         </div>
         <PageContent
           className="page-content"
           style={{
-            margin: `0 auto`,
-          }}
-        >
+            margin: `0 auto`
+          }}>
           {this.props.children()}
         </PageContent>
         {/* <MdInfoOutline /> */}
