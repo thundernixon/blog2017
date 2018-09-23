@@ -168,7 +168,10 @@ If I were to repeat the semester, I would likely do my best to make the presenta
 a. record the presentation, plus
 b. fill in any gaps that wouldn’t fit into the 10 minutes of speaking.
 I wrote notes throughout the semester, but these were more helpful in my day-to-day design process than as a real reference in writing the final process book. I suspect that these may also be helpful if I need to get into the mind-space of my design decisions in the future.
-Random things
-Try the HEMA breakfast. It's pretty cheap and good. You get 5 items for 2 Euro. Fair warning: they do count everything as an item, including the little single-serving butter.
-Recycling is a bit hard. They do recycle glass, paper, plastic, aluminum, and drink cartons, but you just need to find the right drop-off containers. A few that were close to me were [here].
-If you use something every day in your life before TM, you'll probably miss it if you don't bring it in favor of packing light. I particular missed my travel coffee mug (surprise: I kept my coffee addiction here). I already do missed my oblique pen holder (surprise: there really is a fair bit of time for letting and calligraphy here). On the other hand, I brought a musical instrument which I barely found time for.
+
+### Random things
+
+* Try the HEMA breakfast. It's pretty cheap and good. You get 5 items for 2 Euro. Fair warning: they do count everything as an item, including the little single-serving butter.
+* Recycling is a bit hard. They do recycle glass, paper, plastic, aluminum, and drink cartons, but you just need to find the right drop-off containers. A few that were close to me were [here].
+* If you use something every day in your life before TM, you'll probably miss it if you don't bring it in favor of packing light. I particularly missed my travel coffee mug (surprise: I kept my coffee addiction in The Hague). I already do missed my oblique pen holder (surprise: there really is a fair bit of time for letting and calligraphy in the course). On the other hand, I also brought a musical instrument which I barely found time for. Packing can be hard.
+* When you've graduated and it's time to return home, close out your bank account and phone account while you're still in the Netherlands. Otherwise, you'll end up puzzling your way through customer service help lines on Google Voice at $0.19/minute (but if you _do_ end up in that situation, I've found that mashing the number keys is the surest way to get through to a person).
