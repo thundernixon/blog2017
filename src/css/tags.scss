@@ -1,7 +1,19 @@
 @import 'vars';
 
-.tag-list li{
+.tag-list {
+    list-style: none;
+}
+
+.blog-post ul.tag-list li {
     display: inline-block;
+
+    &:before {
+        content: "";
+    }
+
+    a:hover {
+        cursor: pointer;
+    }
 }
 
 .tags {
@@ -16,7 +28,7 @@
 }
 
 .tag {
-    background-color: rgba($text,.05);
+    background-color: rgba($text, .05);
     color: #222;
     border-radius: 999px;
     display: inline-block;
@@ -28,7 +40,7 @@
 
 .tag:hover {
     box-shadow: $pillowy-shadow;
-    background-color: rgba($white,1);
+    background-color: rgba($white, 1);
     color: #9115FF;
 }
 
@@ -38,10 +50,15 @@
     line-height: 1;
     display: inline-block;
     padding: .25em .75em .5em;
+    transition: .35s ease;
+
+    &:hover {
+        cursor: pointer;
+    }
 }
 
-@media (max-width: 660px) { 
-  .tags a { 
-    font-size: 1rem;
-  }
+@media (max-width: 660px) {
+    .tags a {
+        font-size: 1rem;
+    }
 }

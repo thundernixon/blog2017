@@ -1,19 +1,43 @@
 @import 'vars';
 
-.blog-post ol li {
-    padding-left: 0.25rem;
-    position: relative;
-    left: -.25rem;
+.blog-post ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+
+    li {
+        counter-increment: my-awesome-counter;
+
+        &:before {
+            content: counter(my-awesome-counter) ".";
+            font-variant-numeric: tabular-nums;
+            position: absolute;
+            // left: -.35em;
+            margin-left: -1em;
+        }
+    }
 }
 
-ol, ul {
+.blog-post ul {
+    list-style: none;
+
+    li {
+
+        &:before {
+            content: "•";
+            position: absolute;
+            margin-left: -1em;
+        }
+    }
+}
+
+ol,
+ul {
     @media (max-width: 660px) {
 
         margin-left: 1rem !important;
-        
-        img {
 
-        }
+        img {}
+
         .gatsby-resp-image-wrapper {
             width: 100% !important;
             padding-left: 1rem;
@@ -21,11 +45,11 @@ ol, ul {
     }
 }
 
-li > ol li {
+li>ol li {
     list-style: lower-alpha;
     margin-left: 1.5rem;
 }
 
-li > ul li {
+li>ul li {
     margin-left: 1.25rem;
 }
