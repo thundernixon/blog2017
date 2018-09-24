@@ -28,7 +28,7 @@ TypeMedia is a one-year masters program for type design in the Netherlands, at t
 
 <img src="./images/DSCF3734.jpg" alt="My TypeMedia class of 2018">
 
-_Above: my class at the start of the Fall semester (Photo taken by Peter Biľak)_
+_Above: my class at the start of the Fall semester (photo taken by Peter Biľak)_
 
 Like most specialty practices, type design may seem like a simple, small endeavor to outsiders, but it’s a vast field onto itself. Similar to music production, new software has made type design more and more accessible (and fun) for anyone to try. It’s really rewarding to make your own letters to type with, so if you have any interest, you should definitely give it a go! However, even though almost anyone can use software like Apple GarageBand to make their first song, it takes years of practice and learning to write, record, and produce a truly _good_ album. Similarly, almost anyone can make their first font in software like [Glyphs](https://glyphsapp.com), but it is exponentially harder to build a typeface that is original, well-drawn, balances range & consistency, and works well across platforms.
 
