@@ -28,7 +28,7 @@ TypeMedia is a one-year masters program for type design in the Netherlands, at t
 
 <img src="./images/DSCF3734.jpg" alt="My TypeMedia class of 2018">
 
-_Above: my class at the start of the Fall semester_
+_Above: my class at the start of the Fall semester (Photo taken by Peter Biľak)_
 
 Like most specialty practices, type design may seem like a simple, small endeavor to outsiders, but it’s a vast field onto itself. Similar to music production, new software has made type design more and more accessible (and fun) for anyone to try. It’s really rewarding to make your own letters to type with, so if you have any interest, you should definitely give it a go! However, even though almost anyone can use software like Apple GarageBand to make their first song, it takes years of practice and learning to write, record, and produce a truly _good_ album. Similarly, almost anyone can make their first font in software like [Glyphs](https://glyphsapp.com), but it is exponentially harder to build a typeface that is original, well-drawn, balances range & consistency, and works well across platforms.
 
@@ -215,3 +215,5 @@ A new year of TypeMedia has just started. To all those students: enjoy the next 
 If you have any questions about the course, have an issue in Python, need another pair of eyes on some type, or want to talk, feel free to reach out to me! I may or may not be able to give you the exact right answer, but I've received a ton of help and advice from others, and I'm happy to pay it forward as well as I can.
 
 <img src="./images/typemedia2019.jpeg" alt="The class of TypeMedia 2019">
+
+_Photo credit to Ryan Bugden ([Here's the original tweet](https://twitter.com/rynbgdn/status/1038454601027125249), along with an improved GIF version)_
