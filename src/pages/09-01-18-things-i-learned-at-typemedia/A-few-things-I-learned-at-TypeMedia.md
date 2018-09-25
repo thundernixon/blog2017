@@ -6,7 +6,7 @@ tags: ["typemedia", "design", "type", "hot-tips"]
 publish: true
 ---
 
-This July, I graduated from [TypeMedia](http://typemedia.org) in the class of 2018. It was one of the most difficult, most rewarding experiences of my life. I'm still too close to it to understand its long-term impact on my design career, but I learned a tremendous amount and got to know a bunch of amazing people. Since the course, I've moved back to NYC, had an internship in St. Louis, and have found a contract job for the next few months. I've also been working on a mini-website to show and explain my thesis project, Recursive Mono & Sans, which I'll be posting publicly when it's ready. In the coming months, I will also be working on my class's collective website – a TypeMedia tradition which will be exciting to contribute to.
+This July, I graduated from [TypeMedia](http://typemedia.org) in the class of 2018. It was one of the most difficult, most rewarding experiences of my life. I'm still too close to it to understand its long-term impact on my design career, but I learned a tremendous amount and got to know a bunch of amazing people. Since the course, I've had an internship in St. Louis, moved back to NYC, and found a contract type design job for the next few months. I've also been working on a mini-website to show and explain my thesis project, Recursive Mono & Sans, which I'll be posting publicly when it's ready. In the coming months, I will also be working on my class's collective website – a TypeMedia tradition which will be exciting to contribute to.
 
 However, before I get too far into all of the next projects, I wanted to record a few thoughts about what I learned in TypeMedia. Hopefully, my experiences can somehow benefit the new and future students in the program.
 
@@ -89,14 +89,6 @@ Luckily, I have since had the chance to take some vacation, move back to the US,
 
 Now that I've finally provided some context for this post, here are a few of the top lessons I left TypeMedia with. A few of them are good design lessons I'll carry on, and most are specific things that helped me through the year or things I wish I would have done better. As such, the following section is written to anyone currently starting a year of TypeMedia, though I believe that these lessons apply to just about anyone working in a design team or working on a big project.
 
-### The spacing and kerning could always be better
-
-I forget which of my teachers said it, but "a well-spaced, poorly-drawn typeface is much better than a well-drawn, poorly-spaced typeface."
-
-If anyone is reading who doesn't work with type much (thanks!), _spacing_ is the general amount of spacing between glyphs, which should be optically similar to promote a steady reading rhythm, while _kerning_ is the exceptions inserted into the typeface to improve spacing between glyphs like "AV" or "Yo" which would otherwise have overly-large gaps between them.
-
-Before TypeMedia, I _did_ think about spacing and kerning in fonts and logos, but I also sometimes felt that type designers were a bit over-zealous about the importance of these factors. Now, I can't look at a poorly-spaced piece of lettering or typography without wanting to fix it.
-
 ### Be enthusiastic and learn everything you can
 
 In general, I think that approaching most topics with curiosity and enthusiasm is the best way to learn and to have a good time. I know this can be hard sometimes, especially if you feel busy or pressured by multiple projects. However, in a course like TypeMedia – which mixes many disciplines, classes, teachers, and approaches to teaching – it makes a huge difference to attend classes with an open mind and a gung-ho attitude. Every one of the teachers has done great work, and you can learn valuable things from each of them. A few of them give more assignments or teach in a more unconventional, less-direct way. Treat the assignments less as "homework" and more as opportunities to learn, and ask lots of questions to get what you want out of unconventional lessons. My classmates all did beautiful work and got a lot out of the course, but those who kept an optimistic perspective seemed to have about 50% more fun.
@@ -137,7 +129,7 @@ One of the things that makes TypeMedia so intense is a schedule of near-daily cr
 
 One thing that slowed me down was my over-optimizing for testing my typeface with a custom website. This gave me a chance to develop my abilities further to work on web code, and it also allowed me to create templates which were _in theory_ more efficient to update with new fonts or extend with new layouts. However, it simply tends to be difficult to have a proper discussion about type on a screen, in a web browser. Paper printouts are more effective almost every time. As a significant benefit, print tests can be very quickly thrown together either to ask for specific feedback ("How are these accented characters working together?") or to provide a general example of the look and feel of a typeface ("Here's my typeface in an example magazine layout"). On the web – even if you're a good developer – you will almost inevitably get sucked into rabbit holes like accounting for CSS quirks or fixing unexpected workflow issues.
 
-### Use each medium for its strength
+### Use each medium for its strength.
 
 Given more time to iterate web tests and more time to refine test layout formats, I do believe the web can be a powerful tool for type proofing. However, in terms of a TypeMedia project, you will hardly have enough time to develop your understanding of how to best test typefaces, and how to best test your specific typeface. Work in desktop design tools while you are figuring out _what_ to test, then bring your ideas into code when you find that you're repeating yourself a lot.
 
@@ -154,6 +146,14 @@ By contrast, we had a very experienced type designer visit when we were about 2/
 The reviewing type designer was generous enough to give me the chance to have a follow-up email critique – which I gladly took up and worked hard to make the best of – but they were back to work and not able to offer quite the same level of advice.
 
 As Benjamin Franklin famously said, "The early bird gets the better design critique." (I may be paraphrasing that slightly).
+
+### The spacing and kerning could always be better
+
+I forget which of my teachers said it, but "a well-spaced, poorly-drawn typeface is much better than a well-drawn, poorly-spaced typeface."
+
+If anyone is reading who doesn't work with type much (thanks!), _spacing_ is the general amount of spacing between glyphs, which should be optically similar to promote a steady reading rhythm, while _kerning_ is the exceptions inserted into the typeface to improve spacing between glyphs like "AV" or "Yo" which would otherwise have overly-large gaps between them.
+
+Before TypeMedia, I _did_ think about spacing and kerning in fonts and logos, but I also sometimes felt that type designers were a bit over-zealous about the importance of these factors. Now, I can't look at a poorly-spaced piece of lettering or typography without wanting to fix it.
 
 ### Don't expect to finish your projects during the school year.
 

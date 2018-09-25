@@ -4,25 +4,42 @@ $main-accent: #9115FF;
 
 $secondary-accent: #FF6A37;
 
-$tertiary-accent: #007ea7;//#00a796;
+$tertiary-accent: #007ea7; //#00a796;
 
-$off-white: rgba($main-accent,.0625);// #f3f3f3;
+$off-white: rgba($main-accent, .0625); // #f3f3f3;
 
 $white: #fff;
 
 $text: #222;
 
-$pillowy-shadow: 0px 5px 25px rgba($main-accent,.4);
+$pillowy-shadow: 0px 5px 25px rgba($main-accent, .4);
 
 // fonts
 
 @import url("https://use.typekit.net/itf2waf.css");
 
-$serif: "eskorte-latin", Georgia, serif;
+$serif: "eskorte-latin",
+Georgia,
+serif;
 
-$sans: "ebony", -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+$sans: "halyard-text",
+-apple-system,
+BlinkMacSystemFont,
+Segoe UI,
+Roboto,
+Oxygen,
+Ubuntu,
+Cantarell,
+Fira Sans,
+Droid Sans,
+sans-serif; //"ebony", 
 
-$mono: Consolas, Menlo, "SFMono-Regular", "Roboto Mono", "Droid Sans Mono", monospace;
+$mono: Consolas,
+Menlo,
+"SFMono-Regular",
+"Roboto Mono",
+"Droid Sans Mono",
+monospace;
 
 $letterspacing: 0;
 
@@ -49,17 +66,22 @@ $border-radius: 1rem;
   0% {
     transform: translateY(100vh) scale(0);
     opacity: 0;
-  } 30% {
+  }
+
+  30% {
     transform: translateY(0) scale(1);
   }
+
   100% {
     opacity: 1;
   }
 }
+
 @keyframes fade-in {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }

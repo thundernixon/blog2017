@@ -53,10 +53,10 @@ export default () => (
         <p>
           Serif type is{' '}
           <a href="https://www.rosettatype.com/Eskorte">Eskorte</a>, designed by
-          Elena Schneider and published by the Rosetta Type Foundry. Sans serif
-          type is <a href="http://www.type-together.com/Ebony">Ebony</a>,
-          designed by Veronika Burian & José Scaglione and published by
-          typetogether.
+          Elena Schneider and published by the Rosetta Type Foundry. Sans-serif
+          type is <a href="http://halyard.dardenstudio.com">Halyard Text</a>,
+          designed by Joshua Darden, Eben Sorkin, and Lucas Sharp. Fonts hosted
+          on <a href="typekit.com">Adobe TypeKit</a>.
         </p>
       </div>
       <Link to="/" className="sans-serif no-underline bold accent">

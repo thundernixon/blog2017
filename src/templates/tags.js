@@ -23,17 +23,10 @@ export default function Tags({ data, pathContext }) {
                 <GatsbyLink
                   to={frontmatter.path}
                   className="blog-post-preview link"
-                  key={post.id}
-                >
-                  <h2 className="date">
-                    {frontmatter.date}
-                  </h2>
-                  <h1 className="title serif-display">
-                    {frontmatter.title}
-                  </h1>
-                  <p>
-                    {excerpt}
-                  </p>
+                  key={post.id}>
+                  <h2 className="date">{frontmatter.date}</h2>
+                  <h1 className="title serif-display">{frontmatter.title}</h1>
+                  <p>{excerpt}</p>
                   <p className="link--fill sans-serif">Read more</p>
                 </GatsbyLink>
               </li>
@@ -43,7 +36,7 @@ export default function Tags({ data, pathContext }) {
         <Link to="/tags" className="sans-serif no-underline bold">
           <BackIcon
             style={{
-              height: '1rem',
+              height: '1rem'
             }}
           />
           All topics
@@ -59,7 +52,9 @@ export default function Tags({ data, pathContext }) {
           const tags = posts[tagName];
           return (
             <li key={tagName}>
-              <GatsbyLink to={`/tags/${tagName}`} className="serif-display bold tag">
+              <GatsbyLink
+                to={`/tags/${tagName}`}
+                className="sans-serif bold tag">
                 {tagName}
               </GatsbyLink>
             </li>
@@ -69,7 +64,7 @@ export default function Tags({ data, pathContext }) {
       <Link to="/" className="sans-serif no-underline bold">
         <BackIcon
           style={{
-            height: '1rem',
+            height: '1rem'
           }}
         />
         All posts
