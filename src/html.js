@@ -31,6 +31,18 @@ export default class HTML extends React.Component {
             content="width=device-width, initial-scale=1.0"
           />
 
+          {/* Facebook */}
+          <meta property="og:title" content="TypeFloundry"></meta>
+          <meta property="og:description" content="Stephen Nixon's Design, Type, and Code Blog">
+          <meta property="og:image" content="">
+          <meta property="og:url" content="http://typefloundry.com/index.html">
+
+          {/* Twitter */}
+          <meta name="twitter:title" content="TypeFloundry"></meta>
+          <meta name="twitter:description" content="Stephen Nixon's Design, Type, and Code Blog">
+          <meta name="twitter:image" content="">
+          <meta name="twitter:card" content="summary_large_image">
+
           {this.props.headComponents}
           {css}
         </head>

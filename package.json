@@ -36,7 +36,7 @@
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
-    "deploy": "gatsby build && netlify deploy",
+    "deploy": "gatsby build && netlify deploy --dir public",
     "develop": "gatsby develop",
     "preserve": "npm run build",
     "serve": "gatsby serve",

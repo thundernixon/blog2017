@@ -1,8 +1,10 @@
 ---
 path: "/things-learned-at-typemedia.html"
 date: "2018-09-24T10:40:00+02:00"  
-title: "A few things I learned at TypeMedia – a general summary, plus tips for current & prospective students"
+title: "Lessons learned at TypeMedia"
+description: "Things I learned at TypeMedia – a general summary, plus tips for current & prospective students"
 tags: ["typemedia", "design", "type", "hot-tips"]
+thumbnail: "./images/DSCF3734.jpg"
 publish: true
 ---
 
@@ -24,7 +26,7 @@ In this post, I will:
 
 ## First off: what is TypeMedia?
 
-TypeMedia is a one-year masters program for type design in the Netherlands, at the Royal Academy of Art (KABK) in The Hague. It is a small class of about 10–12 students each year, with near-daily courses and critiques from professors who are some of the best type designers and type technologists alive today. This last bit isn’t an exaggeration – most of the teachers have made fonts used by huge companies and organizations from the NBA to IBM to the Dutch government. Several of the teachers have built software or Python libraries that nearly all type designers rely on today, to some degree or another in drawing and generating fonts. The alumni are just as impressive. KABK has a legacy of type education, but TypeMedia officially began in 2004. Since then, alumni have gone on to release typefaces through or work in many all of the most important type foundries of today, start their own type foundries, marketplaces, and design studios, and create software widely used by a large portion of the industry today.
+TypeMedia is a one-year masters program for type design in the Netherlands, at the Royal Academy of Art (KABK) in The Hague. It is a small class of about 10–12 students each year, with near-daily courses and critiques from professors who are some of the best type designers and type technologists alive today. This last bit isn’t an exaggeration. The teachers have made fonts used by huge companies and organizations from the NBA to IBM to the Dutch government to the Louvre Abu Dhabi. Several of the teachers have built software or Python libraries that nearly all type designers rely on today, to some degree or another in drawing and generating fonts. The alumni are just as impressive. KABK has a legacy of type education, but TypeMedia officially began in 2004. Since then, alumni have gone on to release typefaces through or work in many of the most important type foundries of today, start their own type foundries, marketplaces, and design studios, and create software widely used by a large portion of the industry today.
 
 <img src="./images/DSCF3734.jpg" alt="My TypeMedia class of 2018">
 
