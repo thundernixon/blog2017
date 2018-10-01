@@ -1,7 +1,7 @@
 ---
 path: "/things-learned-at-typemedia.html"
 date: "2018-09-24T10:40:00+02:00"  
-title: "A few things I learned at TypeMedia – a general summary, plus tips for current & prospective students"
+title: "Lessons learned at TypeMedia – a general summary, plus tips for current & prospective students"
 tags: ["typemedia", "design", "type", "hot-tips"]
 publish: true
 ---
@@ -24,7 +24,7 @@ In this post, I will:
 
 ## First off: what is TypeMedia?
 
-TypeMedia is a one-year masters program for type design in the Netherlands, at the Royal Academy of Art (KABK) in The Hague. It is a small class of about 10–12 students each year, with near-daily courses and critiques from professors who are some of the best type designers and type technologists alive today. This last bit isn’t an exaggeration – most of the teachers have made fonts used by huge companies and organizations from the NBA to IBM to the Dutch government. Several of the teachers have built software or Python libraries that nearly all type designers rely on today, to some degree or another in drawing and generating fonts. The alumni are just as impressive. KABK has a legacy of type education, but TypeMedia officially began in 2004. Since then, alumni have gone on to release typefaces through or work in many all of the most important type foundries of today, start their own type foundries, marketplaces, and design studios, and create software widely used by a large portion of the industry today.
+TypeMedia is a one-year masters program for type design in the Netherlands, at the Royal Academy of Art (KABK) in The Hague. It is a small class of about 10–12 students each year, with near-daily courses and critiques from professors who are some of the best type designers and type technologists alive today. This last bit isn’t an exaggeration. The teachers have made fonts used by huge companies and organizations from the NBA to IBM to the Dutch government to the Louvre Abu Dhabi. Several of the teachers have built software or Python libraries that nearly all type designers rely on today, to some degree or another in drawing and generating fonts. The alumni are just as impressive. KABK has a legacy of type education, but TypeMedia officially began in 2004. Since then, alumni have gone on to release typefaces through or work in many of the most important type foundries of today, start their own type foundries, marketplaces, and design studios, and create software widely used by a large portion of the industry today.
 
 <img src="./images/DSCF3734.jpg" alt="My TypeMedia class of 2018">
 
@@ -139,7 +139,7 @@ In the future, I will also consider taking some lessons from how I tend to work 
 
 ### Meet with visitors as soon as you can.
 
-RoboThon is a triennial font technology conference held by TypeMedia, which luckily coincided with my class year. During RoboThon, there were many incredibly knowledgeable type designers visiting. Even though my project was at an extremely early state (and embarrassingly drawn), I showed it to several visiting designers, and I asked them questions on my mind. I got extremely useful feedback and advice which drove my project in several ways. I was able to do this because I didn't wait until the end, but rather started asking for feedback from the first coffee break on Day 1 of the conference. This was not very chill of me, but I was kind and polite about it, and most people responded well to my enthusiasm.
+Robothon is a triennial font technology conference held by TypeMedia, which luckily coincided with my class year. During Robothon, there were many incredibly knowledgeable type designers visiting. Even though my project was at an extremely early state (and embarrassingly drawn), I showed it to several visiting designers, and I asked them questions on my mind. I got extremely useful feedback and advice which drove my project in several ways. I was able to do this because I didn't wait until the end, but rather started asking for feedback from the first coffee break on Day 1 of the conference. This was not very chill of me, but I was kind and polite about it, and most people responded well to my enthusiasm.
 
 By contrast, we had a very experienced type designer visit when we were about 2/3 of the way through the second semester. He was in the classroom for two whole days, giving individual critiques. I really wanted to get the best possible feedback, and I also wanted to make a good impression, so I felt a need to work through a backlog of corrections and set up my web testing site properly to show this designer my project. To give myself extra time, I took the last slot for critique, on Day 2 of the visit. Unfortunately, we all but ran out of time, and I barely got in ten minutes of time with a visibly fatigued reviewer. Many of my classmates were more eager and available for critique sooner, and they were able to get in maybe 45 minutes of time with a more-alert reviewer on Day 1. In some cases, these classmates were even able to check back in with further corrections and questions on Day 2. Their openness and energy gave them a better set of feedback to move forward with, and it also happened to make a better impression.
 
@@ -149,9 +149,9 @@ As Benjamin Franklin famously said, "The early bird gets the better design criti
 
 ### The spacing and kerning could always be better
 
-I forget which of my teachers said it, but "a well-spaced, poorly-drawn typeface is much better than a well-drawn, poorly-spaced typeface."
+I think it was the TypeMedia teacher Paul van der Laan who said, "a well-spaced, poorly-drawn typeface is much better than a well-drawn, poorly-spaced typeface."
 
-If anyone is reading who doesn't work with type much (thanks!), _spacing_ is the general amount of spacing between glyphs, which should be optically similar to promote a steady reading rhythm, while _kerning_ is the exceptions inserted into the typeface to improve spacing between glyphs like "AV" or "Yo" which would otherwise have overly-large gaps between them.
+If anyone is reading who doesn't work with type much (thanks!), _spacing_ is the general amount of spacing between glyphs, which should be optically similar to promote a steady reading rhythm, while _kerning_ is the set of exceptions inserted into the typeface to improve spacing between specific glyphs like "AV" or "Yo" which would otherwise have overly-large gaps between them.
 
 Before TypeMedia, I _did_ think about spacing and kerning in fonts and logos, but I also sometimes felt that type designers were a bit over-zealous about the importance of these factors. Now, I can't look at a poorly-spaced piece of lettering or typography without wanting to fix it.
 
