@@ -1,10 +1,10 @@
 @import 'vars';
 
-.blog-post ol {
+.blog-post-content>ol {
     list-style: none;
     counter-reset: my-awesome-counter;
 
-    li {
+    &>li {
         counter-increment: my-awesome-counter;
 
         &:before {
@@ -20,7 +20,7 @@
 .blog-post ul {
     list-style: none;
 
-    li {
+    &>li {
 
         &:before {
             content: "•";
