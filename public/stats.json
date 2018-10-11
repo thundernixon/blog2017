@@ -1,28 +1,28 @@
 {
   "assetsByChunkName": {
     "path---tags-python": [
-      "path---tags-python-b4ca96ea5ab3a3074234.js",
-      "path---tags-python-b4ca96ea5ab3a3074234.js.map"
+      "path---tags-python-43573438864990709602.js",
+      "path---tags-python-43573438864990709602.js.map"
     ],
     "path---tags-command-line": [
-      "path---tags-command-line-9fa85bd879586453046b.js",
-      "path---tags-command-line-9fa85bd879586453046b.js.map"
+      "path---tags-command-line-e202a5ea2e49b94ad2d5.js",
+      "path---tags-command-line-e202a5ea2e49b94ad2d5.js.map"
     ],
     "path---tags-type": [
-      "path---tags-type-796950611ef78069ac16.js",
-      "path---tags-type-796950611ef78069ac16.js.map"
+      "path---tags-type-86dd7bad3d87babdeaaa.js",
+      "path---tags-type-86dd7bad3d87babdeaaa.js.map"
     ],
     "path---orientation-at-kabk-html": [
       "path---orientation-at-kabk-html-d48830ab7e6c5e4e15d4.js",
       "path---orientation-at-kabk-html-d48830ab7e6c5e4e15d4.js.map"
     ],
     "path---tags-den-haag": [
-      "path---tags-den-haag-99c35d2d99ddc18ffa2e.js",
-      "path---tags-den-haag-99c35d2d99ddc18ffa2e.js.map"
+      "path---tags-den-haag-3d295d6f11e29eef12e4.js",
+      "path---tags-den-haag-3d295d6f11e29eef12e4.js.map"
     ],
     "path---tags-vs-code": [
-      "path---tags-vs-code-f4379751c21658d42cf3.js",
-      "path---tags-vs-code-f4379751c21658d42cf3.js.map"
+      "path---tags-vs-code-bfc7bf778152a4156f67.js",
+      "path---tags-vs-code-bfc7bf778152a4156f67.js.map"
     ],
     "component---src-pages-index-js": [
       "component---src-pages-index-js-075b0a499d3ba49eca7f.js",
@@ -33,32 +33,32 @@
       "path---make-a-perfect-expandable-grid-in-drawbot-beb416c3ef805c979a0d.js.map"
     ],
     "path---tags-amsterdam": [
-      "path---tags-amsterdam-684fc918c1e53c2e9805.js",
-      "path---tags-amsterdam-684fc918c1e53c2e9805.js.map"
+      "path---tags-amsterdam-78a199dda51c25724d71.js",
+      "path---tags-amsterdam-78a199dda51c25724d71.js.map"
     ],
     "component---src-templates-tags-js": [
       "component---src-templates-tags-js-552d9f6d40011c09a491.js",
       "component---src-templates-tags-js-552d9f6d40011c09a491.js.map"
     ],
     "path---tags-development": [
-      "path---tags-development-e17d330e25768d4e92fd.js",
-      "path---tags-development-e17d330e25768d4e92fd.js.map"
+      "path---tags-development-586923742ca548e0c876.js",
+      "path---tags-development-586923742ca548e0c876.js.map"
     ],
     "path---tags": [
-      "path---tags-5807dcab9c745c0e484e.js",
-      "path---tags-5807dcab9c745c0e484e.js.map"
+      "path---tags-de30b52c062a0b3bcccf.js",
+      "path---tags-de30b52c062a0b3bcccf.js.map"
     ],
     "path---tags-photography": [
-      "path---tags-photography-9bd3cd1508e9a94caa9a.js",
-      "path---tags-photography-9bd3cd1508e9a94caa9a.js.map"
+      "path---tags-photography-91a4e5990b13c1aecc23.js",
+      "path---tags-photography-91a4e5990b13c1aecc23.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "path---tags-design": [
-      "path---tags-design-1eae359a0e55823645bb.js",
-      "path---tags-design-1eae359a0e55823645bb.js.map"
+      "path---tags-design-3d14c50d310111080427.js",
+      "path---tags-design-3d14c50d310111080427.js.map"
     ],
     "path---type-special-characters-on-a-mac-html": [
       "path---type-special-characters-on-a-mac-html-cebb188d533be6904605.js",
@@ -73,8 +73,8 @@
       "component---src-templates-blog-post-js-cf723c8ff70fd6418517.js.map"
     ],
     "path---tags-gatsbyjs": [
-      "path---tags-gatsbyjs-803068783a2c93b8e725.js",
-      "path---tags-gatsbyjs-803068783a2c93b8e725.js.map"
+      "path---tags-gatsbyjs-9fc511874595d6f385a4.js",
+      "path---tags-gatsbyjs-9fc511874595d6f385a4.js.map"
     ],
     "path---den-haag-highlights-so-far-html": [
       "path---den-haag-highlights-so-far-html-f61c9f13669bdf353c7e.js",
@@ -89,12 +89,12 @@
       "path---getting-started-with-drawbot-part-2-201b49632075aedbf2e3.js.map"
     ],
     "path---tags-hot-tips": [
-      "path---tags-hot-tips-a19183664629c570b073.js",
-      "path---tags-hot-tips-a19183664629c570b073.js.map"
+      "path---tags-hot-tips-fe16c96a2ddedd4fadc3.js",
+      "path---tags-hot-tips-fe16c96a2ddedd4fadc3.js.map"
     ],
     "path---tags-lettering": [
-      "path---tags-lettering-2c495653faf9417382ce.js",
-      "path---tags-lettering-2c495653faf9417382ce.js.map"
+      "path---tags-lettering-7cb106a8171eb22c2a02.js",
+      "path---tags-lettering-7cb106a8171eb22c2a02.js.map"
     ],
     "path---handle-events-in-react-components-html": [
       "path---handle-events-in-react-components-html-94592dd9c6ddd51ce0b5.js",
@@ -109,8 +109,8 @@
       "path---index-da74666155be7ba5f9c5.js.map"
     ],
     "path---tags-rotterdam": [
-      "path---tags-rotterdam-771c57a8282d7073fd85.js",
-      "path---tags-rotterdam-771c57a8282d7073fd85.js.map"
+      "path---tags-rotterdam-aa6bc961963f1efef60f.js",
+      "path---tags-rotterdam-aa6bc961963f1efef60f.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-aef2de34bdb0cc7e5941.js",
@@ -121,12 +121,12 @@
       "path---use-drawbot-with-github-and-vscode-html-d9338b3b38505ac56293.js.map"
     ],
     "path---tags-type-design": [
-      "path---tags-type-design-344c573cc752690f7e85.js",
-      "path---tags-type-design-344c573cc752690f7e85.js.map"
+      "path---tags-type-design-e080fa7b1246b702c470.js",
+      "path---tags-type-design-e080fa7b1246b702c470.js.map"
     ],
     "path---tags-travel": [
-      "path---tags-travel-e2a17e7607152cac0140.js",
-      "path---tags-travel-e2a17e7607152cac0140.js.map"
+      "path---tags-travel-af28dea69ac85b3bac06.js",
+      "path---tags-travel-af28dea69ac85b3bac06.js.map"
     ],
     "path---manipulate-strings-with-python-html": [
       "path---manipulate-strings-with-python-html-da2501874fe63fc36fa1.js",
@@ -139,12 +139,12 @@
       "build-js-styles.css.map"
     ],
     "path---tags-type-testing": [
-      "path---tags-type-testing-8b05de9fb4bd5a87b4b1.js",
-      "path---tags-type-testing-8b05de9fb4bd5a87b4b1.js.map"
+      "path---tags-type-testing-bd67f462e92ba2fadaf6.js",
+      "path---tags-type-testing-bd67f462e92ba2fadaf6.js.map"
     ],
     "path---tags-delft": [
-      "path---tags-delft-a936f17ddb8d6734e774.js",
-      "path---tags-delft-a936f17ddb8d6734e774.js.map"
+      "path---tags-delft-cd09c1b62135c1d9af79.js",
+      "path---tags-delft-cd09c1b62135c1d9af79.js.map"
     ],
     "path---montreal-is-beautiful-html": [
       "path---montreal-is-beautiful-html-8822a0095134a6f22160.js",
@@ -155,16 +155,16 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---tags-kabk": [
-      "path---tags-kabk-470c764e7bc65ee74f3e.js",
-      "path---tags-kabk-470c764e7bc65ee74f3e.js.map"
+      "path---tags-kabk-6b05ba4c9912ce7bd9b5.js",
+      "path---tags-kabk-6b05ba4c9912ce7bd9b5.js.map"
     ],
     "path---five-tips-to-start-having-fun-with-lettering-html": [
       "path---five-tips-to-start-having-fun-with-lettering-html-79d1225be95c7e1ef20d.js",
       "path---five-tips-to-start-having-fun-with-lettering-html-79d1225be95c7e1ef20d.js.map"
     ],
     "path---tags-typemedia": [
-      "path---tags-typemedia-c544ceb9966a2d5d7802.js",
-      "path---tags-typemedia-c544ceb9966a2d5d7802.js.map"
+      "path---tags-typemedia-102c74b1e407b56909b1.js",
+      "path---tags-typemedia-102c74b1e407b56909b1.js.map"
     ],
     "path---generate-sample-strings-with-python": [
       "path---generate-sample-strings-with-python-87bc4df4b5164844a873.js",
@@ -175,20 +175,20 @@
       "path---first-semester-of-typemedia-html-01bb710157c094f0ba94.js.map"
     ],
     "path---aliases-on-the-mac-os-command-line": [
-      "path---aliases-on-the-mac-os-command-line-181784a79036c0285ccc.js",
-      "path---aliases-on-the-mac-os-command-line-181784a79036c0285ccc.js.map"
+      "path---aliases-on-the-mac-os-command-line-149b1d989e7b09b8ef2e.js",
+      "path---aliases-on-the-mac-os-command-line-149b1d989e7b09b8ef2e.js.map"
     ],
     "path---things-learned-at-typemedia-html": [
       "path---things-learned-at-typemedia-html-36bc4fc43585528b0f46.js",
       "path---things-learned-at-typemedia-html-36bc4fc43585528b0f46.js.map"
     ],
     "path---tags-drawbot": [
-      "path---tags-drawbot-283341414f2f1954bf95.js",
-      "path---tags-drawbot-283341414f2f1954bf95.js.map"
+      "path---tags-drawbot-57b2cd614268b18cf0d2.js",
+      "path---tags-drawbot-57b2cd614268b18cf0d2.js.map"
     ],
     "path---tags-git": [
-      "path---tags-git-557250408e5b9cdf1729.js",
-      "path---tags-git-557250408e5b9cdf1729.js.map"
+      "path---tags-git-2fdc7dd27892bca0cc24.js",
+      "path---tags-git-2fdc7dd27892bca0cc24.js.map"
     ],
     "path---1-800-iterm-bling-html": [
       "path---1-800-iterm-bling-html-90d26278c86469405ae6.js",
@@ -205,28 +205,28 @@
       "path---404-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---tags-calligraphy": [
-      "path---tags-calligraphy-2ec35cbde44ba79a2fad.js",
-      "path---tags-calligraphy-2ec35cbde44ba79a2fad.js.map"
+      "path---tags-calligraphy-7bed63f8228f8f1910a7.js",
+      "path---tags-calligraphy-7bed63f8228f8f1910a7.js.map"
     ],
     "path---tags-code": [
-      "path---tags-code-e3dd1bf5212cc3e5fbc1.js",
-      "path---tags-code-e3dd1bf5212cc3e5fbc1.js.map"
+      "path---tags-code-bb275f25f31c02b67ee6.js",
+      "path---tags-code-bb275f25f31c02b67ee6.js.map"
     ],
     "path---getting-started-with-drawbot": [
       "path---getting-started-with-drawbot-3d63ba74e0138f9dc898.js",
       "path---getting-started-with-drawbot-3d63ba74e0138f9dc898.js.map"
     ],
     "path---tags-github": [
-      "path---tags-github-55c9ecf6e4cfefcd5323.js",
-      "path---tags-github-55c9ecf6e4cfefcd5323.js.map"
+      "path---tags-github-191e3a6a0f3a77523b8d.js",
+      "path---tags-github-191e3a6a0f3a77523b8d.js.map"
     ],
     "component---src-pages-about-js": [
       "component---src-pages-about-js-6858d2d90304e1b94444.js",
       "component---src-pages-about-js-6858d2d90304e1b94444.js.map"
     ],
     "path---tags-netherlands": [
-      "path---tags-netherlands-0ae98e316168db4eaab4.js",
-      "path---tags-netherlands-0ae98e316168db4eaab4.js.map"
+      "path---tags-netherlands-f8ba5c3167f76e26b20c.js",
+      "path---tags-netherlands-f8ba5c3167f76e26b20c.js.map"
     ],
     "path---amsterdam-and-delft-html": [
       "path---amsterdam-and-delft-html-70f87a4ee91e16ac9e6f.js",
