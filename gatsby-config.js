@@ -19,7 +19,6 @@ module.exports = {
       options: {
         plugins: [
           `gatsby-remark-smartypants`,
-          // `markdown-it`, //not working yet
           {
             resolve: 'gatsby-remark-images',
             options: {
@@ -28,8 +27,8 @@ module.exports = {
             }
           },
           {
-          resolve: `gatsby-remark-prismjs`,
-        },
+            resolve: `gatsby-remark-prismjs`,
+          },
 
         ]
       }
@@ -37,5 +36,5 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp'
   ],
-  
+
 }
