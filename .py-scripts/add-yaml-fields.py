@@ -1,10 +1,7 @@
 import os
 import fileinput
 
-yamlToAdd = """
-description: ""
-thumbnail: ""
-"""
+yamlToAdd = '''\n description: "" \n thumbnail: "" '''
 
 def filesToEdit(fileName, parentDir):
     listOfFilesToEdit=[]
@@ -34,7 +31,7 @@ def insertYamlAfter(yamlToAdd, yamlEntry, fileName, parentDir):
             print(line)
             if yamlPattern in line:
                 # Replace the target string
-                filedata = filedata.replace(line, line+yamlToAdd, end=' ')
+                filedata = filedata.replace(line, line+yamlToAdd)
 
         # Write the file out again
         with open(filePath, 'w') as file:
