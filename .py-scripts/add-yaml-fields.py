@@ -42,9 +42,10 @@ def insertYamlAfter(yamlToAdd, yamlEntry, fileName, parentDir):
         with open(filePath, 'r') as file :
             filedata = file.read()
 
-        if yamlPattern in line:
-            # Replace the target string
-            filedata = filedata.replace(line, line+yamlToAdd)
+        for line in filedata:
+            if yamlPattern in line:
+                # Replace the target string
+                filedata = filedata.replace(line, line+yamlToAdd)
 
         # Write the file out again
         with open(filePath, 'w') as file:
