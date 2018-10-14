@@ -12,7 +12,7 @@ def filesToEdit(fileName, parentDir):
         if os.path.isdir(parentDir + node):
             print(node)
             for childNode in os.listdir(parentDir + node):
-                if childNode == fileName:
+                if ".md" in childNode:
                     print("\t" + childNode)
                     listOfFilesToEdit.append(parentDir+node+"/"+childNode)
 
@@ -24,19 +24,24 @@ def insertYamlAfter(yamlToAdd, yamlEntry, fileName, parentDir):
     # print(filesToEdit(fileName, parentDir))
 
     for filePath in filesToEdit(fileName, parentDir):
-        for line in fileinput.input(filePath):
-            if yamlPattern in line:
-                print(line)
-                line=line.replace(line,line+yamlToAdd)
+        # for line in fileinput.FileInput(filePath,inplace=1):
+        #     print(line)
+        #     if yamlPattern in line:
+        #         print(line)
+        #         newLines = line+yamlToAdd
+        #         line=line.replace(line,newLines)
+        #         print("\t"+newLines)
+        with fileinput.FileInput(fileName, inplace=True, backup='.bak') as file:
+            for line in file:
+                if yamlPattern in line:
+                    newLines = line+yamlToAdd
+                    print(line.replace(line, newLines), end='')
 
             # TODO: make this more robust?
                 # find first "---"
                 # if second "---", stop looking
                 # unless in ``` and ```
+                # don't run if "description" already follows "title"
 
-# for line in fileinput.FileInput(file_path,inplace=1):
-#     if "TEXT_TO_SEARCH" in line:
-#         line=line.replace(line,line+"NEW_TEXT")
-#     print(line, end=''
 
 insertYamlAfter(yamlToAdd, "title", "index.md", "src/pages/")
