@@ -5,7 +5,9 @@ const createTagPages = (createPage, edges) => {
   const posts = {};
 
   edges
-    .forEach(({ node }) => {
+    .forEach(({
+      node
+    }) => {
       if (node.frontmatter.tags) {
         node.frontmatter.tags
           .forEach(tag => {
@@ -40,8 +42,13 @@ const createTagPages = (createPage, edges) => {
     });
 };
 
-exports.createPages = ({ boundActionCreators, graphql }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({
+  boundActionCreators,
+  graphql
+}) => {
+  const {
+    createPage
+  } = boundActionCreators;
 
   const blogPostTemplate = path.resolve(`src/templates/blog-post.js`);
   return graphql(`{
@@ -65,29 +72,31 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       }
     }
   }`)
-  .then(result => {
-    if (result.errors) {
-      return Promise.reject(result.errors)
-    }
+    .then(result => {
+      if (result.errors) {
+        return Promise.reject(result.errors)
+      }
 
-    const posts = result.data.allMarkdownRemark.edges;
+      const posts = result.data.allMarkdownRemark.edges;
 
-    createTagPages(createPage, posts);
+      createTagPages(createPage, posts);
 
-    // Create pages for each markdown file.
-    posts.forEach(({ node }, index) => {
-      const prev = index === 0 ? false : posts[index - 1].node;
-      const next = index === posts.length - 1 ? false : posts[index + 1].node;
-      createPage({
-        path: node.frontmatter.path,
-        component: blogPostTemplate,
-        context: {
-          prev,
-          next
-        }
+      // Create pages for each markdown file.
+      posts.forEach(({
+        node
+      }, index) => {
+        const prev = index === 0 ? false : posts[index - 1].node;
+        const next = index === posts.length - 1 ? false : posts[index + 1].node;
+        createPage({
+          path: node.frontmatter.path,
+          component: blogPostTemplate,
+          context: {
+            prev,
+            next
+          }
+        });
       });
-    });
 
-    return posts;
-  })
+      return posts;
+    })
 };
