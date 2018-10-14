@@ -36,53 +36,6 @@ export default function Template({ data, pathContext }) {
   const { next, prev } = pathContext;
   return (
     <div className="blog-post-container">
-<<<<<<< HEAD
-      <Helmet title={`${post.frontmatter.title}`} />
-      <Dropcap className="blog-post-dropcap">
-        {post.excerpt.charAt(0) == '…' ? '' : post.excerpt.charAt(0)}
-      </Dropcap>
-      <div className="blog-post">
-        <h2 className="date"> {post.frontmatter.date} </h2>
-        <h1 className="title serif-display"> {post.frontmatter.title} </h1>
-        <div
-          className="blog-post-content"
-          dangerouslySetInnerHTML={{
-            __html: post.html
-          }}
-        />
-        <Tags className="no-underline" list={post.frontmatter.tags || []} />
-        <div className="navigation">
-          {prev && (
-            <Link className="link prev" to={prev.frontmatter.path}>
-              <BackIcon
-                style={{
-                  height: '0.75rem',
-                  position: 'relative',
-                  top: '0.15rem'
-                }}
-              />
-              <p className="sans-serif"> {prev.frontmatter.title} </p>
-            </Link>
-          )}
-          {next && (
-            <Link className="link next" to={next.frontmatter.path}>
-              <p className="sans-serif"> {next.frontmatter.title} </p>
-              <ForwardIcon
-                style={{
-                  height: '0.75rem',
-                  position: 'relative',
-                  top: '0.15rem'
-                }}
-              />
-            </Link>
-          )}
-        </div>
-      </div>
-    </div>
-  );
-}
-
-=======
       {/* <Helmet title={`${post.frontmatter.title}`} /> */}
       {/* <Helmet description={`${post.frontmatter.description}`} /> */}
       {/* <Helmet thumbnail={`${post.frontmatter.thumbnail}`} /> */}
@@ -160,7 +113,6 @@ export default function Template({ data, pathContext }) {
   );
 }
 
->>>>>>> add-opengraph
 export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     markdownRemark(frontmatter: { path: { eq: $path } }) {
