@@ -1,7 +1,7 @@
 import os
 import fileinput
 
-yamlToAdd = '''\n description: "" \n thumbnail: "" '''
+yamlToAdd = '''\ndescription: "" \nthumbnail: "" '''
 
 def filesToEdit(fileName, parentDir):
     listOfFilesToEdit=[]
