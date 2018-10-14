@@ -3,7 +3,7 @@ import Helmet from 'react-helmet';
 import styled, { keyframes } from 'styled-components';
 import BackIcon from 'react-icons/lib/fa/chevron-left';
 import ForwardIcon from 'react-icons/lib/fa/chevron-right';
-import DefaultOG from '../assets/typefloundry-og';
+import DefaultOG from '../assets/typefloundry-og.png';
 
 import Link from '../components/Link';
 import Tags from '../components/Tags';
@@ -40,7 +40,7 @@ export default function Template({ data, pathContext }) {
       {/* <Helmet description={`${post.frontmatter.description}`} /> */}
       {/* <Helmet thumbnail={`${post.frontmatter.thumbnail}`} /> */}
       <Helmet>
-        <title>`${post.frontmatter.title}`</title>
+        <title>{post.frontmatter.title}</title>
         <meta name="description" content={post.frontmatter.description} />
         {/* Facebook */}
         <meta property="og:title" content={post.frontmatter.title} />
@@ -51,11 +51,14 @@ export default function Template({ data, pathContext }) {
         {/* if thumbnail, do this */}
         {/* <meta property="og:image" content={post.frontmatter.thumbnail} /> */}
         {/* else if no thumbnail, give a default one */}
-        <meta property="og:image" content={DefaultOG} />
+        <meta
+          property="og:image"
+          content={'https://typefloundry.com' + DefaultOG}
+        />
         {/*  */}
         <meta
           property="og:url"
-          content={'http://typefloundry.com/' + post.frontmatter.path}
+          content={'https://typefloundry.com' + post.frontmatter.path}
         />
 
         {/* Twitter */}
@@ -65,7 +68,10 @@ export default function Template({ data, pathContext }) {
           content={post.frontmatter.description}
         />
         {/* <meta name="twitter:image" content={post.frontmatter.thumbnail} /> */}
-        <meta name="twitter:image" content={DefaultOG} />
+        <meta
+          name="twitter:image"
+          content={'https://typefloundry.com' + DefaultOG}
+        />
 
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
