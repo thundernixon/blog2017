@@ -1,14 +1,10 @@
 ---
 path: "/things-learned-at-typemedia.html"
 date: "2018-09-24T10:40:00+02:00"  
-<<<<<<< HEAD:src/pages/2018-09-01-things-i-learned-at-typemedia/A-few-things-I-learned-at-TypeMedia.md
-title: "Lessons learned at TypeMedia – a general summary, plus tips for current & prospective students"
-=======
 title: "Lessons learned at TypeMedia"
 description: "Things I learned at TypeMedia – a general summary, plus tips for current & prospective students"
->>>>>>> add-opengraph:src/pages/09-01-18-things-i-learned-at-typemedia/A-few-things-I-learned-at-TypeMedia.md
-tags: ["typemedia", "design", "type", "hot-tips"]
 thumbnail: "./images/DSCF3734.jpg"
+tags: ["typemedia", "design", "type", "hot-tips"]
 publish: true
 ---
 
