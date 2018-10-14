@@ -2,6 +2,8 @@
 path: "/generate-sample-strings-with-python"
 date: "2017-11-01T11:46:16.408Z" 
 title: "How to generate simple sample strings with Python in the macOS command line"
+description: "" 
+thumbnail: "" 
 tags: ["python", "code", "type design", "type testing"]
 publish: true
 ---

@@ -2,6 +2,8 @@
 path: "/1-800-iterm-bling.html"
 date: "2018-03-18T17:13:20+02:00"  
 title: "Level up your terminal game with iTerm2’s Hotkey Window and text settings"
+description: "" 
+thumbnail: "" 
 tags: ["command line", "code", "hot tips"]
 publish: true
 ---

@@ -2,6 +2,8 @@
 path: "/aliases-on-the-mac_os-command-line"
 date: "2017-12-15T11:46:16.408Z" 
 title: "Make the macOS command line super convenient with aliases"
+description: "" 
+thumbnail: "" 
 tags: ["command line", "git", "code", "hot tips"]
 publish: true
 ---

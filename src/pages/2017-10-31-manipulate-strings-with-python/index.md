@@ -2,6 +2,8 @@
 path: "/manipulate-strings-with-python.html"
 date: "2017-10-31T11:46:18.408Z" 
 title: "How to manipulate a string with Python in the macOS command line"
+description: "" 
+thumbnail: "" 
 tags: ["python", "code", "type design", "type testing"]
 publish: true
 ---

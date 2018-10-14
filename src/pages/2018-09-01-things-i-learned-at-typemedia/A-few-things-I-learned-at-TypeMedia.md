@@ -2,6 +2,8 @@
 path: "/things-learned-at-typemedia.html"
 date: "2018-09-24T10:40:00+02:00"  
 title: "Lessons learned at TypeMedia"
+description: "" 
+thumbnail: "" 
 description: "Things I learned at TypeMedia – a general summary, plus tips for current & prospective students"
 thumbnail: "./images/DSCF3734.jpg"
 tags: ["typemedia", "design", "type", "hot-tips"]

@@ -2,6 +2,8 @@
 path: "/typemedia-class-introductions.html"
 date: "2017-09-07T09:49:16.408Z" 
 title: "TypeMedia class introductions + hot tips™ to giving a good self-intro presentation"
+description: "" 
+thumbnail: "" 
 tags: ["design", "type", "kabk", "typemedia", "hot tips"]
 publish: true
 ---

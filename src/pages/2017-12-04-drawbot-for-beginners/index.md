@@ -2,6 +2,8 @@
 path: "/getting-started-with-drawbot"
 date: "2017-12-10T11:46:16.408Z" 
 title: "Getting started with parametric design in DrawBot"
+description: "" 
+thumbnail: "" 
 tags: ["python", "code", "type design", "type testing", "drawbot"]
 publish: true
 ---

@@ -2,6 +2,8 @@
 path: "/orientation-at-kabk.html"
 date: "2017-09-06T09:49:16.408Z" 
 title: "Orientation at KABK for TypeMedia ’18"
+description: "" 
+thumbnail: "" 
 tags: ["design", "type", "kabk", "typemedia"]
 publish: true
 ---

@@ -2,6 +2,8 @@
 path: "/handle-events-in-react-components.html"
 date: "2017-09-13T09:49:16.408Z" 
 title: "Handle events in Gatsby React Components"
+description: "" 
+thumbnail: "" 
 tags: ["design", "code", "gatsbyjs", "hot tips"]
 publish: true
 ---

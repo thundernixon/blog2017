@@ -2,6 +2,8 @@
 path: "/type-special-characters-on-a-mac.html"
 date: "2017-09-03T03:49:16.408Z" 
 title: "How to type with emoji and special characters on macOS 🎨"
+description: "" 
+thumbnail: "" 
 tags: ["design", "code"]
 publish: true
 ---

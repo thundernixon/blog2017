@@ -2,6 +2,8 @@
 path: "/make-a-perfect-expandable-grid-in-drawbot"
 date: "2017-12-17T13:46:16.408Z" 
 title: "Getting started in Drawbot, part 3: making a perfect, expandable grid"
+description: "" 
+thumbnail: "" 
 tags: ["python", "code", "drawbot"]
 publish: true
 ---

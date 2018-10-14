@@ -2,6 +2,8 @@
 path: "/use-drawbot-with-github-and-vscode.html"
 date: "2017-09-14T09:49:16.408Z" 
 title: "Use Drawbot with GitHub and VS Code"
+description: "" 
+thumbnail: "" 
 tags: ["drawbot", "python", "github", "vs code", "development", "code", "typemedia", "hot tips"]
 publish: true
 ---

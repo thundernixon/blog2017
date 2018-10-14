@@ -2,6 +2,8 @@
 path: "/den-haag-highlights-so-far.html"
 date: "2017-09-09T09:49:16.408Z" 
 title: "Some highlights of Den Haag, so far"
+description: "" 
+thumbnail: "" 
 tags: ["travel", "den haag", "netherlands"]
 publish: true
 ---

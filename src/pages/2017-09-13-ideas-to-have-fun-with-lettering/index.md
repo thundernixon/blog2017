@@ -2,6 +2,8 @@
 path: "/five-tips-to-start-having-fun-with-lettering.html"
 date: "2017-09-16T09:49:16.408Z" 
 title: "Five tips for beginners to start having fun with lettering and calligraphy, with (almost) no budget"
+description: "" 
+thumbnail: "" 
 tags: ["lettering", "calligraphy", "hot tips"]
 publish: true
 ---

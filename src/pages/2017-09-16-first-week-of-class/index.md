@@ -2,6 +2,8 @@
 path: "/first-semester-of-typemedia.html"
 date: "2017-10-14T09:49:16.408Z" 
 title: "Our class schedule for the first semester of TypeMedia"
+description: "" 
+thumbnail: "" 
 tags: ["kabk", "typemedia", "type design"]
 publish: true
 ---

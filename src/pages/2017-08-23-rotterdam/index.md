@@ -2,6 +2,8 @@
 path: "/rotterdam.html"
 date: "2017-08-23T03:49:16.408Z" 
 title: "Rotterdam"
+description: "" 
+thumbnail: "" 
 tags: ["travel", "photography", "rotterdam", "netherlands"]
 publish: true
 ---
