@@ -86,3 +86,10 @@ https://caniuse.com/#feat=css-font-stretch
 ## What's the browser support like?
 
 ## What are the issues to look out for?
+
+## More reading:
+
+* CSS Tricks article
+* DJR's article on font sizing
+* v-fonts
+* OHno type co article on variable fonts (AGIA logo)
