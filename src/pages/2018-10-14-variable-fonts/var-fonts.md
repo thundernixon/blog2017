@@ -53,9 +53,11 @@ However, the primary thing about variable fonts that is most exciting to many de
 * An inline link could adjust its weight and slant to become bold italic when a user hovers on it, without any text reflowing (depending on the font used – many fonts change widths for bold and italic variations, but some don't).
 * A racing game's heads-up display could use a slanting and backslanting font to "lean in" to the curves of a race course.
 
-A caveat: it is currently fairly processor-intensive for web browsers to animate between variable font styles. So, examples of variable fonts used in animations aren't things that can be safely used on most websites today. Hopefully, this will change in the future as web browsers get smarter about how they shift between styles in variable fonts.
+A current limitation: it is currently fairly processor-intensive for web browsers to animate between variable font styles. So, examples of variable fonts used in animations aren't things that can be safely used on most websites today. Hopefully, this will change in the future as web browsers get smarter about how they shift between styles in variable fonts.
 
 ## Where can you use variable fonts today?
+
+https://caniuse.com/#search=variable%20fonts
 
 ## How can you use variable fonts?
 
