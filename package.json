@@ -23,6 +23,7 @@
     "markdown-it-attrs": "^1.2.1",
     "react-helmet": "*",
     "react-icons": "^2.2.7",
+    "sharp": "^0.21.1",
     "styled-components": "^2.4.0"
   },
   "devDependencies": {

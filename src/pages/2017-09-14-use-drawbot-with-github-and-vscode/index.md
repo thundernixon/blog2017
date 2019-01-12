@@ -32,42 +32,39 @@ Possibly, there *is* something that could act like BrowserSync does for web deve
 # Using GitHub for a Drawbot project
 ## First, let’s set up our remote repo on GitHub
 1. If you don’t already have a GitHub account, sign up at https://github.com.
-2. Next, you need a repository (“repo” for short – basically a folder for code). There are a few ways to create a new repository in GitHub, but one is to click the “plus” sign in the top right of the toolbar, next to your avatar.
-<p class="screenshot">
-<img src="./images/1.png">
-</p>
+1. Next, you need a repository (“repo” for short – basically a folder for code). There are a few ways to create a new repository in GitHub, but one is to click the “plus” sign in the top right of the toolbar, next to your avatar.
 
+    <p class="screenshot">
+    <img src="./images/1.png">
+    </p>
 
-3. Give your repo a simple title, and a description that would describe things to an outsider in one line.
-  1. Repos are public by default. Partly, this is because the spirit of software development on GitHub is to be opensource-first, so that others can see what you’ve made and build on it themselves. If you want private repos, you can pay $7/month. I haven’t had a good reason to do this yet, but I might at some point.
-  2. You can “Initialize this repository with a README” if you want to describe it further, but let’s skip that for now.
-  3. Click the green “Create Repository” button to create your repo!
+1. Give your repo a simple title, then add a brief description that would describe things to an outsider in one line.
+1. Repos are public by default. Partly, this is because the spirit of software development on GitHub is to be opensource-first, so that others can see what you’ve made and build on it themselves. If you want private repos, you can pay $7/month. I haven’t had a good reason to do this yet, but I might at some point.
+2. You can “Initialize this repository with a README” if you want to describe it further, but let’s skip that for now.
+3. Click the green “Create Repository” button to create your repo!
 
-<span class="screenshot">
-<img src="./images/2.png">
-</span>
+    <span class="screenshot">
+    <img src="./images/2.png">
+    </span>
 
+1. So long as you initialized without a README, you now see your repo, with instructions on how to set it up.
 
-7. So long as you initialized without a README, you now see your repo, with instructions on how to set it up.
-
-<span class="screenshot">
-<img src="./images/3.png">
-</span>
+    <span class="screenshot">
+    <img src="./images/3.png">
+    </span>
 
 
 ## Set up your local repo
 
 Now that we have a “remote” repo (on GitHub’s servers), we can hook it up to a “local” repo on our computer. For this, we will use a command line. 
 
+1. First things first: open up your terminal. If you haven't used your terminal much before, open Mac Spotlight (the magnifying glass in the top right of your Mac screen), and type “terminal” to open the terminal app.
 
-1. First things first: open up your terminal. 
-  1. Go to Mac Spotlight (the magnifying glass in the top right of your Mac screen), and type “terminal” to open the terminal app
-<p>
-<img src="./images/4.png">
-</p>
+    <p>
+    <img src="./images/4.png">
+    </p>
 
-
-3. Now, we need to navigate to a folder where we want to keep our code project. 
+1. Now, we need to navigate to a folder where we want to keep our code project. 
 1. The terminal looks intimidating if you’re not used to it, but you really only need to know a few things to be comfortable in it. 
     1. It’s a “command line interface” (CLI), where you interact with your computer through text commands, in contrast to “graphic user interfaces” (GUIs), where you use your mouse and interact with windows, buttons, etc. To run a command, you type it (or paste it in) and hit enter/return. 
     1. Run `ls` to "list” the files and folders in your current working directory (folders are called “directories” in the CLI)
@@ -77,8 +74,8 @@ Now that we have a “remote” repo (on GitHub’s servers), we can hook it up 
     1. The command line takes separates command pieces with word spaces. So, if you ever need to enter a file or folder name that includes a space, you must “escape” it with a backslash, like `cd folder\ name\ with\ spaces`. For this reason, it tends to be useful to name folders and files with no spaces.
     1. Handy shortcut: if you have Finder open, and you find the specific folder you want to be in in the command line, you can simply drag it into command line to add in the full pathname, escaped spaces and all. 
     1. If you ever want to open your current directory in Finder, run `open .` and it’ll pop open.
-2. You’ve changed directory into the folder holding your project, correct? I sometimes forget to do this. If you haven’t, do so by using `ls` and `cd` or via drag-and-drop, as described in step 1.
-3. Now we will set up the folder as a Git repo. Let’s look at the instructions from GitHub, line by line:
+1. You’ve changed directory into the folder holding your project, correct? I sometimes forget to do this. If you haven’t, do so by using `ls` and `cd` or via drag-and-drop, as described in step 1.
+1. Now we will set up the folder as a Git repo. Let’s look at the instructions from GitHub, line by line:
   1. `echo "# drawbot" >> README.md` 👈 this creates a README file in the folder, so you can describe it for others, later on
   2. `git init` 👈 this “initializes” the folder as a git repo, by adding a hidden dot file
   3. `git add README.md` 👈 this adds your README.md file into the git history
@@ -86,11 +83,11 @@ Now that we have a “remote” repo (on GitHub’s servers), we can hook it up 
   5. `git remote add origin git@github.com:YOUR_USERNAME/YOUR_PROJECT.git`  👈 this hooks up your local repo to the remote repo on GitHub. Note: make sure you copy the proper HTTPS or SSH URL from your GitHub repo
   6. `git push -u origin master`  👈 this pushes your README up to the remote! Well done on your first git push!
   7. Hot Tip™: you can actually just copy/paste all six lines from GitHub into your command line and run them all at once, but it’s useful to know what each one does.
-4. Now that you’ve pushed your project, go back to GitHub in your web browser, and refresh the page. It should now show that you have README.md in your project code, plus any other files that may have been in the folder you made into your git repo.
+1. Now that you’ve pushed your project, go back to GitHub in your web browser, and refresh the page. It should now show that you have README.md in your project code, plus any other files that may have been in the folder you made into your git repo.
 
-<span class="screenshot">
-<img src="./images/5.png">
-</span>
+  <span class="screenshot">
+  <img src="./images/5.png">
+  </span>
 
 ## Now, let’s make a new version of your project
 
@@ -99,41 +96,38 @@ Once you’ve installed it, go back into your Terminal window.
 
 1. Just like you can open the current directory in Finder by running `open .`, you can open your current directory in VS Code by running `code .` – go ahead and do this now.
 
-<img src="./images/6.png">
+    <img src="./images/6.png">
 
-
-
-2. You should now have a VS Code window, along with your files displaying on the left side.
-3. Try editing a file or creating a new one. If you’re following along with the Drawbot example, go into your drawbot script and make any change. I’ll add a second rectangle to my super-simple file.
-```
-    rect(100,100,100,100)
-    rect(300,300,100,100) # adding a new rectangle
-```
-4. If VS Code prompts you to install “Linter pylint,” just click “Close” – we’ll handle this later.
-5. If you don’t already have your script open in Drawbot, open Drawbot, then open the file you’ve just edited. 
+1. You should now have a VS Code window, along with your files displaying on the left side.
+1. Try editing a file or creating a new one. If you’re following along with the Drawbot example, go into your drawbot script and make any change. I’ll add a second rectangle to my super-simple file.
+    ```
+        rect(100,100,100,100)
+        rect(300,300,100,100) # adding a new rectangle
+    ```
+1. If VS Code prompts you to install “Linter pylint,” just click “Close” – we’ll handle this later.
+1. If you don’t already have your script open in Drawbot, open Drawbot, then open the file you’ve just edited. 
   1. Edits in VS Code will show up in Drawbot as soon as you change from VS Code to Drawbot. You can change back and forth really quickly between apps with the shortcut `command + tab`. You can navigate back further by holding down `command` , and either hitting `tab` again or just by using `left` and `right` arrow keys (this is incredibly useful for using a Mac in general, so if you aren’t already using it … try it: you’ll love it).
-6. Now for the cool part: using VS Code’s built-in Source Control manager (SCM). See how there’s a few icons on the left bar of VS Code? Click the one with the number badge on it. This will show the SCM sidebar. Any time you save a change to a file in a git repo, it will be added to this SCM sidebar.
+1. Now for the cool part: using VS Code’s built-in Source Control manager (SCM). See how there’s a few icons on the left bar of VS Code? Click the one with the number badge on it. This will show the SCM sidebar. Any time you save a change to a file in a git repo, it will be added to this SCM sidebar.
 
-<img src="./images/7.png">
+    <img src="./images/7.png">
 
-7. When you click into the SCM sidebar, you should automatically be in the text input box – if not, click into it. Write a “commit message” here.
+1. When you click into the SCM sidebar, you should automatically be in the text input box – if not, click into it. Write a “commit message” here.
     1. A commit message can be anything short, but good commit messages are present-tense descriptions of the change(s) you’ve made, so that another person (or yourself, in the future) can see it in the git history and have a good idea of what changed with a given commit. Commits should happen pretty frequently, so you should never have to describe very many changes in any one commit message. If you are making a website, an example commit might be “Increased logo size” or “Changed button color in footer.”
     2. Here, I will write “added second rectangle”
     3. Use `command + enter` to make your commit. The files that were under “Changes” are now “commited” to your Git history, as a distinct point you can revert to in the history, if you want to (with the whole project, or just with a specific file or files).
 
+1. Now, we just need to push your changes, so they’re on GitHub, and both backed up and ready to collaborate on and/or manage. Click the ••• icon in the top of the SCM sidebar, and select “Push.”  
 
-8. Now, we just need to push your changes, so they’re on GitHub, and both backed up and ready to collaborate on and/or manage. Click the ••• icon in the top of the SCM sidebar, and select “Push.”  
+    <p class="screenshot">
+    <img src="./images/8.png">
+    </p>
 
-<p class="screenshot">
-<img src="./images/8.png">
-</p>
+1. Go to GitHub, and refresh the page. You should see your edited file, your commit message right next to it, and the time since you committed the change. Files that were changed earlier show their distinct commits.
 
-9. Go to GitHub, and refresh the page. You should see your edited file, your commit message right next to it, and the time since you committed the change. Files that were changed earlier show their distinct commits.
-
-<span class="screenshot">
-<img src="./images/9.png">
-</span>
-</br>
+    <span class="screenshot">
+    <img src="./images/9.png">
+    </span>
+    </br>
 
 💥 **Boom!** 💥 
 

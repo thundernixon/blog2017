@@ -14,3 +14,33 @@ I am currently deploying this via [Netlify](https://netlify.com) and I have been
 
 [gatsby]: https://www.gatsbyjs.org/
 [gatsby-remark-images]: https://www.gatsbyjs.org/docs/packages/gatsby-remark-images/
+
+## Troubleshooting
+
+Sometimes, if you build after a time away, then come back and run `gatsby develop`, you get an error like this:
+
+```
+error Plugin gatsby-transformer-remark returned an error
+
+    Error: The module '/Users/stephennixon/code/blog2017-gatsby/node_modules/sharp/build/Release/sharp.node'
+    was compiled against a different Node.js version using
+    NODE_MODULE_VERSION 64. This version of Node.js requires
+    NODE_MODULE_VERSION 67. Please try re-compiling or re-installing
+    the module (for instance, using `npm rebuild` or `npm install`).
+```
+
+This probably means that you should reinstall the mentioned node module, like:
+
+`npm uninstall sharp`
+
+`npm install sharp`
+
+---
+
+```
+Node Sass does not yet support your current environment: OS X 64-bit
+```
+
+You can fix this with:
+
+`npm rebuild node-sass`

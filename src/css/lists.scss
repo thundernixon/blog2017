@@ -11,8 +11,9 @@
             content: counter(my-awesome-counter) ".";
             font-variant-numeric: tabular-nums;
             position: absolute;
-            // left: -.35em;
-            margin-left: -1em;
+            margin-left: -2.25em;
+            width: 2em;
+            text-align: right;
         }
     }
 }
