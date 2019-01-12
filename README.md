@@ -15,6 +15,16 @@ I am currently deploying this via [Netlify](https://netlify.com) and I have been
 [gatsby]: https://www.gatsbyjs.org/
 [gatsby-remark-images]: https://www.gatsbyjs.org/docs/packages/gatsby-remark-images/
 
+## Deploy
+
+`npm run "deploy"`
+
+This will give a preview deployment. If you like it, use:
+
+`netlify deploy --prod`
+then
+`./public`
+
 ## Troubleshooting
 
 Sometimes, if you build after a time away, then come back and run `gatsby develop`, you get an error like this:
